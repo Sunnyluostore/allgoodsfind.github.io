@@ -141,7 +141,105 @@
         .module-content {
             flex: 1;
         }
+
+        /* 新增页脚样式（和single页面保持一致） */
+        .footer {
+            text-align: center;
+            margin: 40px auto 20px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .footer .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            -webkit-tap-highlight-color: transparent;
+            background: none;
+            box-shadow: none;
+            margin: 0;
+        }
+
+        /* 适配触摸设备的按钮大小 */
+        @media (max-width: 768px) {
+            .footer .button {
+                padding: 12px 20px;
+                font-size: 15px;
+                flex: 1 0 auto;
+                justify-content: center;
+                min-width: 45%;
+            }
+        }
+
+        .footer .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer .button:active {
+            transform: translateY(0);
+        }
+
+        /* 社交媒体按钮样式 */
+        .whatsapp-btn {
+            background-color: #25D366 !important;
+        }
+        .whatsapp-btn:hover {
+            background-color: #1DA851 !important;
+        }
+        .messenger-btn {
+            background-color: #0084FF !important;
+        }
+        .messenger-btn:hover {
+            background-color: #0066CC !important;
+        }
+        .linkedin-btn {
+            background-color: #0077B5 !important;
+        }
+        .linkedin-btn:hover {
+            background-color: #005582 !important;
+        }
+        .facebook-btn {
+            background-color: #1877F2 !important;
+        }
+        .facebook-btn:hover {
+            background-color: #145DBF !important;
+        }
+        .email-btn {
+            background-color: #4CAF50 !important;
+        }
+        .email-btn:hover {
+            background-color: #45a049 !important;
+        }
+        .share-btn {
+            background-color: #6c757d !important;
+        }
+        .share-btn:hover {
+            background-color: #5a6268 !important;
+        }
     </style>
+    <!-- 引入Font Awesome图标库（和single页面保持一致） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -150,7 +248,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="pdfs\pdf.html">Resources</a></li>
-            <li><a href="mailto:sunnyluo330@gmail.com">Contact Us</a></li>
+            <!-- 修改导航栏邮件链接：自动填充主题和正文 -->
+            <li><a href="mailto:sunnyluo330@gmail.com?subject=Inquiry%20from%20About%20Us%20Page&body=Hello,%0D%0A%0D%0AI%20am%20interested%20in%20your%20products%20and%20services.%20Could%20you%20please%20provide%20more%20information?">Contact Us</a></li>
         </ul>
     </nav>
     <div class="container">
@@ -166,7 +265,8 @@
             <img src="image/1.png" alt="Company History Image">
             <div class="module-content">
                 <p>Yiwu Yineng E-commerce trading company was established many years ago, committed to providing high - quality goods and services to global customers. We have accumulated rich experience in the e - commerce field and gradually developed into a leader in the industry. Our growth is inseparable from the support and trust of our customers. In the future, we will continue to work hard and innovate constantly.</p>
-                <a href="mailto:sunnyluo330@gmail.com" class="button">Contact via Email</a>
+                <!-- 修改邮件按钮：自动填充主题（公司历史相关） -->
+                <a href="mailto:sunnyluo330@gmail.com?subject=Inquiry%20about%20Company%20History&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20know%20more%20about%20your%20company's%20history%20and%20development.%20" class="button">Contact via Email</a>
             </div>
         </div>
 
@@ -175,7 +275,8 @@
             <img src="image/2.png" alt="Our Values Image">
             <div class="module-content">
                 <p>We uphold the principles of integrity, innovation, and customer first, and are committed to providing high - quality products and services. The company values teamwork and encourages employees to exert their creativity to achieve common goals. We believe that only by providing real value to customers can we achieve sustainable development.</p>
-                <a href="mailto:sunnyluo330@gmail.com" class="button">Contact via Email</a>
+                <!-- 修改邮件按钮：自动填充主题（公司价值观相关） -->
+                <a href="mailto:sunnyluo330@gmail.com?subject=Inquiry%20about%20Company%20Values&body=Hello,%0D%0A%0D%0AI%20am%20interested%20in%20learning%20more%20about%20your%20company's%20core%20values%20and%20service%20commitments.%20" class="button">Contact via Email</a>
             </div>
         </div>
 
@@ -184,10 +285,49 @@
             <img src="image/3.png" alt="Team Introduction Image">
             <div class="module-content">
                 <p>Our team consists of a group of professional e - commerce talents, covering multiple fields such as marketing, supply chain management, and customer service. Each member has rich industry experience and can provide professional guidance and support to customers. We believe that an excellent team is the key to the company's success.</p>
-                <a href="mailto:sunnyluo330@gmail.com" class="button">Contact via Email</a>
+                <!-- 修改邮件按钮：自动填充主题（团队介绍相关） -->
+                <a href="mailto:sunnyluo330@gmail.com?subject=Inquiry%20about%20Team%20Introduction&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20know%20more%20about%20your%20team's%20professional%20capabilities%20and%20service%20scope.%20" class="button">Contact via Email</a>
             </div>
         </div>
     </div>
+
+    <!-- 新增页脚联系方式区域（和single页面样式一致） -->
+    <div class="footer">
+        <div class="button-group">
+            <!-- 修改页脚邮件按钮：自动填充通用咨询主题 -->
+            <a class="button email-btn" href="mailto:sunnyluo330@gmail.com?subject=General%20Inquiry%20from%20About%20Us%20Page&body=Hello,%0D%0A%0D%0AI%20have%20a%20general%20inquiry%20about%20your%20company%20and%20products.%20Please%20reply%20at%20your%20earliest%20convenience.%0D%0A%0D%0AThank%20you!">
+                <i class="fas fa-envelope"></i> Email Us
+            </a>
+            <a class="button whatsapp-btn" href="https://wa.me/+19823269654" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a class="button messenger-btn" href="https://m.me/LuohereSunny" target="_blank">
+                <i class="fab fa-facebook-messenger"></i> Messenger
+            </a>
+            <a class="button linkedin-btn" href="https://www.linkedin.com/in/sunnyluo223345/" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a class="button share-btn" onclick="copyPageLink()" aria-label="Share this page">
+                <i class="fas fa-share-alt"></i> Share
+            </a>
+            <a class="button facebook-btn" href="https://www.facebook.com/sunnyluoting">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        </div>
+    </div>
+
+    <!-- 新增分享功能脚本 -->
+    <script>
+        // 分享功能（和single页面保持一致）
+        window.copyPageLink = function() {
+            const currentUrl = window.location.href;
+            navigator.clipboard.writeText(currentUrl).then(function() {
+                alert('Link copied to clipboard!');
+            }, function() {
+                alert('Failed to copy link. Please manually copy the URL.');
+            });
+        }
+    </script>
 </body>
 
 </html>
