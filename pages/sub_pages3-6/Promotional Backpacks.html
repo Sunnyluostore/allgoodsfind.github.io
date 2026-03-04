@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L8EDEXZBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9L8EDEXZBV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品列表 - 第1页</title>
+    <meta name="description" content="Sunnyluo Store - 200000+ factory-direct product categories including Home Decor, Industrial Machinery, Electronics, and more. Wholesale sourcing made easy.">
+    <link rel="canonical" href="https://sunnyluostore.github.io/allgoodsfind.github.io/"><style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 200px;
+            /* 可根据实际情况调整图片大小 */
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #03a9f4;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* 新添加的样式 */
+        .product-item h3 {
+            font-size: 14px;
+            /* 产品名称文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item p {
+            font-size: 12px;
+            /* 其他产品信息文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item:hover h3 {
+            color: #03a9f4;
+            /* 鼠标悬停时产品名称文字变色 */
+        }
+
+        .product-item:hover p {
+            color: #03a9f4;
+            /* 鼠标悬停时其他产品信息文字变色 */
+        }
+
+        /* 产品容器样式 */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        /* 产品项样式 */
+        .product-item {
+            width: calc(25% - 20px);
+            /* 默认每行显示 4 个产品 */
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* 鼠标悬停效果 */
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* 媒体查询，适配不同屏幕尺寸 */
+        @media (max-width: 1024px) {
+            .product-item {
+                width: calc(33.33% - 20px);
+                /* 平板设备每行显示 3 个产品 */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: calc(50% - 20px);
+                /* 小屏幕设备每行显示 2 个产品 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+                /* 超小屏幕设备每行显示 1 个产品 */
+            }
+        }
+
+        /* 分页按钮样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        /* 回到顶部按钮样式 */
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #03a9f4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部图片和文字 -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <p>Sunnyluo Store</p>
+        <p>Build a curated directory of store with factory</p>
+    </div>
+    <nav>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/index.html">Home</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/pdfs/pdf.html">Resources</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/About us.html">About Us</a>
+        <a href="mailto:sunnyluo330@gmail.com">Contact Us</a>
+        <a href="https://www.facebook.com/sunnyluoting">Facebook</a>
+    </nav>
+    <h1>Product list</h1>
+    <div class="products">
+        
+        <div class="product-item">
+            <a href="product_1.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9e4e58467cee495681c0c41b08098435a.jpg_300x300.jpg" alt="AI-MICH Good Quality Outdoor Casual Sports Travel Men Custom logo Gift Leather Bags Luxury Promotional Backpack for Business" style="max-width: 200px;">
+            </a>
+            <h3>AI-MICH Good Quality Outdoor Casual Sports Travel Men Custom logo Gift Leather Bags Luxury Promotional Backpack for Business</h3>
+            <p>Price: $8.90-9.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_2.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H00605350ade34a2587744b021f99448bg.jpg_300x300.jpg" alt="BSBH Mini Crossbody Sling Backpack Sling Bag Sports Travel Hiking Chest Bags Daypack Running Phone Holder For Men Women" style="max-width: 200px;">
+            </a>
+            <h3>BSBH Mini Crossbody Sling Backpack Sling Bag Sports Travel Hiking Chest Bags Daypack Running Phone Holder For Men Women</h3>
+            <p>Price: $1.58-2.62</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_3.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcb1c15b338214eaab3dc9cdc29ce1bba8.jpg_300x300.jpg" alt="Custom Logo Christmas Printed Large Eco Reusable Organic Cotton Polyester Canvas Zipper Tote Bag Promotional Organic Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Christmas Printed Large Eco Reusable Organic Cotton Polyester Canvas Zipper Tote Bag Promotional Organic Backpack</h3>
+            <p>Price: $0.66-1.22</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_4.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf19a7eb856724590a0b6c5edc9099a03X.jpg_300x300.jpg" alt="BSBH Custom Waterproof Unisex Oxford Sling Backpack Belt Shoulder Bags For Women Travel Hiking Chest Bag Daypack Crossbody Bag" style="max-width: 200px;">
+            </a>
+            <h3>BSBH Custom Waterproof Unisex Oxford Sling Backpack Belt Shoulder Bags For Women Travel Hiking Chest Bag Daypack Crossbody Bag</h3>
+            <p>Price: $1.58-2.62</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_5.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H216a4aaadf1c4f0fb2a490b049d52620x.jpg_300x300.jpg" alt="Carry On School Business Customizable Simple Fashion College Daily Back Pack School Bags 2024" style="max-width: 200px;">
+            </a>
+            <h3>Carry On School Business Customizable Simple Fashion College Daily Back Pack School Bags 2024</h3>
+            <p>Price: $0.98-2.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_6.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc0cfad7d1864452c946007868241417bE.jpg_300x300.jpg" alt="Customizable Fashion Outdoor Travel Adjustable Shoulder Strap Mountaineering Gym Large Backpack & Sports Bag" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Fashion Outdoor Travel Adjustable Shoulder Strap Mountaineering Gym Large Backpack & Sports Bag</h3>
+            <p>Price: $2.29-2.87</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_7.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A91500bd25e664529a826d2a66047ff41R.jpg_300x300.jpg" alt="Promotional Custom Travel Lightweight Laptop Backpack Perfect for Teenagers Students School Work Daily Use Stylish Durable" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Custom Travel Lightweight Laptop Backpack Perfect for Teenagers Students School Work Daily Use Stylish Durable</h3>
+            <p>Price: $4.80-5.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_8.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1e27a92973ce4cd4b4324ac5b430eaa4V.png_300x300.png" alt="Eco-Friendly Beach Canvas Tote Bag Promotional Backpacks Beige Cotton Cloth Shopping Tote Bag with Custom Printed Logo" style="max-width: 200px;">
+            </a>
+            <h3>Eco-Friendly Beach Canvas Tote Bag Promotional Backpacks Beige Cotton Cloth Shopping Tote Bag with Custom Printed Logo</h3>
+            <p>Price: $0.50-0.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_9.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7f0126f08aea42d5a5ffc4c1db5d0184z.jpg_300x300.jpg" alt="New Style Cartoon Printing Large Capacity Durable Oxford Travel Laptop Backpacks Students Schoolbag Outdoor Backpack for Women" style="max-width: 200px;">
+            </a>
+            <h3>New Style Cartoon Printing Large Capacity Durable Oxford Travel Laptop Backpacks Students Schoolbag Outdoor Backpack for Women</h3>
+            <p>Price: $14.65-14.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_10.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfa23b9c3b75e4a30903db8312660f43ch.png_300x300.png" alt="Customized K-Style Panda Shoulder Crossbody Knitted Bag Southeast Asian Cross-Border Niche Handbag Logo Promotional Backpacks" style="max-width: 200px;">
+            </a>
+            <h3>Customized K-Style Panda Shoulder Crossbody Knitted Bag Southeast Asian Cross-Border Niche Handbag Logo Promotional Backpacks</h3>
+            <p>Price: $1.29 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_11.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbf05f332b2f040e1a230d657d445b921H.jpg_300x300.jpg" alt="Custom Silicone Beach Bag Travel Shoulder Bag Drawstring Backpack Waterproof Bucket Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Silicone Beach Bag Travel Shoulder Bag Drawstring Backpack Waterproof Bucket Bag</h3>
+            <p>Price: $8 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_12.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7ec6f99b16ba473e8d017ba0e4d2eecbI.jpg_300x300.jpg" alt="Hot Selling Cute Capybara Plush Backpack Cartoon Kindergarten Schoolbag with Shoulder Strap for Travel Excellent for Promotions" style="max-width: 200px;">
+            </a>
+            <h3>Hot Selling Cute Capybara Plush Backpack Cartoon Kindergarten Schoolbag with Shoulder Strap for Travel Excellent for Promotions</h3>
+            <p>Price: $1.58 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_13.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H722df16171e54e4eb76243834e181dbao.png_300x300.png" alt="Sublimation Book Bag Blanks with logo Supplies Wholesale Bulk Advertising Gift Promotional Custom Kids School Backpack Printing" style="max-width: 200px;">
+            </a>
+            <h3>Sublimation Book Bag Blanks with logo Supplies Wholesale Bulk Advertising Gift Promotional Custom Kids School Backpack Printing</h3>
+            <p>Price: $2.66 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_14.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H288c86871db44e69bf7dce4cf8b03488s.jpg_300x300.jpg" alt="Promotional Capybara Plush Backpack Soft Stuffed Animal Toy Plush Bag Schoolbag Creative Gift Kapybara Student Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Capybara Plush Backpack Soft Stuffed Animal Toy Plush Bag Schoolbag Creative Gift Kapybara Student Backpack</h3>
+            <p>Price: $2.75-3.15</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_15.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H789ca839ae204e8ba6b24f8b92a6c1e24.jpg_300x300.jpg" alt="Promotional Eco-Friendly Waterproof Oxford Travel Backpack Laptop Sleeve Silk Screen Printed Outdoor Portable Lightweight Sport" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Eco-Friendly Waterproof Oxford Travel Backpack Laptop Sleeve Silk Screen Printed Outdoor Portable Lightweight Sport</h3>
+            <p>Price: $5.86-6.68</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_16.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5d6922fcbb7e438781a1d4ae0ab26d22N.jpg_300x300.jpg" alt="Wholesale 210d Polyester Sports Gym Backpack Cheap Promotional String Drawstring Bags with Custom Logo Sublimation Printing" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale 210d Polyester Sports Gym Backpack Cheap Promotional String Drawstring Bags with Custom Logo Sublimation Printing</h3>
+            <p>Price: $0.29-0.48</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_17.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8beb765e76f549f3aa82d7cbe2b788a7G.jpg_300x300.jpg" alt="Promotional Cute Printed Cartoon Pocket Monster Anime Canvas Backpack Pokeman Canvas Bag Promotional Gift Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Cute Printed Cartoon Pocket Monster Anime Canvas Backpack Pokeman Canvas Bag Promotional Gift Backpack</h3>
+            <p>Price: $1.25 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_18.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1c6ad081d6ab4d59ae27cd410f907126S.jpg_300x300.jpg" alt="New Kapibala Plush Capybara Unisex Backpack Cute Heart Student Large Capacity PP Cotton Filling Party Bag" style="max-width: 200px;">
+            </a>
+            <h3>New Kapibala Plush Capybara Unisex Backpack Cute Heart Student Large Capacity PP Cotton Filling Party Bag</h3>
+            <p>Price: $1.86 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_19.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2aaeea595c034bcf83615a7a6bc5b3b4H.jpg_300x300.jpg" alt="Custom Nylon Waterproof Drawstring Backpack Promotional Polyester Drawstring Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Nylon Waterproof Drawstring Backpack Promotional Polyester Drawstring Bag</h3>
+            <p>Price: $0.37-1.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 101 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_20.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H93fe56b87ff9420dbab1ff8ad479bc05t.jpg_300x300.jpg" alt="Multi-Functional Waterproof Gym Yoga Weekender Bag for Men Women Sports Travel Overnight Bag Shoe Promotional Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Multi-Functional Waterproof Gym Yoga Weekender Bag for Men Women Sports Travel Overnight Bag Shoe Promotional Backpack</h3>
+            <p>Price: $6.68 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_21.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H20c236917b314ba3ac8db50950c86c089.jpg_300x300.jpg" alt="Waterproof Oxford Drawstring Backpack with Large Capacity - Promotional Sport Gym Bag for Travel and Events" style="max-width: 200px;">
+            </a>
+            <h3>Waterproof Oxford Drawstring Backpack with Large Capacity - Promotional Sport Gym Bag for Travel and Events</h3>
+            <p>Price: $1.16 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_22.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd3b8342ebe29417cb0957f6fb69d24bfG.png_300x300.png" alt="LCC912 Customized Logo School Bags for Children/Teenagers/Kids 2026 Backpacks Girls and Boys Promotion Gift Custom School Bags" style="max-width: 200px;">
+            </a>
+            <h3>LCC912 Customized Logo School Bags for Children/Teenagers/Kids 2026 Backpacks Girls and Boys Promotion Gift Custom School Bags</h3>
+            <p>Price: $3.15-3.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_23.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdc61cadb15474c2383c0d7a7da1fdc26k.jpg_300x300.jpg" alt="Custom Backpack Fashion Factory Cheap Design Backpack Oxford Girls Boys Waterproof Travel Back Bag School Bag Gift School Bags" style="max-width: 200px;">
+            </a>
+            <h3>Custom Backpack Fashion Factory Cheap Design Backpack Oxford Girls Boys Waterproof Travel Back Bag School Bag Gift School Bags</h3>
+            <p>Price: $2.67-3.21</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_24.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H96ea6f93029942c58be35e7494c412c9k.jpg_300x300.jpg" alt="New Arrival 30-40L Waterproof Business Nylon Student Backpack Fashionable Promotional Item" style="max-width: 200px;">
+            </a>
+            <h3>New Arrival 30-40L Waterproof Business Nylon Student Backpack Fashionable Promotional Item</h3>
+            <p>Price: $4.90-8.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_25.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7a59640d749f4d1382b14720b9dbf4e7N.jpg_300x300.jpg" alt="Wholesale One Shoulder Adjustable Crossbody Canvas Bag Custom Logo Promotional Backpack Personalized" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale One Shoulder Adjustable Crossbody Canvas Bag Custom Logo Promotional Backpack Personalized</h3>
+            <p>Price: $0.51-0.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_26.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7456620b00cd4ddcb9f5c29cf5828709m.jpg_300x300.jpg" alt="Large Capacity Transparent PVC Backpack Simple Waterproof Casual Full Transparent Jelly Student Schoolbag Promotional" style="max-width: 200px;">
+            </a>
+            <h3>Large Capacity Transparent PVC Backpack Simple Waterproof Casual Full Transparent Jelly Student Schoolbag Promotional</h3>
+            <p>Price: $4.59 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_27.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H00a3ce38023946358ebe4f8a90b1d40ag.jpg_300x300.jpg" alt="Custom Logo FOCUS Single Shoulder Tactical Camo Backpack Waterproof Outdoor Sports Camping Chest Sling Bag Promotional" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo FOCUS Single Shoulder Tactical Camo Backpack Waterproof Outdoor Sports Camping Chest Sling Bag Promotional</h3>
+            <p>Price: $4.17-5.45</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_28.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc82c6c5c19ef477c8e58bf50dec544d75.jpeg_300x300.jpeg" alt="EVA Beach Hole Bag Portable Handbag Waterproof Travel Washable Large Capacity Sports Beach Swimming Pool Promotion Backpack" style="max-width: 200px;">
+            </a>
+            <h3>EVA Beach Hole Bag Portable Handbag Waterproof Travel Washable Large Capacity Sports Beach Swimming Pool Promotion Backpack</h3>
+            <p>Price: $1.60-3.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_29.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf8b0561d032944958c54b8e5d89ff236j.png_300x300.png" alt="2026 Trending Durable Large-Capacity Backpack for Men Junior Students Popular Travel Computer Bag for High School Promotional" style="max-width: 200px;">
+            </a>
+            <h3>2026 Trending Durable Large-Capacity Backpack for Men Junior Students Popular Travel Computer Bag for High School Promotional</h3>
+            <p>Price: $2.97 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_30.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H24e463b60d444a06ae992b29868ecd27L.jpg_300x300.jpg" alt="Custom Logo Cycling Backpack Promotional Gifts Woman Outdoor Casual Sports Travel Small Mini Backpack for School" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Cycling Backpack Promotional Gifts Woman Outdoor Casual Sports Travel Small Mini Backpack for School</h3>
+            <p>Price: $1.94 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_31.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4d8ab02a78b74b06986022113a610df9B.jpg_300x300.jpg" alt="Customizable Schoolbag Backpack for Brand Logo Promotion Custom Design School Bag Wholesale" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Schoolbag Backpack for Brand Logo Promotion Custom Design School Bag Wholesale</h3>
+            <p>Price: $1.20-3.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_32.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc43fe45cd81343b8917611bf4980c038P.png_300x300.png" alt="Bestselling Black Eco-friendly Rpet Material Zipper Closure Travel Gear Storage Bag GRS Certified Size S Promotional Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Bestselling Black Eco-friendly Rpet Material Zipper Closure Travel Gear Storage Bag GRS Certified Size S Promotional Backpack</h3>
+            <p>Price: $4.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_33.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0cfdd2e268e74dcdbcabc8f7c8320a584.jpg_300x300.jpg" alt="Large Capacity Single Shoulder Portable Crossbody Sports and Fitness Promotional Backpack for Gym Use" style="max-width: 200px;">
+            </a>
+            <h3>Large Capacity Single Shoulder Portable Crossbody Sports and Fitness Promotional Backpack for Gym Use</h3>
+            <p>Price: $6.70-7.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_34.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He7633071a77e40ec9f78c7b1c4b93859R.jpg_300x300.jpg" alt="Ready to Ship Women's Canvas Large Capacity Backpack with Inner Pocket and Zipper Promotional Item" style="max-width: 200px;">
+            </a>
+            <h3>Ready to Ship Women's Canvas Large Capacity Backpack with Inner Pocket and Zipper Promotional Item</h3>
+            <p>Price: $2.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_35.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5cd649d83eff419fa4be83ddfdd6b3e3d.jpeg_300x300.jpeg" alt="HuaShanQi Large-capacity Premium-style Backpack Made of Nylon Suitable for Computer Use Double-shoulder Bag Promotion Gift" style="max-width: 200px;">
+            </a>
+            <h3>HuaShanQi Large-capacity Premium-style Backpack Made of Nylon Suitable for Computer Use Double-shoulder Bag Promotion Gift</h3>
+            <p>Price: $5.18-5.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_36.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H377e121d19824c6aaa67bc519080d54dm.jpg_300x300.jpg" alt="XDH088 Customized Logo School Bags for Childrens/Teenagers/Kids 2025 Backpacks Girls and Boys Promotion Gift Custom School Bags" style="max-width: 200px;">
+            </a>
+            <h3>XDH088 Customized Logo School Bags for Childrens/Teenagers/Kids 2025 Backpacks Girls and Boys Promotion Gift Custom School Bags</h3>
+            <p>Price: $3.15-3.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_37.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H64f900b70a15473c9279356f1cd6f293k.jpg_300x300.jpg" alt="Hot Sale Custom Logo Travel Shoulder Backpack Transparent PVC Clear Design for Promotions" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Custom Logo Travel Shoulder Backpack Transparent PVC Clear Design for Promotions</h3>
+            <p>Price: $4.86-5.96</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 201 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_38.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He7af4237b3694d929bee42be0f97dbb3O.jpg_300x300.jpg" alt="New Arrivals Custom White Canvas Tote Bag with Pocket and Zipper Large Shopping Bag with Logo Print Promotional Backpack" style="max-width: 200px;">
+            </a>
+            <h3>New Arrivals Custom White Canvas Tote Bag with Pocket and Zipper Large Shopping Bag with Logo Print Promotional Backpack</h3>
+            <p>Price: $0.66-1.22</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_39.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha901d6929dc2493080a315b8dc7e42ebl.jpg_300x300.jpg" alt="AI-MICH Hot Sale Waterproof Backpack Travel Hiking Personalized Leather Laptop Promotional Backpack for Men" style="max-width: 200px;">
+            </a>
+            <h3>AI-MICH Hot Sale Waterproof Backpack Travel Hiking Personalized Leather Laptop Promotional Backpack for Men</h3>
+            <p>Price: $10.90-12</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_40.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H64f6af70a157421193e8f423b8c82f89E.jpg_300x300.jpg" alt="NEW Cute Cartoon Monster Schoolbag High Grade Promotional Backpack for Junior High School Students and Primary School Grade 5-6" style="max-width: 200px;">
+            </a>
+            <h3>NEW Cute Cartoon Monster Schoolbag High Grade Promotional Backpack for Junior High School Students and Primary School Grade 5-6</h3>
+            <p>Price: $3.40 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_41.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H368bc407b6a54c0dbd0c56321a263cd1M.jpg_300x300.jpg" alt="Ballerina Bag Nylon Dance Backpack Bag for Girls Simple and Large Capacity Children's Bag Promotional Backpacks Promotion Gift" style="max-width: 200px;">
+            </a>
+            <h3>Ballerina Bag Nylon Dance Backpack Bag for Girls Simple and Large Capacity Children's Bag Promotional Backpacks Promotion Gift</h3>
+            <p>Price: $1.19-1.45</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_42.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He2d19543d03c4b7a89bdabc5a1328f28Y.jpg_300x300.jpg" alt="High Quality Large Capacity Dustproof Gym Shoe Storage Backpack Custom Logo Promotional Item with Sports Shoe" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Large Capacity Dustproof Gym Shoe Storage Backpack Custom Logo Promotional Item with Sports Shoe</h3>
+            <p>Price: $1.45 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_43.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha5fb729643a44d81b5e898af367b864aW.jpg_300x300.jpg" alt="Customized Schoolbag Wholesale Printing Kindergarten Schoolbag Printing logo Training Advertising Dance Children Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Customized Schoolbag Wholesale Printing Kindergarten Schoolbag Printing logo Training Advertising Dance Children Backpack</h3>
+            <p>Price: $3.60 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_44.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H24be1faad64b4a4ea141f8067fa25003X.jpeg_300x300.jpeg" alt="Heavy Duty 17 Inch Clear PVC Backpack Large Transparent Student Bookbag for School Work Promotional Clear Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Heavy Duty 17 Inch Clear PVC Backpack Large Transparent Student Bookbag for School Work Promotional Clear Backpack</h3>
+            <p>Price: $4.98 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_45.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb098d237a61447e48c43b7d62a874fedp.jpg_300x300.jpg" alt="Sublimation Mom Backpack Large Diaper Bag - Mommy Bag for Heat Transfer, Printable Sublimation Travel Baby Essentials Organizer" style="max-width: 200px;">
+            </a>
+            <h3>Sublimation Mom Backpack Large Diaper Bag - Mommy Bag for Heat Transfer, Printable Sublimation Travel Baby Essentials Organizer</h3>
+            <p>Price: $7.90 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_46.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0b64a89c897b4cb08a206b1811d5b48aJ.png_300x300.png" alt="Promotional Transparent Storage Backpack Large Capacity Waterproof Student School Bag PVC Backpack Outdoor Travel Bag" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Transparent Storage Backpack Large Capacity Waterproof Student School Bag PVC Backpack Outdoor Travel Bag</h3>
+            <p>Price: $3.10-4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_47.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8fac9bcc7475466a95e39adef55abd4bX.jpg_300x300.jpg" alt="Promotional Cheap Outdoor Sports Mountain Travel Ultralight Folding Back Pack Waterproof Foldable Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Cheap Outdoor Sports Mountain Travel Ultralight Folding Back Pack Waterproof Foldable Backpack</h3>
+            <p>Price: $0.76-0.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_48.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A41c88bc8bab446ea949e31a3b376d1f50.jpg_300x300.jpg" alt="Custom Sublimation Blank Gym Waist Bag for Running Walking Cycling-Promotional Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Custom Sublimation Blank Gym Waist Bag for Running Walking Cycling-Promotional Backpack</h3>
+            <p>Price: $2.90 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_49.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H362e90741cdb40ff9b643f0135bde660c.jpg_300x300.jpg" alt="Customized Sports Backpack with 2 Rackets Waterproof Badminton Tennis and Pickle Bag, Customized logo" style="max-width: 200px;">
+            </a>
+            <h3>Customized Sports Backpack with 2 Rackets Waterproof Badminton Tennis and Pickle Bag, Customized logo</h3>
+            <p>Price: $9.80-12.23</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_50.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He3ec3555c00c42019780945da48c7659h.png_300x300.png" alt="Manufacturer Custom Sports Waterproof Polyester Oxford Cloth Drawstring Backpack with Colorful Design and Custom Logo/Graphic" style="max-width: 200px;">
+            </a>
+            <h3>Manufacturer Custom Sports Waterproof Polyester Oxford Cloth Drawstring Backpack with Colorful Design and Custom Logo/Graphic</h3>
+            <p>Price: $0.19 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_51.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd9a131cb42b343b98d9226106ddc4728X.jpg_300x300.jpg" alt="Primary and Secondary School Bags Wholesale Kindergarten Bags Printed logo Children Training Guidance Advertising Gift Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Primary and Secondary School Bags Wholesale Kindergarten Bags Printed logo Children Training Guidance Advertising Gift Backpack</h3>
+            <p>Price: $3.46 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_52.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2902823824d449edb79b1b538e05b89c4.jpg_300x300.jpg" alt="Factory Wholesale Cheap Price Waterproof Polyester Bookbag Kids Backpack School Bags Girls and Boys Book Bags Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Factory Wholesale Cheap Price Waterproof Polyester Bookbag Kids Backpack School Bags Girls and Boys Book Bags Custom Logo</h3>
+            <p>Price: $2.88-3.88</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_53.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H936b4c6104e34667beb20474dc9c578eN.jpg_300x300.jpg" alt="Promotional Custom Logo Different Size Cotton Canvas Shopping Bags Large Canvas Tote Bags for Students Daily Use" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Custom Logo Different Size Cotton Canvas Shopping Bags Large Canvas Tote Bags for Students Daily Use</h3>
+            <p>Price: $1.05-1.55</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_54.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H95c8637f2f8e40edabfd8de627d44267d.jpg_300x300.jpg" alt="Hot Sale Eco Friendly Promotional Gifts Custom Logo Printed Reusable Foldable Shopping Bags Canvas Cotton Tote Bag With Pocket" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Eco Friendly Promotional Gifts Custom Logo Printed Reusable Foldable Shopping Bags Canvas Cotton Tote Bag With Pocket</h3>
+            <p>Price: $0.56-1.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_55.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He0bf8e23b2ec4a37bb7f2d1a69a928f2w.jpg_300x300.jpg" alt="Huashanqi Cross-Border Manufacturers Directly Provide Promotional Waterproof Sports Waist Chest Fitness Running Bag" style="max-width: 200px;">
+            </a>
+            <h3>Huashanqi Cross-Border Manufacturers Directly Provide Promotional Waterproof Sports Waist Chest Fitness Running Bag</h3>
+            <p>Price: $2-2.57</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 25 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_56.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2056b52577a04d47a6b1ed667493e84bP.jpg_300x300.jpg" alt="Custom LOGO 15L Eco-friendly Durable Insulated 300D Oxford Cooler Bag Zipper Closure Foldable Camping Picnic Shoulder Lunch" style="max-width: 200px;">
+            </a>
+            <h3>Custom LOGO 15L Eco-friendly Durable Insulated 300D Oxford Cooler Bag Zipper Closure Foldable Camping Picnic Shoulder Lunch</h3>
+            <p>Price: $3.42-3.76</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_57.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd8a2ae14bc3b40af93feb89edfe613a4R.png_300x300.png" alt="Wholesale Volmn Custom Canvas Tote Bag with Gusset and Pocket OEM Logo Printed Digital Printing Cotton Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Volmn Custom Canvas Tote Bag with Gusset and Pocket OEM Logo Printed Digital Printing Cotton Shopping Bag</h3>
+            <p>Price: $1-1.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_58.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H960d78a61e14455691221b406ba09506u.jpg_300x300.jpg" alt="Running Belt Waistpacks with Water Bottle Holder Large Capacity Adjustable Waist Bag Pouch Gym Fanny Pack for Women Men" style="max-width: 200px;">
+            </a>
+            <h3>Running Belt Waistpacks with Water Bottle Holder Large Capacity Adjustable Waist Bag Pouch Gym Fanny Pack for Women Men</h3>
+            <p>Price: $1.35 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_59.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8411e19e57dd4051b3900347e03109fcO.jpg_300x300.jpg" alt="Wholesale Custom Canvas Bag Adjustable One Shoulder Crossbody Personalized Custom logo Canvas Bag" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Canvas Bag Adjustable One Shoulder Crossbody Personalized Custom logo Canvas Bag</h3>
+            <p>Price: $0.52-0.86</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_60.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf99e1842074b46cb90a5553e20f00898j.jpg_300x300.jpg" alt="Manufacturers Supply Portable Double Shoulder Drawstring Canvas Bag New Solid Color Polyester Cotton Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Manufacturers Supply Portable Double Shoulder Drawstring Canvas Bag New Solid Color Polyester Cotton Shopping Bag</h3>
+            <p>Price: $1-2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_61.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4e1f3721bb254644b33391b7bdae8bd9D.jpg_300x300.jpg" alt="New Arrivals Promotional Personalized Blank Plain Canvas Bags Reusable Shopping Cotton Tote Bags With Custom Printed Logo" style="max-width: 200px;">
+            </a>
+            <h3>New Arrivals Promotional Personalized Blank Plain Canvas Bags Reusable Shopping Cotton Tote Bags With Custom Printed Logo</h3>
+            <p>Price: $0.66-1.22</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_62.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heef7f2ead2904e39aa64f2c569f6481eT.jpg_300x300.jpg" alt="Running Fanny Pack with Water Bottle Holder Bum Bag Adjustable Strap Gym Sports Cycling Climbing Hiking Outdoor Unisex Waist Bag" style="max-width: 200px;">
+            </a>
+            <h3>Running Fanny Pack with Water Bottle Holder Bum Bag Adjustable Strap Gym Sports Cycling Climbing Hiking Outdoor Unisex Waist Bag</h3>
+            <p>Price: $1.35 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_63.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc9e2d6afc2f34b3e846a2a94ae48121eC.png_300x300.png" alt="Wholesale Customizable Lightweight Water-Resistant Backpack Cross-Border New Outdoor Foldable Design for Students Men/Women" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Customizable Lightweight Water-Resistant Backpack Cross-Border New Outdoor Foldable Design for Students Men/Women</h3>
+            <p>Price: $1.26 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_64.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfa921a49ed474b5f886629c7d6fcc80bb.jpg_300x300.jpg" alt="Promotional 2024 Summer Women's Jelly Transparent Crossbody Shoulder Bag New Korean Style All-Match Fashionable Backpacks" style="max-width: 200px;">
+            </a>
+            <h3>Promotional 2024 Summer Women's Jelly Transparent Crossbody Shoulder Bag New Korean Style All-Match Fashionable Backpacks</h3>
+            <p>Price: $1.05-1.14</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_65.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7232b2f4f089410aad19fe16021acfc17.jpg_300x300.jpg" alt="Hot Selling Custom Nylon Laptop Backpack Business Travel and School Bag Promotional Product" style="max-width: 200px;">
+            </a>
+            <h3>Hot Selling Custom Nylon Laptop Backpack Business Travel and School Bag Promotional Product</h3>
+            <p>Price: $1.80-3.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 101 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_66.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdbc7f3baab864306aebc56fbe41e1fb9V.jpg_300x300.jpg" alt="Bulk 2025 New Women's Backpack Premium Sense Korean Style Fashion Versatile Large Capacity Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Bulk 2025 New Women's Backpack Premium Sense Korean Style Fashion Versatile Large Capacity Backpack</h3>
+            <p>Price: $26.51 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_67.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd55573c3c40641f4ab077e4ed3bda57a7.jpg_300x300.jpg" alt="2026 New Design Outdoor Waterproof Oxford Crossbody Travel Hiking Running Bag Unisex Chest Bag" style="max-width: 200px;">
+            </a>
+            <h3>2026 New Design Outdoor Waterproof Oxford Crossbody Travel Hiking Running Bag Unisex Chest Bag</h3>
+            <p>Price: $0.52-0.65</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_68.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H27abd9bc377d491f86ccd976f7a7e153c.jpg_300x300.jpg" alt="Custom 32 NFL Teams Detroit Lions Digital Printed Polyester Zipper Closure Chest Bag Backpack Cross Body Sling Travel Daypack" style="max-width: 200px;">
+            </a>
+            <h3>Custom 32 NFL Teams Detroit Lions Digital Printed Polyester Zipper Closure Chest Bag Backpack Cross Body Sling Travel Daypack</h3>
+            <p>Price: $4.58 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_69.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0d67c328ee61472b98543a847a0cdce7X.jpg_300x300.jpg" alt="Promotional Gift Multifunctional Waterproof Bags for Male Business Laptop Backpack Usb Charging Bagpack Nylon Casual Rucksack" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Gift Multifunctional Waterproof Bags for Male Business Laptop Backpack Usb Charging Bagpack Nylon Casual Rucksack</h3>
+            <p>Price: $1.97-2.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_70.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb29ef49b67454fd7892d5c8d15267e6fQ.jpg_300x300.jpg" alt="Hot Sale Factory Price Customizable Logo Breathable Oxford Children's Backpack for Primary Secondary School Students" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Factory Price Customizable Logo Breathable Oxford Children's Backpack for Primary Secondary School Students</h3>
+            <p>Price: $1.25-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_71.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5522787d1ad540a7ab1639194d4c2d8dq.jpg_300x300.jpg" alt="Stylish Transparent Student Backpack with Pockets Customizable Logo Durable for School & Activities Customizable Logo" style="max-width: 200px;">
+            </a>
+            <h3>Stylish Transparent Student Backpack with Pockets Customizable Logo Durable for School & Activities Customizable Logo</h3>
+            <p>Price: $4.69-5.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_72.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heb657e4c0b0d4ee49afdf6e5ee91aba61.jpg_300x300.jpg" alt="Promotional Business Gift Item Travel Shoulder Fashion Unisex Oxford Casual Zipper Sport Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Business Gift Item Travel Shoulder Fashion Unisex Oxford Casual Zipper Sport Backpack</h3>
+            <p>Price: $8.42 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_73.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H59bb57f97e724da88853b29ab7a2566d6.jpg_300x300.jpg" alt="2025 Cheap Kids Backpack Promotional Bags Travel Waterproof Kindergarten Backpack for Advertising Gift" style="max-width: 200px;">
+            </a>
+            <h3>2025 Cheap Kids Backpack Promotional Bags Travel Waterproof Kindergarten Backpack for Advertising Gift</h3>
+            <p>Price: $2.40 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_74.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdf4519a6c0554bd9805da07a316ebc063.jpg_300x300.jpg" alt="High Quality Demon Hunter Rucksack Personalized Image Design for School Travel Student Use Promotional Daypack" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Demon Hunter Rucksack Personalized Image Design for School Travel Student Use Promotional Daypack</h3>
+            <p>Price: $6-10</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_75.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc94152216dce4b5581f1871b3775d4c6P.jpg_300x300.jpg" alt="Custom Large Capacity Laptops Backpack Waterproof Travel Backpack Multi-Layer Pockets School College Bag Customized Logo" style="max-width: 200px;">
+            </a>
+            <h3>Custom Large Capacity Laptops Backpack Waterproof Travel Backpack Multi-Layer Pockets School College Bag Customized Logo</h3>
+            <p>Price: $5.68 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_76.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1bce77064bbb4380ba68fe54388c4b7eU.jpg_300x300.jpg" alt="Children Graffiti Bags Take Coloring Marker Christmas Gift Non Woven Shopping Bag for Child DIY Painting" style="max-width: 200px;">
+            </a>
+            <h3>Children Graffiti Bags Take Coloring Marker Christmas Gift Non Woven Shopping Bag for Child DIY Painting</h3>
+            <p>Price: $0.07-0.12</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_77.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd04f1fd4dabf4b0d848a09a10ec8db5aM.jpg_300x300.jpg" alt="Customizable Cartoon Waterproof Designer Unisex Nylon Student Backpack Silk Lining Laptop Sleeve Softback Hard Handle 15 Inches" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Cartoon Waterproof Designer Unisex Nylon Student Backpack Silk Lining Laptop Sleeve Softback Hard Handle 15 Inches</h3>
+            <p>Price: $6.88 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_78.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha9bcd04ed5ad469a80549d59eff79519l.jpg_300x300.jpg" alt="Quilted Multifunctional Waterproof Modern Polyester Book Storage Bag New School Protective Cover Flat File Promotional Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Quilted Multifunctional Waterproof Modern Polyester Book Storage Bag New School Protective Cover Flat File Promotional Backpack</h3>
+            <p>Price: $3.95-4.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_79.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf688d7894584494d92e6696bf1654d08D.jpg_300x300.jpg" alt="Casual Fashion Junior High School Waterproof Nylon Zipper Closure Three-Piece Digital Printed High-Capacity Polyester Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Casual Fashion Junior High School Waterproof Nylon Zipper Closure Three-Piece Digital Printed High-Capacity Polyester Backpack</h3>
+            <p>Price: $3.90-5.25</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_80.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A6ca6bfb696fb46e8870b7d8d2cc03f87Q.jpg_300x300.jpg" alt="Custom Logo 10L Lightweight Ocean Pack Waterproof Dry Bag Backpack with Roll Top for Beach Promotion" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo 10L Lightweight Ocean Pack Waterproof Dry Bag Backpack with Roll Top for Beach Promotion</h3>
+            <p>Price: $2.93 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_81.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H06d1d3be73fe47fcb9c969ee6dd8f0e6B.png_300x300.png" alt="Laptop Backpack Large Capacity Casual Waterproof Oxfords Cheap BusinessTravel Laptop Backpack for Women Men" style="max-width: 200px;">
+            </a>
+            <h3>Laptop Backpack Large Capacity Casual Waterproof Oxfords Cheap BusinessTravel Laptop Backpack for Women Men</h3>
+            <p>Price: $4.60 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_82.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H110cdd95db76476187ef2ef158d4a27el.jpg_300x300.jpg" alt="High Quality Customizable Small Backpack for Kids School Promotional Use with Letterpress Printing Guangdong" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Customizable Small Backpack for Kids School Promotional Use with Letterpress Printing Guangdong</h3>
+            <p>Price: $3-6</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_83.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc55fdc543bc6432baf7f80b9a79ecec38.jpg_300x300.jpg" alt="School Bags Girls Cartoon 3D Animal Kids Children Book Bag Promotional Waterproof Mini Toddler Backpack" style="max-width: 200px;">
+            </a>
+            <h3>School Bags Girls Cartoon 3D Animal Kids Children Book Bag Promotional Waterproof Mini Toddler Backpack</h3>
+            <p>Price: $2.46 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_84.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7fb2f4ac3de64db1be2be588603101bfJ.png_300x300.png" alt="Cross-border Small Backpack for Men Women Lightweight Breathable Durable Student Travel Gift Bag Custom Logo Printing Cotton" style="max-width: 200px;">
+            </a>
+            <h3>Cross-border Small Backpack for Men Women Lightweight Breathable Durable Student Travel Gift Bag Custom Logo Printing Cotton</h3>
+            <p>Price: $1.59-2.27</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_85.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfba2b15034bc4e5283f035b51803ca35S.jpg_300x300.jpg" alt="Custom Logo Printing Sublimation Blank Pencil Storage Case Pen Holder Bag with Zipper Promotional Backpacks" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Printing Sublimation Blank Pencil Storage Case Pen Holder Bag with Zipper Promotional Backpacks</h3>
+            <p>Price: $3.10 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_86.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H965d9abb6ec4423880cf2f04be7782dbF.jpg_300x300.jpg" alt="RJ Cute Simulated Ragdoll Backpacks Women Bow Cat Plush Bags Small Capacity Daypacks Lolita Cartoon Personalized Gifts for Girls" style="max-width: 200px;">
+            </a>
+            <h3>RJ Cute Simulated Ragdoll Backpacks Women Bow Cat Plush Bags Small Capacity Daypacks Lolita Cartoon Personalized Gifts for Girls</h3>
+            <p>Price: $4.60-7.70</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_87.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7b375e3eeda143e8b910b56650073a5fl.jpg_300x300.jpg" alt="Custom logo High Quality Portable 210T Polyester 37*57 CM Pure Folding Reusable Shopping Bag for Advertising Promotion" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo High Quality Portable 210T Polyester 37*57 CM Pure Folding Reusable Shopping Bag for Advertising Promotion</h3>
+            <p>Price: $0.65-0.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_88.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H71ff7f485f6d43a48b61e01aed6990eei.jpg_300x300.jpg" alt="Soccer Basketball Volleyball Cartoon Sports Printed Thermal Bag Children Boys Girls Lightweight Handheld Dining Bag" style="max-width: 200px;">
+            </a>
+            <h3>Soccer Basketball Volleyball Cartoon Sports Printed Thermal Bag Children Boys Girls Lightweight Handheld Dining Bag</h3>
+            <p>Price: $2.59 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_89.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd91e1db09eec4c399362a99c15b56738C.jpg_300x300.jpg" alt="Wholesale Leather PU Backpack Men Black Laptop Computer Backpack Large Capacity Business Ladies Retro Leisure Travel Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Leather PU Backpack Men Black Laptop Computer Backpack Large Capacity Business Ladies Retro Leisure Travel Backpack</h3>
+            <p>Price: $5.69-6.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_90.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H13de30a9204244df892aed0545bbda00M.jpg_300x300.jpg" alt="2026 Luxury Greek Letters Mason Bags Red OES Crossbody Bag Chest Bag Accessory Bags" style="max-width: 200px;">
+            </a>
+            <h3>2026 Luxury Greek Letters Mason Bags Red OES Crossbody Bag Chest Bag Accessory Bags</h3>
+            <p>Price: $5.10 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_91.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf91bc1b6a3d84d98961b41bb04d045a65.jpg_300x300.jpg" alt="Large Drawstring Backpack Sports Gym Basketball Bag String Beach Swim for Women Promotion Gift Dry Wet Separation Easy to Carry" style="max-width: 200px;">
+            </a>
+            <h3>Large Drawstring Backpack Sports Gym Basketball Bag String Beach Swim for Women Promotion Gift Dry Wet Separation Easy to Carry</h3>
+            <p>Price: $1.99-2.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_92.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He2d19543d03c4b7a89bdabc5a1328f28Y.jpg_300x300.jpg" alt="High Quality Large Capacity Sports and Fitness Shoes, Carrying Bags, Dust-proof Shoes, Storage Backpacks" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Large Capacity Sports and Fitness Shoes, Carrying Bags, Dust-proof Shoes, Storage Backpacks</h3>
+            <p>Price: $1.45 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_93.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H87666f6514494fc9a9c98bcd6a2ee43dB.jpg_300x300.jpg" alt="Wholesale Blank Kids Backpack for Sublimation DIY OEM Plain Polyester Backpack for Custom Print Christmas Gift" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Blank Kids Backpack for Sublimation DIY OEM Plain Polyester Backpack for Custom Print Christmas Gift</h3>
+            <p>Price: $2.55 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_94.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H97b1e16cf215437bb4f54093fe1f0bf5f.jpg_300x300.jpg" alt="Custom Rainbow Sling Bag Gay Proud Cross Chest Bag Sling Backpack Fashion Hiking Daypack Unisex Chest Shoulder Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Rainbow Sling Bag Gay Proud Cross Chest Bag Sling Backpack Fashion Hiking Daypack Unisex Chest Shoulder Bag</h3>
+            <p>Price: $4.58 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_95.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hde46d5efdb304e14bb5bf405853802f40.jpg_300x300.jpg" alt="New Plush Bag Custom Bag Tote Bag Custom Cartoon Cute Plush Handbag Customization Shoulder Tote Bag" style="max-width: 200px;">
+            </a>
+            <h3>New Plush Bag Custom Bag Tote Bag Custom Cartoon Cute Plush Handbag Customization Shoulder Tote Bag</h3>
+            <p>Price: $0.52-1</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_96.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H88b01d1434f84461af0596edbe5a303aH.jpg_300x300.jpg" alt="Custom Design Sports Retail Tote Bags with Football Graphics Football-themed Printed Tote Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Design Sports Retail Tote Bags with Football Graphics Football-themed Printed Tote Bag</h3>
+            <p>Price: $1.38-1.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_97.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H596aa449349d4e4ca8fce012bf09f046H.png_300x300.png" alt="Eco-Friendly Beach Canvas Tote Bag Promotional Backpacks Beige Cotton Cloth Shopping Tote Bag with Custom Printed Logo" style="max-width: 200px;">
+            </a>
+            <h3>Eco-Friendly Beach Canvas Tote Bag Promotional Backpacks Beige Cotton Cloth Shopping Tote Bag with Custom Printed Logo</h3>
+            <p>Price: $0.50-0.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_98.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H259b7a7beab84a0b89f08999f90c0335B.jpg_300x300.jpg" alt="Personalized DIY Logo Crossbody Bag Adjustable Strap Sublimation Blank Printable Messenger Shoulder Bag Promotional Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Personalized DIY Logo Crossbody Bag Adjustable Strap Sublimation Blank Printable Messenger Shoulder Bag Promotional Backpack</h3>
+            <p>Price: $4.38-4.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_99.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3a6dca1bdf23406490286328d27183cbw.jpg_300x300.jpg" alt="Custom LOGO Students Bookbag Teenagers Shoulders Bag Promotional Adult Backpack" style="max-width: 200px;">
+            </a>
+            <h3>Custom LOGO Students Bookbag Teenagers Shoulders Bag Promotional Adult Backpack</h3>
+            <p>Price: $3.30-6.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_100.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hceb6f4b6c94c4eca935931138f990b629.jpg_300x300.jpg" alt="Hot Selling 13-Inch Notebook Computer Custom Printed Logo Polyester Briefcase Sleeve Case Professional Promotional Backpacks" style="max-width: 200px;">
+            </a>
+            <h3>Hot Selling 13-Inch Notebook Computer Custom Printed Logo Polyester Briefcase Sleeve Case Professional Promotional Backpacks</h3>
+            <p>Price: $3.50-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 150 sets</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <!-- 分页按钮 -->
+        <div class="pagination">
+            
+
+            
+            
+
+            
+            <a href="page_1.html" class="active">1</a>
+            
+            <a href="page_2.html" >2</a>
+            
+            <a href="page_3.html" >3</a>
+            
+            <a href="page_4.html" >4</a>
+            
+            <a href="page_5.html" >5</a>
+            
+            <a href="page_6.html" >6</a>
+            
+            <a href="page_7.html" >7</a>
+            
+            <a href="page_8.html" >8</a>
+            
+            <a href="page_9.html" >9</a>
+            
+            <a href="page_10.html" >10</a>
+            
+
+            
+            <a href="page_11.html">Next</a>
+            
+        </div>
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" onclick="topFunction()">回到顶部</button>
+    </div>
+
+    <script>
+        // 回到顶部按钮显示与隐藏逻辑
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        // 回到顶部按钮点击事件
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
