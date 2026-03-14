@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L8EDEXZBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9L8EDEXZBV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品列表 - 第1页</title>
+    <meta name="description" content="Sunnyluo Store - 200000+ factory-direct product categories including Home Decor, Industrial Machinery, Electronics, and more. Wholesale sourcing made easy.">
+    <link rel="canonical" href="https://sunnyluostore.github.io/allgoodsfind.github.io/"><style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 200px;
+            /* 可根据实际情况调整图片大小 */
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #03a9f4;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* 新添加的样式 */
+        .product-item h3 {
+            font-size: 14px;
+            /* 产品名称文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item p {
+            font-size: 12px;
+            /* 其他产品信息文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item:hover h3 {
+            color: #03a9f4;
+            /* 鼠标悬停时产品名称文字变色 */
+        }
+
+        .product-item:hover p {
+            color: #03a9f4;
+            /* 鼠标悬停时其他产品信息文字变色 */
+        }
+
+        /* 产品容器样式 */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        /* 产品项样式 */
+        .product-item {
+            width: calc(25% - 20px);
+            /* 默认每行显示 4 个产品 */
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* 鼠标悬停效果 */
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* 媒体查询，适配不同屏幕尺寸 */
+        @media (max-width: 1024px) {
+            .product-item {
+                width: calc(33.33% - 20px);
+                /* 平板设备每行显示 3 个产品 */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: calc(50% - 20px);
+                /* 小屏幕设备每行显示 2 个产品 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+                /* 超小屏幕设备每行显示 1 个产品 */
+            }
+        }
+
+        /* 分页按钮样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        /* 回到顶部按钮样式 */
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #03a9f4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部图片和文字 -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <p>Sunnyluo Store</p>
+        <p>Build a curated directory of store with factory</p>
+    </div>
+    <nav>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/index.html">Home</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/pdfs/pdf.html">Resources</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/About us.html">About Us</a>
+        <a href="mailto:sunnyluo330@gmail.com">Contact Us</a>
+        <a href="https://www.facebook.com/sunnyluoting">Facebook</a>
+    </nav>
+    <h1>Product list</h1>
+    <div class="products">
+        
+        <div class="product-item">
+            <a href="product_1.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H97d4d680089448d6ae44014e4a8cefad8.jpg_300x300.jpg" alt="PE Striped Supermarket T-Shirt Bags Grocery & Shopping Plastic Bags with Vest Handles Disposable Customizable" style="max-width: 200px;">
+            </a>
+            <h3>PE Striped Supermarket T-Shirt Bags Grocery & Shopping Plastic Bags with Vest Handles Disposable Customizable</h3>
+            <p>Price: $9.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 cartons</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_2.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8d86d958c54d47f2809fc235397220b09.jpg_300x300.jpg" alt="XP-Promos Custom Jute Shopping Bag with Brand Logo Digital Printing for Promotional Advertising in All Scenes" style="max-width: 200px;">
+            </a>
+            <h3>XP-Promos Custom Jute Shopping Bag with Brand Logo Digital Printing for Promotional Advertising in All Scenes</h3>
+            <p>Price: $1.90 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_3.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A033479376116455aaf8ad1c6b2d2a8d4a.jpg_300x300.jpg" alt="Custom Logo Retail Packaging Carry Bags for Clothing Stores and Boutiques Wholesale Die Cut Plastic Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Retail Packaging Carry Bags for Clothing Stores and Boutiques Wholesale Die Cut Plastic Bag</h3>
+            <p>Price: $0.04-0.12</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_4.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A93c766cd387b4a2eb5441b675de63f65X.jpg_300x300.jpg" alt="Bulk Lightweight PE Shopping Bags for Supermarket and Apparel Stores Die Cut Plastic Bag" style="max-width: 200px;">
+            </a>
+            <h3>Bulk Lightweight PE Shopping Bags for Supermarket and Apparel Stores Die Cut Plastic Bag</h3>
+            <p>Price: $0.04-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_5.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hffaaa04b14ed4a38a7991a42d3ec8a2c3.jpg_300x300.jpg" alt="Advertising Gift Cute Small 68 MM Tin Plastic Pocket Mirror with Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Advertising Gift Cute Small 68 MM Tin Plastic Pocket Mirror with Custom Logo</h3>
+            <p>Price: $0.10-0.80</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_6.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A04798569da5c460cae771c8875a14f374.jpg_300x300.jpg" alt="Versatile Custom PVC Vinyl Flags & Banners for Outdoor Event Advertising Trade Shows & Festivals" style="max-width: 200px;">
+            </a>
+            <h3>Versatile Custom PVC Vinyl Flags & Banners for Outdoor Event Advertising Trade Shows & Festivals</h3>
+            <p>Price: $0.85-1.65</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_7.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A44adb8b7123946129df46409cfc7b090n.jpg_300x300.jpg" alt="Custom Printed Logo Plastic Packaging Clothes Shipping Bags Waterproof Poly Mailer Bags with Handle" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Logo Plastic Packaging Clothes Shipping Bags Waterproof Poly Mailer Bags with Handle</h3>
+            <p>Price: $0.03-0.08</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_8.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf6bad1e4810140758902e4bcfd8b122aP.jpg_300x300.jpg" alt="MU Golden Logo PP Bag Bamboo Handles Plastic Bulk Transparent PP Shopping Bag Clear Gift PP Bags" style="max-width: 200px;">
+            </a>
+            <h3>MU Golden Logo PP Bag Bamboo Handles Plastic Bulk Transparent PP Shopping Bag Clear Gift PP Bags</h3>
+            <p>Price: $0.12 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1 carton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_9.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A617dcdd84b194315a76c81df0142a810l.jpg_300x300.jpg" alt="MU Colorful Handle PP Bag Bamboo Handles Plastic Bulk Transparent PP Shopping Bag Clear Gift PP Bags" style="max-width: 200px;">
+            </a>
+            <h3>MU Colorful Handle PP Bag Bamboo Handles Plastic Bulk Transparent PP Shopping Bag Clear Gift PP Bags</h3>
+            <p>Price: $0.05 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1 carton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_10.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A2b7a6efaa7454ae78b03245fd383a4101.jpg_300x300.jpg" alt="MU Gifting Handle PP Bag Bamboo Handles Plastic Bulk Transparent PP Shopping Bag Clear Gift PP Bags" style="max-width: 200px;">
+            </a>
+            <h3>MU Gifting Handle PP Bag Bamboo Handles Plastic Bulk Transparent PP Shopping Bag Clear Gift PP Bags</h3>
+            <p>Price: $0.05 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1 carton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_11.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ad932bee40ca245769f927d031f028f3aJ.jpg_300x300.jpg" alt="Reusable Waterproof Plastic Bags for LDPE Business Small Merchandise Shopping Bags Retail Die Cut Handle Bags" style="max-width: 200px;">
+            </a>
+            <h3>Reusable Waterproof Plastic Bags for LDPE Business Small Merchandise Shopping Bags Retail Die Cut Handle Bags</h3>
+            <p>Price: $0.06 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_12.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A26085249cb9b49a18c8dbd2457bd1c42b.jpg_300x300.jpg" alt="Plastic T-shirt Bags with Handles Recyclable Suitable for Grocery Stores and Restaurants." style="max-width: 200px;">
+            </a>
+            <h3>Plastic T-shirt Bags with Handles Recyclable Suitable for Grocery Stores and Restaurants.</h3>
+            <p>Price: $0.02-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_13.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4ba2aedbb42449798f509142e108fbf1G.jpg_300x300.jpg" alt="Reusable Printing Logo Party Wedding Gift Women Handbags PVC Promotional Bag Cheap Colorful PVC Tote Bags" style="max-width: 200px;">
+            </a>
+            <h3>Reusable Printing Logo Party Wedding Gift Women Handbags PVC Promotional Bag Cheap Colorful PVC Tote Bags</h3>
+            <p>Price: $0.38-0.58</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_14.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A1f6178e935574f498b588c34aa1cdbc8r.jpg_300x300.jpg" alt="Premium Fashion Custom Logo Tote Bag for Clothing Store Plastic Shopping Bags with Handles for Women's Apparel" style="max-width: 200px;">
+            </a>
+            <h3>Premium Fashion Custom Logo Tote Bag for Clothing Store Plastic Shopping Bags with Handles for Women's Apparel</h3>
+            <p>Price: $0.02-0.15</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_15.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ab17b7138c712435aa634d1ae4f0dde547.jpg_300x300.jpg" alt="Customized Logo Pink Shop Boutique Gifts Die Cut Handle Bag, Stocking Sizes Reusable Carry Bag Foldable Plastic Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo Pink Shop Boutique Gifts Die Cut Handle Bag, Stocking Sizes Reusable Carry Bag Foldable Plastic Shopping Bag</h3>
+            <p>Price: $0.02-0.06</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_16.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Adaeabfe796124d9e9e07a138a3b799c5Z.jpg_300x300.jpg" alt="MU 4 Size PP Bag Flower Plastic Bulk Transparent PP Shopping Bag Clear PP Gift Bags With Handle" style="max-width: 200px;">
+            </a>
+            <h3>MU 4 Size PP Bag Flower Plastic Bulk Transparent PP Shopping Bag Clear PP Gift Bags With Handle</h3>
+            <p>Price: $0.15 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1 carton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_17.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ab7e1fd708f1c4e3d8cc8c6426fb1a056r.png_300x300.png" alt="Customized Logo Poly T-Shirt Plastic Bags Retail Personalized Poly Bags with Unique Design" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo Poly T-Shirt Plastic Bags Retail Personalized Poly Bags with Unique Design</h3>
+            <p>Price: $3.50-3.70</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 kilograms</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_18.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ae04b4dfe86504697940da7c7b3cd26deT.jpg_300x300.jpg" alt="Customized Reusable OPP Bags Customized Handbags Gift Bags Logo for Clothing Shoes Plastic Bags Customized for Various Purposes" style="max-width: 200px;">
+            </a>
+            <h3>Customized Reusable OPP Bags Customized Handbags Gift Bags Logo for Clothing Shoes Plastic Bags Customized for Various Purposes</h3>
+            <p>Price: $0.0267-0.1568</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_19.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A610650845e424d7ba2f6bcf13a5e3f95H.jpg_300x300.jpg" alt="Custom Thank You Soft Loop Handle Plastic Take Out Bags Hdpe Ldpe Loop Handle Restaurant Takeaway Plastic Bags With Logo" style="max-width: 200px;">
+            </a>
+            <h3>Custom Thank You Soft Loop Handle Plastic Take Out Bags Hdpe Ldpe Loop Handle Restaurant Takeaway Plastic Bags With Logo</h3>
+            <p>Price: $0.03-0.08</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_20.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Aba9b66f1e8cc48b7a924817e50cd39e5D.jpg_300x300.jpg" alt="High Quality Black HDPE Plastic Carry Bag Die Cut Handle Custom Logo Thank You Shopping for Supermarket Use Minimum Order 100pcs" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Black HDPE Plastic Carry Bag Die Cut Handle Custom Logo Thank You Shopping for Supermarket Use Minimum Order 100pcs</h3>
+            <p>Price: $0.02-0.09</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_21.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A6eaec7f069584d5aa9de539ea0dd83a0A.png_300x300.png" alt="Customizable Transparent Plastic Handbags Factory Direct Sales Various Colors with New Fashion Logo Print for Gift Giving" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Transparent Plastic Handbags Factory Direct Sales Various Colors with New Fashion Logo Print for Gift Giving</h3>
+            <p>Price: $1.50-2</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 3,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_22.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Aee377e974fda4c68a0dbd28d21af8574Y.jpg_300x300.jpg" alt="Custom Printed Plastic Shopping Bag Shopping Die Cut Bag Plastic Packaging Bags Handle With Own Logo" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Plastic Shopping Bag Shopping Die Cut Bag Plastic Packaging Bags Handle With Own Logo</h3>
+            <p>Price: $0.02 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_23.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5ffe1aaac463405eb9af3d9dd23dd672j.jpg_300x300.jpg" alt="Factory Price Exhibition Tote Hot Sale Non Woven Bag Custom Logo Printed Non Woven Tote Bag" style="max-width: 200px;">
+            </a>
+            <h3>Factory Price Exhibition Tote Hot Sale Non Woven Bag Custom Logo Printed Non Woven Tote Bag</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_24.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hca22e02838244aa382229753baa1d7f8v.jpg_300x300.jpg" alt="Promotion Shopping Bag Tote Recyclable Factory New Products Environmental Bags Heavy Duty Shopping Bags" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Shopping Bag Tote Recyclable Factory New Products Environmental Bags Heavy Duty Shopping Bags</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_25.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9d9f1ec3b9fd4f1794773cc4f116c24fH.jpg_300x300.jpg" alt="High Quality Non-Woven Die Cut Eco Bag Promotional Nonwoven Custom Eco Friendly Bag Shopping Pp Non Woven Bag" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Non-Woven Die Cut Eco Bag Promotional Nonwoven Custom Eco Friendly Bag Shopping Pp Non Woven Bag</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_26.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Adbfedf8577eb4b549a4451758a948ee4I.jpg_300x300.jpg" alt="Factory Direct Customized Trade Show Promotional Custom Eco Friendly Laminated Tote Bag Laminated Non Woven Bag" style="max-width: 200px;">
+            </a>
+            <h3>Factory Direct Customized Trade Show Promotional Custom Eco Friendly Laminated Tote Bag Laminated Non Woven Bag</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_27.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4976208a66be41be8b0b652f2ac55303z.jpg_300x300.jpg" alt="Hot Sale Custom Design Non Woven Tote Promotional Nonwoven Custom Eco Friendly Bag Non Woven Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Custom Design Non Woven Tote Promotional Nonwoven Custom Eco Friendly Bag Non Woven Shopping Bag</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_28.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A7b344d6bf4bd479592514d2c738c50edv.jpg_300x300.jpg" alt="Free Sample Durable Shopping Fabric Promotional Cheap Big Custom Shopping Bag Non Woven Bags Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Free Sample Durable Shopping Fabric Promotional Cheap Big Custom Shopping Bag Non Woven Bags Custom Logo</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_29.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9554c7a1702b4370accbda360ce4f0e2q.jpg_300x300.jpg" alt="Wholesale PP Plastic Identification Key Tags Custom Plastic Key Chain" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale PP Plastic Identification Key Tags Custom Plastic Key Chain</h3>
+            <p>Price: $0.02-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_30.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A0e3e60e7d7d648f6a3748fffeb928957r.jpg_300x300.jpg" alt="Custom Reusable Take Out T-Shirt Plastic Grocery Shopping Restaurants Supermarket Small Business Plastic Bags with Handles" style="max-width: 200px;">
+            </a>
+            <h3>Custom Reusable Take Out T-Shirt Plastic Grocery Shopping Restaurants Supermarket Small Business Plastic Bags with Handles</h3>
+            <p>Price: $0.03-0.04</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_31.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A48591da7a1264668be38027f26a4cd2dn.jpg_300x300.jpg" alt="Custom Printed With Your Logo Translucent Pvc Clear Plastic Bags Frosted Poly Zipper Bags for Clothes Shoes Packaging" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed With Your Logo Translucent Pvc Clear Plastic Bags Frosted Poly Zipper Bags for Clothes Shoes Packaging</h3>
+            <p>Price: $0.01-0.08</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_32.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A9fe4024a5d134a9199fc75e07b2d1776C.jpg_300x300.jpg" alt="Custom Fabric Ribbon Plastic Keychain with Laser Engraved Logo Durable Promotional Key Ring for Car Keys Bags Travel Accessories" style="max-width: 200px;">
+            </a>
+            <h3>Custom Fabric Ribbon Plastic Keychain with Laser Engraved Logo Durable Promotional Key Ring for Car Keys Bags Travel Accessories</h3>
+            <p>Price: $0.63 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_33.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ab61d4b12f6e143df9c3b785cc63249c8f.jpg_300x300.jpg" alt="Versatile Custom PVC Vinyl Flags & Banners for Outdoor Event Advertising Trade Shows & Festivals" style="max-width: 200px;">
+            </a>
+            <h3>Versatile Custom PVC Vinyl Flags & Banners for Outdoor Event Advertising Trade Shows & Festivals</h3>
+            <p>Price: $0.85-1.65</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_34.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A77742af373b2402ab7125fd59d51f683N.jpg_300x300.jpg" alt="Custom Outdoor PVC Vinyl Banners & Flags - Durable and UV Printed for Event Promotions" style="max-width: 200px;">
+            </a>
+            <h3>Custom Outdoor PVC Vinyl Banners & Flags - Durable and UV Printed for Event Promotions</h3>
+            <p>Price: $0.85-1.65</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_35.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A34b6f5a71ae1421f80d6b634747a3c73u.jpg_300x300.jpg" alt="Weatherproof PVC Vinyl Custom Printed Banners & Flags for Events, Festivals & Outdoor Advertising" style="max-width: 200px;">
+            </a>
+            <h3>Weatherproof PVC Vinyl Custom Printed Banners & Flags for Events, Festivals & Outdoor Advertising</h3>
+            <p>Price: $0.85-1.65</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_36.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A57e879e57ba640d2a11c3b28662aef5bE.jpg_300x300.jpg" alt="Custom Printed PVC Vinyl Promotional Banners & Flags for Outdoor Advertising Events - Factory Direct Pricing" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed PVC Vinyl Promotional Banners & Flags for Outdoor Advertising Events - Factory Direct Pricing</h3>
+            <p>Price: $0.85-1.65</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_37.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Af889a842e3ee4ee6a9558287721e6115h.jpg_300x300.jpg" alt="High-Quality Custom Printed PVC Vinyl Flags & Banners for Event Marketing & Outdoor Branding" style="max-width: 200px;">
+            </a>
+            <h3>High-Quality Custom Printed PVC Vinyl Flags & Banners for Event Marketing & Outdoor Branding</h3>
+            <p>Price: $0.85-1.65</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_38.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A0f4ff168e85d4a35a68f49a54a8f091aI.png_300x300.png" alt="Factory Supply Customized Printed Reusable Foldable PP Eco-friendly Folding Color Non Woven Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Factory Supply Customized Printed Reusable Foldable PP Eco-friendly Folding Color Non Woven Shopping Bag</h3>
+            <p>Price: $0.15-0.50</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_39.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A973244dc9882429eb7f8adf3343d1c47Y.jpg_300x300.jpg" alt="Factory Reusable Grocery Promotional Shopping Bags Laminated Eco Tote Rpet Plastic Promotional Bag with Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Factory Reusable Grocery Promotional Shopping Bags Laminated Eco Tote Rpet Plastic Promotional Bag with Custom Logo</h3>
+            <p>Price: $0.50-1.50</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_40.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A476d3c746f114e609fd7d85be48b7565O.jpg_300x300.jpg" alt="Customizable Stand up Plastic Bags for Clothing Gift Bag Plastic Bags With Handles" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Stand up Plastic Bags for Clothing Gift Bag Plastic Bags With Handles</h3>
+            <p>Price: $0.15-0.50</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_41.html">
+                <img src="https://s.alicdn.com/@sc04/kf/S9e0e07c095844fe0b0c1e86eb93b5c40d.jpg_300x300.jpg" alt="Sublimation Printing Promotional Custom Acrylic Stand Decoration Ornaments Phone Stands for Souvenirs" style="max-width: 200px;">
+            </a>
+            <h3>Sublimation Printing Promotional Custom Acrylic Stand Decoration Ornaments Phone Stands for Souvenirs</h3>
+            <p>Price: $1.20 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_42.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A7c7a4f25b080440eb6b0bd3ccf465273Z.png_300x300.png" alt="Transparent Plastic T-Shirt Shopping Bag with Handles for Groceries" style="max-width: 200px;">
+            </a>
+            <h3>Transparent Plastic T-Shirt Shopping Bag with Handles for Groceries</h3>
+            <p>Price: $1,500 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1 ton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_43.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A522b266a34a5444c8198a60cd24a14f4X.png_300x300.png" alt="Supermarket Disposable Transparent Plastic Bag for Carrying Vest and T-Shirt Food Packaging" style="max-width: 200px;">
+            </a>
+            <h3>Supermarket Disposable Transparent Plastic Bag for Carrying Vest and T-Shirt Food Packaging</h3>
+            <p>Price: $1,500 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1 ton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_44.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Sb964ef9a5ef54987bc0ab6cdaa825570E.jpg_300x300.jpg" alt="Custom Printed Courier Bags Recycled Poly Mailer Envelopes for Clothing Shipping Waterproof Mailing Polymailer Express Bags" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Courier Bags Recycled Poly Mailer Envelopes for Clothing Shipping Waterproof Mailing Polymailer Express Bags</h3>
+            <p>Price: $0.01-0.03</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_45.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Aee8cc7b6990a410ba035fbd7bbd28eb0S.jpg_300x300.jpg" alt="Custom Logo Mini Plastic Frosted PVC Cosmetic Jewelry Pouch Zip Lock Packaging Bags for Ring Accessories Packaging & Display" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Mini Plastic Frosted PVC Cosmetic Jewelry Pouch Zip Lock Packaging Bags for Ring Accessories Packaging & Display</h3>
+            <p>Price: $0.02-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_46.html">
+                <img src="https://s.alicdn.com/@sc04/kf/S9be27e5f7b3c4cb5a5cc2924f4f1d30bq.jpg_300x300.jpg" alt="Custom Printed Eco-friendly Biodegradable Corn Starch Plastic Handle Shopper Handle Plastic Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Eco-friendly Biodegradable Corn Starch Plastic Handle Shopper Handle Plastic Shopping Bag</h3>
+            <p>Price: $0.05 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_47.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Aba76a4ffcf1a415fb758a5d137586de2C.jpg_300x300.jpg" alt="Professional Custom Retail Shopping Plastic Black Merchandise Bags Thank You Bags For Boutique Retail Shopping Gift" style="max-width: 200px;">
+            </a>
+            <h3>Professional Custom Retail Shopping Plastic Black Merchandise Bags Thank You Bags For Boutique Retail Shopping Gift</h3>
+            <p>Price: $0.04-0.12</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_48.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A96ae995bb0bc46438b43a9b961f03af2G.jpg_300x300.jpg" alt="Hot Selling Custom Logo Size Recyclable Waterproof Die Cut Handle Shopping Bag Plastic Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Hot Selling Custom Logo Size Recyclable Waterproof Die Cut Handle Shopping Bag Plastic Shopping Bag</h3>
+            <p>Price: $0.04-0.12</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_49.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha5b292328f9e4e54a5e6284d0cbb6bd4R.jpg_300x300.jpg" alt="High Quality Best-Selling Custom Logo LDPE Bags Environmental Protection Resealable Self Adhesive Seal Birthday Christmas Gift" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Best-Selling Custom Logo LDPE Bags Environmental Protection Resealable Self Adhesive Seal Birthday Christmas Gift</h3>
+            <p>Price: $0.01-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_50.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7f714831049b4f7d917e2bafd74c707an.jpg_300x300.jpg" alt="Custom Printed Logo Personalized HDPE LDPE Merchandise Die Cut Plastic Shopping Bag With Handle" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Logo Personalized HDPE LDPE Merchandise Die Cut Plastic Shopping Bag With Handle</h3>
+            <p>Price: $0.02-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_51.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0865db340a5d43e7b37c1e5358409140Q.jpg_300x300.jpg" alt="Brand Promotional Bag Personalized Recycled PP Laminated Polypropylene Reusable Shopping Tote Custom logo pp Woven Bags" style="max-width: 200px;">
+            </a>
+            <h3>Brand Promotional Bag Personalized Recycled PP Laminated Polypropylene Reusable Shopping Tote Custom logo pp Woven Bags</h3>
+            <p>Price: $0.59 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_52.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9c0205685d4049798b947f4ed40f6021X.jpg_300x300.jpg" alt="Custom logo Printed Fold Plastic Black Thank You Die Cut Handle Carry Shopping Packaging Bags for Boutique Retail Shopping" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Printed Fold Plastic Black Thank You Die Cut Handle Carry Shopping Packaging Bags for Boutique Retail Shopping</h3>
+            <p>Price: $0.01-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_53.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbd812463b0d64e6f9ece1db6a4b98773F.jpg_300x300.jpg" alt="Custom Printed Logo Personalized HDPE LDPE Merchandise Die Cut Plastic Shopping Bag With Handle" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Logo Personalized HDPE LDPE Merchandise Die Cut Plastic Shopping Bag With Handle</h3>
+            <p>Price: $0.05-0.20</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_54.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H796e43fc2f264e7e80b2c642beebc01cW.jpg_300x300.jpg" alt="Manufacturer's Custom logo Thank You Plastic Shopping Bags White for Take-out Grocery Small Business Custom T-shirt Bags" style="max-width: 200px;">
+            </a>
+            <h3>Manufacturer's Custom logo Thank You Plastic Shopping Bags White for Take-out Grocery Small Business Custom T-shirt Bags</h3>
+            <p>Price: $0.07 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_55.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7855110c3f5944e8a151f882eda18fc5N.jpg_300x300.jpg" alt="100 Pack Large Plastic Shopping Bags With Thank You Logo Boutique Bags With Handles for Merchandise Gifts Trade Show" style="max-width: 200px;">
+            </a>
+            <h3>100 Pack Large Plastic Shopping Bags With Thank You Logo Boutique Bags With Handles for Merchandise Gifts Trade Show</h3>
+            <p>Price: $0.02-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_56.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H070253543860440d98b9d31b196b995dC.png_300x300.png" alt="Wholesale Direct Factory Durable HDPE T-Shirt Vest Carrier Shopping Bag Clear LDPE Customized Supermarket Plastic Bag Handbags" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Direct Factory Durable HDPE T-Shirt Vest Carrier Shopping Bag Clear LDPE Customized Supermarket Plastic Bag Handbags</h3>
+            <p>Price: $1.65-1.87</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5 kilograms</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_57.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0340e0c5f7fe4b6980fd923c5f7acf614.jpg_300x300.jpg" alt="Foldable and Transparent Customized Clear PVC Custom Clear Gifts and Promotion With Handle Tote Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Foldable and Transparent Customized Clear PVC Custom Clear Gifts and Promotion With Handle Tote Shopping Bag</h3>
+            <p>Price: $0.07-0.11</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_58.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H52ada1fbb0ce42058816e156803dc323D.jpg_300x300.jpg" alt="High Quality Transparent PP Frosted Gift Bag Handbag Birthday Weddings Gift Plastic Shopping Bag with Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Transparent PP Frosted Gift Bag Handbag Birthday Weddings Gift Plastic Shopping Bag with Custom Logo</h3>
+            <p>Price: $0.08-0.20</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_59.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He1aed476d9ac407695fd3fbc64c05ea5o.jpg_300x300.jpg" alt="Waterproof Beach Tote Holographic Shopping Bag Manufacturers Clear Pvc Plastic Concert Custom Transparent Bags with Logo" style="max-width: 200px;">
+            </a>
+            <h3>Waterproof Beach Tote Holographic Shopping Bag Manufacturers Clear Pvc Plastic Concert Custom Transparent Bags with Logo</h3>
+            <p>Price: $0.37-0.55</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_60.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H55a5ad94126f44afbb463814d8dbcac4r.jpg_300x300.jpg" alt="Wholesale Customized Recycle Reusable Grocery PP Woven Shopping Bags Eco-Friendly Laminated PP Webbing Shopping Bags with LOGO" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Customized Recycle Reusable Grocery PP Woven Shopping Bags Eco-Friendly Laminated PP Webbing Shopping Bags with LOGO</h3>
+            <p>Price: $0.25-0.45</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_61.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hca49ae165bb94ce8bd20fcf5aadc0eccf.jpg_300x300.jpg" alt="Customizable Custom Logo Printed Boutique LDPE Thank You Plastic Carrier Gift Shopping Bags for Retail Small Business" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Custom Logo Printed Boutique LDPE Thank You Plastic Carrier Gift Shopping Bags for Retail Small Business</h3>
+            <p>Price: $0.13 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_62.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4184365d10ec4d5db6310423a94893a3P.jpg_300x300.jpg" alt="Custom Logo Clear and Matte Frosted Plastic Resealable Lay Flat Pouch 3 Side Seal Food Packaging Transparent Bag With Zipper" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Clear and Matte Frosted Plastic Resealable Lay Flat Pouch 3 Side Seal Food Packaging Transparent Bag With Zipper</h3>
+            <p>Price: $0.01-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_63.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb086b24fa6904a538189ede7925ab69ds.jpg_300x300.jpg" alt="Customized Logo Transparent PVC Tote Shopping Bag Clear Plastic Gifts Bag for Promotional Gift Items in Stock" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo Transparent PVC Tote Shopping Bag Clear Plastic Gifts Bag for Promotional Gift Items in Stock</h3>
+            <p>Price: $0.16-0.56</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_64.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heec0057c4b1649af80664e612e784c6by.jpg_300x300.jpg" alt="Eco Friendly Vest Carrier Bag Biodegradable Die Cut Handbag Custom Shopping Bags Die Cut" style="max-width: 200px;">
+            </a>
+            <h3>Eco Friendly Vest Carrier Bag Biodegradable Die Cut Handbag Custom Shopping Bags Die Cut</h3>
+            <p>Price: $0.08-0.15</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_65.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H637a15defa3b48eda0732c906a165ff8Q.jpg_300x300.jpg" alt="Wholesale Custom 50L Biodegradable PLA Plastic Trash Bags Heat-Sealed Drawstring Compostable Cornstarch Rubbish Garbage Bags" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom 50L Biodegradable PLA Plastic Trash Bags Heat-Sealed Drawstring Compostable Cornstarch Rubbish Garbage Bags</h3>
+            <p>Price: $0.04-0.06</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 20,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_66.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf00f7a748c8140ce817602eb1337caa2g.png_300x300.png" alt="PLA Handle Blue T-shirt Biodegradable Plastic Bag Vest Bag Shopping Wholesale Supermarket Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>PLA Handle Blue T-shirt Biodegradable Plastic Bag Vest Bag Shopping Wholesale Supermarket Shopping Bag</h3>
+            <p>Price: $0.02-0.07</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 3,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_67.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6b8b394b10ad45cba254aaedadd88801k.jpg_300x300.jpg" alt="Customizable Clear Layflat Perforated LDPE Plastic Food Bags Roll Supermarket Use Easy-to-Tear Moisture-Proof Flexiloop Handle" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Clear Layflat Perforated LDPE Plastic Food Bags Roll Supermarket Use Easy-to-Tear Moisture-Proof Flexiloop Handle</h3>
+            <p>Price: $2.10 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 kilograms</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_68.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbfd561607282460f82f17149f05aca8dB.jpg_300x300.jpg" alt="Ready to Ship or Custom Logo Handle Plastic Shopping Bag Shoes ,Cloth Packaging Bag With Custom Logo Printed" style="max-width: 200px;">
+            </a>
+            <h3>Ready to Ship or Custom Logo Handle Plastic Shopping Bag Shoes ,Cloth Packaging Bag With Custom Logo Printed</h3>
+            <p>Price: $0.28 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_69.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0b6de83cc3fb4d69899b1b998a1df8d15.jpg_300x300.jpg" alt="Promotional Logo Printed Packaging Shopping Bag 2024 Pe Plastic Flat Mouth Bag Custom With Soft Die Cut Handle" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Logo Printed Packaging Shopping Bag 2024 Pe Plastic Flat Mouth Bag Custom With Soft Die Cut Handle</h3>
+            <p>Price: $0.01-0.06</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_70.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H393724995402443cb4b7efcee9842412H.png_300x300.png" alt="Custom Wholesale 1000ml Blue Plastic Emesis Bag, Bulk Order with Your Logo for Clinics" style="max-width: 200px;">
+            </a>
+            <h3>Custom Wholesale 1000ml Blue Plastic Emesis Bag, Bulk Order with Your Logo for Clinics</h3>
+            <p>Price: $0.01-0.02</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_71.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H97ee108c0469405bab1da34798407ca3o.jpg_300x300.jpg" alt="Customize Print Logo PP Transparent Handbag Gift Bag Clear Waterproof Plastic Package Shopping Bag Advertising Bag with Handle" style="max-width: 200px;">
+            </a>
+            <h3>Customize Print Logo PP Transparent Handbag Gift Bag Clear Waterproof Plastic Package Shopping Bag Advertising Bag with Handle</h3>
+            <p>Price: $0.20-0.25</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_72.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3028be81a6cf49babeb70077e23c9cbfu.jpg_300x300.jpg" alt="Custom Printed Logo Design LDPE/HDPE Handle Plastic Bag Die Cut Bag Shopping Bag for Clothing/shoe Packing" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Logo Design LDPE/HDPE Handle Plastic Bag Die Cut Bag Shopping Bag for Clothing/shoe Packing</h3>
+            <p>Price: $0.03-0.25</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_73.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1e442e3a7d92473095447acde6581b016.jpg_300x300.jpg" alt="Factory Direct Gravure Printed HDPE Plastic Handbags Cross-Border Wholesale Gift Shrink Bags for Supermarket & Exhibition Use" style="max-width: 200px;">
+            </a>
+            <h3>Factory Direct Gravure Printed HDPE Plastic Handbags Cross-Border Wholesale Gift Shrink Bags for Supermarket & Exhibition Use</h3>
+            <p>Price: $0.03 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_74.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H106163382f5346a390669682eb53898eD.jpg_300x300.jpg" alt="Promotional Logo Printed Packaging Shopping 2020 PE Plastic Tote Bag Custom with Soft Loop Handle" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Logo Printed Packaging Shopping 2020 PE Plastic Tote Bag Custom with Soft Loop Handle</h3>
+            <p>Price: $0.01-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_75.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H651f58358d144409910df11ff8b46ce75.png_300x300.png" alt="Customized Logo Portable Vest Bag Supermarket Shopping Plastic Take-Out Packaging Bags Security Feature Wholesale Set Clothing" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo Portable Vest Bag Supermarket Shopping Plastic Take-Out Packaging Bags Security Feature Wholesale Set Clothing</h3>
+            <p>Price: $0.01 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_76.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5da5bb74e5e944a39df432c664f38519B.jpg_300x300.jpg" alt="Customized Clear PVC Shopping Bag Portable Plastic Rope Handle Bag with Zipper Customized logo Shopping Bags" style="max-width: 200px;">
+            </a>
+            <h3>Customized Clear PVC Shopping Bag Portable Plastic Rope Handle Bag with Zipper Customized logo Shopping Bags</h3>
+            <p>Price: $1.28 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_77.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0e12598df0ef49eba38fd67f0d2e9312E.jpg_300x300.jpg" alt="Best-Selling Custom Logo Reusable Plastic Shopping Bags Supermarket Vest Takeaway Convenient Carry Packaging for Fresh Food" style="max-width: 200px;">
+            </a>
+            <h3>Best-Selling Custom Logo Reusable Plastic Shopping Bags Supermarket Vest Takeaway Convenient Carry Packaging for Fresh Food</h3>
+            <p>Price: $0.06 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 2,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_78.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H04db5be5c85344b0ab0f5e2038255e29h.png_300x300.png" alt="Custom Print Biodegradable Carrier Bags Durable Garment Apparel Retail Bags Grocery Clothing T-shirt Shopping Bag" style="max-width: 200px;">
+            </a>
+            <h3>Custom Print Biodegradable Carrier Bags Durable Garment Apparel Retail Bags Grocery Clothing T-shirt Shopping Bag</h3>
+            <p>Price: $0.04-0.09</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_79.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha8f395f8fc594197868e28d4a9184729Y.jpg_300x300.jpg" alt="Pink Bow Gift Bags Bulk Plastic Gift Bags Candy Pink Party Favors for Birthday Party Theme Events" style="max-width: 200px;">
+            </a>
+            <h3>Pink Bow Gift Bags Bulk Plastic Gift Bags Candy Pink Party Favors for Birthday Party Theme Events</h3>
+            <p>Price: $0.02 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_80.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf1d9753f49894c848544f0e09f55e026o.jpg_300x300.jpg" alt="Custom Bags With Logo Plastic Waterproof Cloth Retail Shopping Bag Luxury Printed Die Cut Plastic Shopping Bag With Handle" style="max-width: 200px;">
+            </a>
+            <h3>Custom Bags With Logo Plastic Waterproof Cloth Retail Shopping Bag Luxury Printed Die Cut Plastic Shopping Bag With Handle</h3>
+            <p>Price: $0.04-0.12</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_81.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd2cac1829e5f48439fa94111cf66e6ecG.png_300x300.png" alt="Hot Sale Custom Printed Plastic Carry Bags with Soft Loop Handle for Supermarket and Exhibition Use" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Custom Printed Plastic Carry Bags with Soft Loop Handle for Supermarket and Exhibition Use</h3>
+            <p>Price: $0.08 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500,000 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_82.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H766df056ded24686a7a4b59f7a8f4490N.jpg_300x300.jpg" alt="Manufacture Supply Custom Thickness PLA Compostable Biodegradable Vest Bag Hot Stamping for Supermarket Exhibition Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Manufacture Supply Custom Thickness PLA Compostable Biodegradable Vest Bag Hot Stamping for Supermarket Exhibition Custom Logo</h3>
+            <p>Price: $0.01-0.04</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 50,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_83.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H16bdaeed81f445ccbb476b21cd1dbf831.jpg_300x300.jpg" alt="Custom logo Shopping Merchandise Wedding Gift Retail Frosted pink with Handle Reusable Bags Plastic" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Shopping Merchandise Wedding Gift Retail Frosted pink with Handle Reusable Bags Plastic</h3>
+            <p>Price: $0.03-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_84.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H07a79e5b2c3a4e258cfba21b621ba4fci.jpg_300x300.jpg" alt="Eco Friendly Waterproof pp Woven Shopping Bag Recyclable Matt Laminated pp Woven Plastic Tote Promotional Bag with logo" style="max-width: 200px;">
+            </a>
+            <h3>Eco Friendly Waterproof pp Woven Shopping Bag Recyclable Matt Laminated pp Woven Plastic Tote Promotional Bag with logo</h3>
+            <p>Price: $0.15-0.55</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_85.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hee9a2b0fde1c44e68e0d22446856a6b2O.jpg_300x300.jpg" alt="Customized Plastic CPE Zipper Bags with Matte Finish Portable Design Semi-Transparent Material and Logo Printing" style="max-width: 200px;">
+            </a>
+            <h3>Customized Plastic CPE Zipper Bags with Matte Finish Portable Design Semi-Transparent Material and Logo Printing</h3>
+            <p>Price: $0.30 </p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100,000 packs</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_86.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9f46cba0aed14b87af3a42d558eabfdct.jpg_300x300.jpg" alt="UniOne Custom Printed Logo Large Plastic Drawstring Bag CPE Plastic Frosted Pouch Gift Packaging Poly Bag for Cotton Tissue" style="max-width: 200px;">
+            </a>
+            <h3>UniOne Custom Printed Logo Large Plastic Drawstring Bag CPE Plastic Frosted Pouch Gift Packaging Poly Bag for Cotton Tissue</h3>
+            <p>Price: $0.01-0.08</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_87.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4ca57161f7594394ae0697ad8c071bc2W.png_300x300.png" alt="PA/PE High-Barrier Vacuum Sealing Bags | Food Grade Airtight Packaging for Meat/Seafood | Custom Sizes/Logos, FDA Certified" style="max-width: 200px;">
+            </a>
+            <h3>PA/PE High-Barrier Vacuum Sealing Bags | Food Grade Airtight Packaging for Meat/Seafood | Custom Sizes/Logos, FDA Certified</h3>
+            <p>Price: $0.01-0.03</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_88.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H12314e0c02ca44ea8e9727ea14bdd957U.jpg_300x300.jpg" alt="Bio Bag Custom Compostable Biodegradable Cornstarch Usable t Shirt Grocery Shopping Plastic Bags with logo" style="max-width: 200px;">
+            </a>
+            <h3>Bio Bag Custom Compostable Biodegradable Cornstarch Usable t Shirt Grocery Shopping Plastic Bags with logo</h3>
+            <p>Price: $0.01-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_89.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha431676a7d884dfbbb0a3653bada5e69V.jpg_300x300.jpg" alt="Versatile PVC Packaging File Bag Zippered Mesh Document Pouch Transparent Portable Branded Organizer Promotional" style="max-width: 200px;">
+            </a>
+            <h3>Versatile PVC Packaging File Bag Zippered Mesh Document Pouch Transparent Portable Branded Organizer Promotional</h3>
+            <p>Price: $0.13-0.30</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_90.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcb605c3c7c30403b8a10808f21a8984ca.jpg_300x300.jpg" alt="Customized Logo 15 X 18 4" Reusable Foldable Pink Shop Boutique Gifts Die Cut Handle Bag Carry Bag Plastic Shopping Plastic Bag" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo 15 X 18 4" Reusable Foldable Pink Shop Boutique Gifts Die Cut Handle Bag Carry Bag Plastic Shopping Plastic Bag</h3>
+            <p>Price: $0.01-0.20</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_91.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8a4a3d19dbd64a76ae4aacc4ec16ac97P.jpg_300x300.jpg" alt="Thank You Bags Stand up Pouch for Small Business Plastic Retail Gift Bags with Hand Length Handle Recyclable" style="max-width: 200px;">
+            </a>
+            <h3>Thank You Bags Stand up Pouch for Small Business Plastic Retail Gift Bags with Hand Length Handle Recyclable</h3>
+            <p>Price: $0.02-0.03</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_92.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H932007b112bf4e7cb3242e8a1a2c698be.jpg_300x300.jpg" alt="Bulk Reusable LDPE Plastic Shopping Bags With Custom Logo Printed" style="max-width: 200px;">
+            </a>
+            <h3>Bulk Reusable LDPE Plastic Shopping Bags With Custom Logo Printed</h3>
+            <p>Price: $0.01-0.04</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 3,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_93.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H94c8388ca34842f58223acd3c76e629eP.jpg_300x300.jpg" alt="Bulk Customizable Logo Plastic Bags with Handle for Supermarket Produce Department" style="max-width: 200px;">
+            </a>
+            <h3>Bulk Customizable Logo Plastic Bags with Handle for Supermarket Produce Department</h3>
+            <p>Price: $0.05-0.10</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_94.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H34818f1c7ccd46d1a9c4ee6bcc9dbf8ci.jpg_300x300.jpg" alt="Eco Friendly Recycle Transparent Clear Customizable Large Custom Reusable Polypropylene PP Woven Shopping Tote Bag with Logos" style="max-width: 200px;">
+            </a>
+            <h3>Eco Friendly Recycle Transparent Clear Customizable Large Custom Reusable Polypropylene PP Woven Shopping Tote Bag with Logos</h3>
+            <p>Price: $0.30-0.55</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_95.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7c1b47e26b1740278b615bdf93c6bcb4G.png_300x300.png" alt="Custom Die Cut Handle LDPE Plastic Shopping Bags Waterproof with Gusset for Shoes/Clothes Packaging and Wallet Storage" style="max-width: 200px;">
+            </a>
+            <h3>Custom Die Cut Handle LDPE Plastic Shopping Bags Waterproof with Gusset for Shoes/Clothes Packaging and Wallet Storage</h3>
+            <p>Price: $0.01-0.03</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_96.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hce0c8e7d96724abbbfe3ec6b0320b1f3D.jpeg_300x300.jpeg" alt="Custom Logo Pink Thank You LDPE Resealable Poly Mailing Bag with Self Adhesive Seal Handle for Clothing (Silk Screen Printed)" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Pink Thank You LDPE Resealable Poly Mailing Bag with Self Adhesive Seal Handle for Clothing (Silk Screen Printed)</h3>
+            <p>Price: $0.01-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_97.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8a7d020095c24919bdccae219f8264a2b.jpg_300x300.jpg" alt="High Quality Waterproof Resealable Self Adhesive Seal T-Shirt Shopping Bags Luxury Customized Logo Frosted LDPE Plastic Bags" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Waterproof Resealable Self Adhesive Seal T-Shirt Shopping Bags Luxury Customized Logo Frosted LDPE Plastic Bags</h3>
+            <p>Price: $0.01-0.05</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_98.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha47174d58cce4365ac180285c0551c50W.png_300x300.png" alt="Eco Friendly Customized Logo Thank You Biodegradable Vest Bags Plastic Packaging for Supermarket and Grocery T-Shirt Bags" style="max-width: 200px;">
+            </a>
+            <h3>Eco Friendly Customized Logo Thank You Biodegradable Vest Bags Plastic Packaging for Supermarket and Grocery T-Shirt Bags</h3>
+            <p>Price: $0.01-0.04</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_99.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H59ce788108cd438f9587f96bfefc2422R.jpg_300x300.jpg" alt="Custom Printed Logo Design LDPE/HDPE Handle Plastic Bag Die Cut Bag Shopping Bag for Clothing/shoe Packing" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Logo Design LDPE/HDPE Handle Plastic Bag Die Cut Bag Shopping Bag for Clothing/shoe Packing</h3>
+            <p>Price: $0.01-0.03</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_100.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0f87f4b8633d402499a8535bb95e88c8b.jpg_300x300.jpg" alt="High Quality PE Plastic Bags Custom Printed Shopping Tote Clothing Packing Bags" style="max-width: 200px;">
+            </a>
+            <h3>High Quality PE Plastic Bags Custom Printed Shopping Tote Clothing Packing Bags</h3>
+            <p>Price: $0.04-0.07</p>
+            <p>Contact: </p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <!-- 分页按钮 -->
+        <div class="pagination">
+            
+
+            
+            
+
+            
+            <a href="page_1.html" class="active">1</a>
+            
+            <a href="page_2.html" >2</a>
+            
+            <a href="page_3.html" >3</a>
+            
+            <a href="page_4.html" >4</a>
+            
+            <a href="page_5.html" >5</a>
+            
+            <a href="page_6.html" >6</a>
+            
+            <a href="page_7.html" >7</a>
+            
+            <a href="page_8.html" >8</a>
+            
+
+            
+            <a href="page_11.html">Next</a>
+            
+        </div>
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" onclick="topFunction()">回到顶部</button>
+    </div>
+
+    <script>
+        // 回到顶部按钮显示与隐藏逻辑
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        // 回到顶部按钮点击事件
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
