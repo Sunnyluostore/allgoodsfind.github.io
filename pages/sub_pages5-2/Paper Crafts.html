@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L8EDEXZBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9L8EDEXZBV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品列表 - 第1页</title>
+    <meta name="description" content="Sunnyluo Store - 200000+ factory-direct product categories including Home Decor, Industrial Machinery, Electronics, and more. Wholesale sourcing made easy.">
+    <link rel="canonical" href="https://sunnyluostore.github.io/allgoodsfind.github.io/"><style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 200px;
+            /* 可根据实际情况调整图片大小 */
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #03a9f4;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* 新添加的样式 */
+        .product-item h3 {
+            font-size: 14px;
+            /* 产品名称文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item p {
+            font-size: 12px;
+            /* 其他产品信息文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item:hover h3 {
+            color: #03a9f4;
+            /* 鼠标悬停时产品名称文字变色 */
+        }
+
+        .product-item:hover p {
+            color: #03a9f4;
+            /* 鼠标悬停时其他产品信息文字变色 */
+        }
+
+        /* 产品容器样式 */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        /* 产品项样式 */
+        .product-item {
+            width: calc(25% - 20px);
+            /* 默认每行显示 4 个产品 */
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* 鼠标悬停效果 */
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* 媒体查询，适配不同屏幕尺寸 */
+        @media (max-width: 1024px) {
+            .product-item {
+                width: calc(33.33% - 20px);
+                /* 平板设备每行显示 3 个产品 */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: calc(50% - 20px);
+                /* 小屏幕设备每行显示 2 个产品 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+                /* 超小屏幕设备每行显示 1 个产品 */
+            }
+        }
+
+        /* 分页按钮样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        /* 回到顶部按钮样式 */
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #03a9f4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部图片和文字 -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <p>Sunnyluo Store</p>
+        <p>Build a curated directory of store with factory</p>
+    </div>
+    <nav>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/index.html">Home</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/pdfs/pdf.html">Resources</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/About us.html">About Us</a>
+        <a href="mailto:sunnyluo330@gmail.com">Contact Us</a>
+        <a href="https://www.facebook.com/sunnyluoting">Facebook</a>
+    </nav>
+    <h1>Product list</h1>
+    <div class="products">
+        
+        <div class="product-item">
+            <a href="product_1.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf7818c9fb7a2440ba99b090d48ee9518t.png_300x300.png" alt="Custom Embossed Cotton Paper Badges Letterpress Fridge Magnets Aromatherapy Cards Animal Cultural Creativity Custom Paper Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Custom Embossed Cotton Paper Badges Letterpress Fridge Magnets Aromatherapy Cards Animal Cultural Creativity Custom Paper Crafts</h3>
+            <p>Price: US$0.40-0.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_2.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf4e19c19cc6b44f88905f1a6a9aec4aap.jpg_300x300.jpg" alt="Artistic 3D Paper Sculpture Memo Pad Landmark Inspired Collectible Notepad for Desk Decoration Creative Stationery Gift" style="max-width: 200px;">
+            </a>
+            <h3>Artistic 3D Paper Sculpture Memo Pad Landmark Inspired Collectible Notepad for Desk Decoration Creative Stationery Gift</h3>
+            <p>Price: US$2.50-4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_3.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H44159d24476341c3989c9857c05f5e2cB.png_300x300.png" alt="Vograce Custom Impact Holographic Laser Shikishi Board Anime Board Anime Holographic Shikishi Art Boards" style="max-width: 200px;">
+            </a>
+            <h3>Vograce Custom Impact Holographic Laser Shikishi Board Anime Board Anime Holographic Shikishi Art Boards</h3>
+            <p>Price: US$0.79-1.94</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_4.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H51658b04243141ce874625b10f70f545u.jpg_300x300.jpg" alt="Pikakey Popular Anime Waifu Cards Shikishi Character Self-standing Color Paper Art Board Multiple Border Color Fan Gift" style="max-width: 200px;">
+            </a>
+            <h3>Pikakey Popular Anime Waifu Cards Shikishi Character Self-standing Color Paper Art Board Multiple Border Color Fan Gift</h3>
+            <p>Price: US$0.45-0.56</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_5.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H94f320fb1de648bb94f15551905df452t.jpg_300x300.jpg" alt="Custom 3d Holiday Style Card Beautiful Birthday Pop up Greeting Card 3d Birthday Card" style="max-width: 200px;">
+            </a>
+            <h3>Custom 3d Holiday Style Card Beautiful Birthday Pop up Greeting Card 3d Birthday Card</h3>
+            <p>Price: US$1.15-1.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_6.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H736832055fa94d27a64092fd1368a4e8H.png_300x300.png" alt="Custom Silk-screen Printed Imitated Packfilm Crafts, with Custom Anime & Cartoon Designs Perfect As Gifts K-POP Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Custom Silk-screen Printed Imitated Packfilm Crafts, with Custom Anime & Cartoon Designs Perfect As Gifts K-POP Gifts</h3>
+            <p>Price: US$0.04-0.14</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_7.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcd870aad6cf146dda1abcea89a397752k.jpg_300x300.jpg" alt="Hary Potter 3D Acrylic Case Held Hogwarts Castle Magic Art Paper Tear Off Notepad Custom 3D Calendar for Home Decoration Gift" style="max-width: 200px;">
+            </a>
+            <h3>Hary Potter 3D Acrylic Case Held Hogwarts Castle Magic Art Paper Tear Off Notepad Custom 3D Calendar for Home Decoration Gift</h3>
+            <p>Price: US$6.50-10</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_8.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha279b1e178564c2a92476521718a5124X.jpg_300x300.jpg" alt="Pikakey High-quality Paper Anime Shikishi Wifu Cards Custom Shapes Multiple Colors Border Art Board Comic Con" style="max-width: 200px;">
+            </a>
+            <h3>Pikakey High-quality Paper Anime Shikishi Wifu Cards Custom Shapes Multiple Colors Border Art Board Comic Con</h3>
+            <p>Price: US$0.45-0.56</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_9.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4de02fcd14224ef38ff09c29e86300258.jpg_300x300.jpg" alt="Wholesale Scratch Art Book Paper Holographic Diy Scratch Paper Animals Diy Magic Color Scratch Paper" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Scratch Art Book Paper Holographic Diy Scratch Paper Animals Diy Magic Color Scratch Paper</h3>
+            <p>Price: US$0.10-0.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_10.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb3df7b3d49314410bf359afc04941edb7.jpg_300x300.jpg" alt="3D Honeycomb Paper Easter Mushroom Ornament Expandable Paper Crafts for Home Holiday Decor Wholesale Party Decoration Supplies" style="max-width: 200px;">
+            </a>
+            <h3>3D Honeycomb Paper Easter Mushroom Ornament Expandable Paper Crafts for Home Holiday Decor Wholesale Party Decoration Supplies</h3>
+            <p>Price: 0.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_11.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H618dba0ef85947e88ba4d31733d4a6a3H.jpg_300x300.jpg" alt="Wholesale Custom Logo Handheld Paper Fans Promotional Bamboo Crafts with Plain Paper Bulk Supply" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Logo Handheld Paper Fans Promotional Bamboo Crafts with Plain Paper Bulk Supply</h3>
+            <p>Price: 2.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_12.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfb863032c24d4aee92cfab4d6b79f8ed9.jpg_300x300.jpg" alt="10PCS Tissue Paper Flower DIY Crafts Hanging Paper Flower Paper Poms Wedding Birthday Party Decoration" style="max-width: 200px;">
+            </a>
+            <h3>10PCS Tissue Paper Flower DIY Crafts Hanging Paper Flower Paper Poms Wedding Birthday Party Decoration</h3>
+            <p>Price: US$0.50-1.96</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_13.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H35a96bd506264e13893351a3d5e2b22dt.png_300x300.png" alt="Winpsheng Handmade Paper Craft Laser Cut 3D Music Greeting Cards Square Shape CMYK Color Modern Style for Valentine's Day" style="max-width: 200px;">
+            </a>
+            <h3>Winpsheng Handmade Paper Craft Laser Cut 3D Music Greeting Cards Square Shape CMYK Color Modern Style for Valentine's Day</h3>
+            <p>Price: 2.96</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_14.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7c17890f2d904d45b0e10a113d60bdf6g.jpg_300x300.jpg" alt="Custom Handmade Creative Paper 3D Sculpture Die-Cut Notepad School Supplies Wholesale Travelers A5" style="max-width: 200px;">
+            </a>
+            <h3>Custom Handmade Creative Paper 3D Sculpture Die-Cut Notepad School Supplies Wholesale Travelers A5</h3>
+            <p>Price: US$2.58-4.58</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_15.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He0ac1a9b06f9493a8d74ab7e828362fdD.jpg_300x300.jpg" alt="Colorful Paper Star Hanging Ornaments Festive Red, Green & Blue Christmas Decor for Party, Home & Retail Display" style="max-width: 200px;">
+            </a>
+            <h3>Colorful Paper Star Hanging Ornaments Festive Red, Green & Blue Christmas Decor for Party, Home & Retail Display</h3>
+            <p>Price: US$0.54-0.66</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 60 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_16.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd4ef0e0f148049279e43a6625a7a04a1z.png_300x300.png" alt="Chinese Gift Eco-friendly 3D Paper Carving Notebook with Peking Opera Design-Creative Chinese-Style New Year Present Fulianhui" style="max-width: 200px;">
+            </a>
+            <h3>Chinese Gift Eco-friendly 3D Paper Carving Notebook with Peking Opera Design-Creative Chinese-Style New Year Present Fulianhui</h3>
+            <p>Price: US$16.90-18.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 packs</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_17.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc44c2c7ba9f54ab1b69508e51d4fd159S.jpg_300x300.jpg" alt="Pikakey High-resolution Printing Custom Anime Shikishi Character Color Paper No Border Waifu Cards Art Board Collector's Item" style="max-width: 200px;">
+            </a>
+            <h3>Pikakey High-resolution Printing Custom Anime Shikishi Character Color Paper No Border Waifu Cards Art Board Collector's Item</h3>
+            <p>Price: US$0.45-0.56</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_18.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3f44476d4b484685b0218fff222e86ea7.jpg_300x300.jpg" alt="DIY Easter Bunny Paper Crafts Easter Honeycomb Paper Rabbit Ornaments with Magnet for Easter Home Party Decoration Supplies" style="max-width: 200px;">
+            </a>
+            <h3>DIY Easter Bunny Paper Crafts Easter Honeycomb Paper Rabbit Ornaments with Magnet for Easter Home Party Decoration Supplies</h3>
+            <p>Price: 0.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_19.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4e38807dc9cb485aae01162112105121C.jpg_300x300.jpg" alt="Wholesale 1000 Pieces Custom White Card Puzzle 380x260 Jigsaw Paper Toys for Children Educational DIY Logo Print Free Sample" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale 1000 Pieces Custom White Card Puzzle 380x260 Jigsaw Paper Toys for Children Educational DIY Logo Print Free Sample</h3>
+            <p>Price: 1.87</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 box</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_20.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf62cca2c16dd455baf25f94383eb8733T.jpg_300x300.jpg" alt="Custom Wedding Invitation Bamboo Paper Hand Fans Wedding Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Custom Wedding Invitation Bamboo Paper Hand Fans Wedding Gifts</h3>
+            <p>Price: US$0.79-1.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_21.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdc941395ad6c4e60acb20cd1cc138070q.jpg_300x300.jpg" alt="Christmas Gifts Card Paper Crafts Festival Card Pine Cone 3D Pop up Greeting Cards" style="max-width: 200px;">
+            </a>
+            <h3>Christmas Gifts Card Paper Crafts Festival Card Pine Cone 3D Pop up Greeting Cards</h3>
+            <p>Price: 1.7</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_22.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4c458bf005d8472ab90d39e9c2756b8am.jpg_300x300.jpg" alt="Easter Vintage Decoration Painted Giant Paper Mache Eggs for 2023 Easter Hunt Custom Diy Paper Eggs Ornament" style="max-width: 200px;">
+            </a>
+            <h3>Easter Vintage Decoration Painted Giant Paper Mache Eggs for 2023 Easter Hunt Custom Diy Paper Eggs Ornament</h3>
+            <p>Price: US$1.95-2.15</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_23.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3319f80d332c41188629cc9c5ee727e34.jpg_300x300.jpg" alt="Promotional Custom Printed Bamboo Paper Folding Hand Fan Personalized Hand Fans with Printing Patterns for Business Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Custom Printed Bamboo Paper Folding Hand Fan Personalized Hand Fans with Printing Patterns for Business Gifts</h3>
+            <p>Price: US$0.40-1.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_24.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H846f5571b6bb4e28bd66c78ae4d51346q.png_300x300.png" alt="Glossy Lamination RoHS FSC Paper Tailored Tourism Souvenir Mark for Scenic Spot Memorial Cultural & Creative Custom Cards" style="max-width: 200px;">
+            </a>
+            <h3>Glossy Lamination RoHS FSC Paper Tailored Tourism Souvenir Mark for Scenic Spot Memorial Cultural & Creative Custom Cards</h3>
+            <p>Price: US$1.70-2.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 99 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_25.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heb6a6054683541d3a4dd655c138d5206M.jpg_300x300.jpg" alt="Carnival Red and White Striped Paper Lantern Decoration Circus Theme Children's Birthday Party Hanging Paper Lantern Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Carnival Red and White Striped Paper Lantern Decoration Circus Theme Children's Birthday Party Hanging Paper Lantern Decoration</h3>
+            <p>Price: US$0.45-0.63</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_26.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd03441c1bbb64dd490c6ed022802278eF.jpg_300x300.jpg" alt="China Factory Wholesale DIY Handmade Art Kraft Paper A4 Size Single-Sided PE Moisture Proof Craft Paper Sale Low MOQ Industrial" style="max-width: 200px;">
+            </a>
+            <h3>China Factory Wholesale DIY Handmade Art Kraft Paper A4 Size Single-Sided PE Moisture Proof Craft Paper Sale Low MOQ Industrial</h3>
+            <p>Price: 2.42</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,003 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_27.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H78a13a78347f4626b9ca4d075d1ba2cbE.jpg_300x300.jpg" alt="Factory Supplied Paper Flowers Decorations for Wall Paper Fans Classroom Decoration Paper Floral Backdrop Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Factory Supplied Paper Flowers Decorations for Wall Paper Fans Classroom Decoration Paper Floral Backdrop Decoration</h3>
+            <p>Price: US$1.49-2.69</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_28.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H269d6f1d0c3a48f48664e70ab3261070N.jpg_300x300.jpg" alt="Custom Design Eco-friendly Reusable Flocked Paper Seven-Pointed Star Lantern Ornaments Christmas Hot Selling Factory Price" style="max-width: 200px;">
+            </a>
+            <h3>Custom Design Eco-friendly Reusable Flocked Paper Seven-Pointed Star Lantern Ornaments Christmas Hot Selling Factory Price</h3>
+            <p>Price: US$1.50-1.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_29.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H74b85518e22749dc82b8f35146708f11m.jpg_300x300.jpg" alt="250g Handmade Origami Color Specialty Paper Children's DIY Colored Cardboard 30 Unique Colors with Double Side Coating" style="max-width: 200px;">
+            </a>
+            <h3>250g Handmade Origami Color Specialty Paper Children's DIY Colored Cardboard 30 Unique Colors with Double Side Coating</h3>
+            <p>Price: 0.06</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 sheets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_30.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He7d6bc0f05c54f96bf1e0fc9404fc5a0w.jpg_300x300.jpg" alt="Elegant Heart Shaped Collectible Cards Bespoke Gift Box Custom Engraved Logo Art Card Set" style="max-width: 200px;">
+            </a>
+            <h3>Elegant Heart Shaped Collectible Cards Bespoke Gift Box Custom Engraved Logo Art Card Set</h3>
+            <p>Price: US$0.50-1</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 boxes</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_31.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H219a6b9387fe432a81f083b14e1793afW.png_300x300.png" alt="Custom High Quality Gold Foil Art Prints Digital Paper Poster Animation Character Anime Arts Artwork the Kiss Wall Decor Posters" style="max-width: 200px;">
+            </a>
+            <h3>Custom High Quality Gold Foil Art Prints Digital Paper Poster Animation Character Anime Arts Artwork the Kiss Wall Decor Posters</h3>
+            <p>Price: US$0.50-2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_32.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H98fbec96a5034631aa4670ebf95f2a66c.jpg_300x300.jpg" alt="Artsy Pads 3d Art Calendar Memo Pad Calendar 2026 with Lights,Time Piece 3D Desk Calendar Creative Tree House Sculpture Gift" style="max-width: 200px;">
+            </a>
+            <h3>Artsy Pads 3d Art Calendar Memo Pad Calendar 2026 with Lights,Time Piece 3D Desk Calendar Creative Tree House Sculpture Gift</h3>
+            <p>Price: US$7.90-12</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_33.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H008fd24550af42618a842de2a5932af5y.png_300x300.png" alt="Wholesale DIY Custom logo Portable 7-inch Mini White Folding Blank Bamboo Rib Paper Hand Fans for Women Wedding and Dancing" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale DIY Custom logo Portable 7-inch Mini White Folding Blank Bamboo Rib Paper Hand Fans for Women Wedding and Dancing</h3>
+            <p>Price: US$0.35-0.49</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_34.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He644db07b1154393acc5931f00027224K.jpg_300x300.jpg" alt="Custom Premium Anime Holofoil Art Print Paper Poster Holographic Foil Manga Prints Japanese Illustration Wall Decor Posters" style="max-width: 200px;">
+            </a>
+            <h3>Custom Premium Anime Holofoil Art Print Paper Poster Holographic Foil Manga Prints Japanese Illustration Wall Decor Posters</h3>
+            <p>Price: US$0.50-2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_35.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H022237a1ee0149b382e217fdad5b5c7fQ.jpg_300x300.jpg" alt="Custom Designed 21cm Bamboo Rib Hand Fan Portable Paper Folding Advertise DIY Painted Fan Bamboo Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Custom Designed 21cm Bamboo Rib Hand Fan Portable Paper Folding Advertise DIY Painted Fan Bamboo Crafts</h3>
+            <p>Price: 2.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_36.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H35073a104a9e457a93172031e7460dccY.jpg_300x300.jpg" alt="60cm Reusable Eco-friendly Paper Hollow Seven-Pointed Star Lantern Hanging Pendant Ceiling Ornaments Festival Decorations" style="max-width: 200px;">
+            </a>
+            <h3>60cm Reusable Eco-friendly Paper Hollow Seven-Pointed Star Lantern Hanging Pendant Ceiling Ornaments Festival Decorations</h3>
+            <p>Price: 0.88</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_37.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hefbf974a377a48898b6870a98ed6c256U.png_300x300.png" alt="Custom Anime Holo Foil Art Prints Holographic Paper Poster Decor for Premium Color Depth, Sharp Detail and Matte Velvet Finish" style="max-width: 200px;">
+            </a>
+            <h3>Custom Anime Holo Foil Art Prints Holographic Paper Poster Decor for Premium Color Depth, Sharp Detail and Matte Velvet Finish</h3>
+            <p>Price: US$0.90-3</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_38.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc844b0bff6134ce8814c4108df7f7be44.jpg_300x300.jpg" alt="Custom Die-Cut Vinyl Stickers Waterproof and UV Resistant for Commercial Crafts and Gifts Adhesive Type" style="max-width: 200px;">
+            </a>
+            <h3>Custom Die-Cut Vinyl Stickers Waterproof and UV Resistant for Commercial Crafts and Gifts Adhesive Type</h3>
+            <p>Price: US$0.02-0.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_39.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7b86456ec83e49dd957ef3fef6c12f97p.jpg_300x300.jpg" alt="Custom Logo Printed Eco-Friendly Waterproof Biodegradable Greaseproof Paper Sandwich Food Packing Burger Wrapping Paper" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Printed Eco-Friendly Waterproof Biodegradable Greaseproof Paper Sandwich Food Packing Burger Wrapping Paper</h3>
+            <p>Price: 0.01</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_40.html">
+                <img src="https://s.alicdn.com/@sc04/kf/HTB1QbmTaQfb_uJkHFrdq6x2IVXaa.jpg_300x300.jpg" alt="Factory Price Warranty 2 Years Cut Rainbow Chrome Laser Holographic Sticker Permanent Cutting Self Adhesive Vinyl Rolls" style="max-width: 200px;">
+            </a>
+            <h3>Factory Price Warranty 2 Years Cut Rainbow Chrome Laser Holographic Sticker Permanent Cutting Self Adhesive Vinyl Rolls</h3>
+            <p>Price: US$0.75-0.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 61 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_41.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb6a96b0402e044ff8fa369e73742e1edk.png_300x300.png" alt="Recyclable Wholesale Custom Printing Thermal Paper Casino Bingo Tickets Print Action Lottery Tickets" style="max-width: 200px;">
+            </a>
+            <h3>Recyclable Wholesale Custom Printing Thermal Paper Casino Bingo Tickets Print Action Lottery Tickets</h3>
+            <p>Price: US$0.20-0.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_42.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc76210dbc079487db2de3473029f8a7dy.jpg_300x300.jpg" alt="High Quality Hardcover Custom Best Wedding Online Photo Book Printing" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Hardcover Custom Best Wedding Online Photo Book Printing</h3>
+            <p>Price: 1</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_43.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8ef384a7e91a446fa42ce31d13f9e433I.jpg_300x300.jpg" alt="Personalized Printed Art Logo Handfan Favor Fabric Wooden Bamboo Paper Sublimating Folding Custom Hand Fan for Wedding Promotion" style="max-width: 200px;">
+            </a>
+            <h3>Personalized Printed Art Logo Handfan Favor Fabric Wooden Bamboo Paper Sublimating Folding Custom Hand Fan for Wedding Promotion</h3>
+            <p>Price: US$0.34-0.38</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_44.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H362c9450d8c041ee8c832fdb2a5c0bdbX.jpg_300x300.jpg" alt="Recyclable Eco-Friendly Kraft Paper Bag with Handle Custom Logo and Flexo Printing for Food Promotion and Craft Use" style="max-width: 200px;">
+            </a>
+            <h3>Recyclable Eco-Friendly Kraft Paper Bag with Handle Custom Logo and Flexo Printing for Food Promotion and Craft Use</h3>
+            <p>Price: US$0.06-0.18</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_45.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H636428d4d7db43f39b8e4d9e298742f25.jpg_300x300.jpg" alt="Korean Style Journal Stamp NEW Creative Keyboard Six Linked Account Mini Stamp and Card Custom Stamp Cartoon Photosensitive" style="max-width: 200px;">
+            </a>
+            <h3>Korean Style Journal Stamp NEW Creative Keyboard Six Linked Account Mini Stamp and Card Custom Stamp Cartoon Photosensitive</h3>
+            <p>Price: US$1.79-1.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_46.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfcf8b12e73ff4f96867f9a67b2e6ad3a2.jpg_300x300.jpg" alt="Wholesale Linen Cover Blank Alternative Photo Album GUESTBOOK Wedding Guest Book" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Linen Cover Blank Alternative Photo Album GUESTBOOK Wedding Guest Book</h3>
+            <p>Price: US$3.50-4.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_47.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5b06bc9a671e49af97f345c06c5b21318.jpg_300x300.jpg" alt="SINOART A1/A2/A3 Eco-friendly Recycled Material Paper Art Portfolio Bag Storage Artist Corrugated Art Portfolio" style="max-width: 200px;">
+            </a>
+            <h3>SINOART A1/A2/A3 Eco-friendly Recycled Material Paper Art Portfolio Bag Storage Artist Corrugated Art Portfolio</h3>
+            <p>Price: US$1.34-2.49</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_48.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H998d0886d0fc4754b9b16a591b8d5e813.jpg_300x300.jpg" alt="HH 019 A3 Matte Cotton Paper Sticker Sheets Self Adhesive Printable Packaging Labels With Textures" style="max-width: 200px;">
+            </a>
+            <h3>HH 019 A3 Matte Cotton Paper Sticker Sheets Self Adhesive Printable Packaging Labels With Textures</h3>
+            <p>Price: US$3.06-3.49</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 pack</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_49.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0961b12ef49742d685d9e2d26407391dI.png_300x300.png" alt="Wholesale Forest Art Tag for Christmas Invitation Tickets Seed Paper Card Handcrafted Paper Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Forest Art Tag for Christmas Invitation Tickets Seed Paper Card Handcrafted Paper Crafts</h3>
+            <p>Price: US$0.125-0.1389</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_50.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8931a1c6475449f39c52fd91a7e240a73.png_300x300.png" alt="Ins Style Christmas Decoration Paper 3D Folding Christmas Tree for Window Hotel Atmosphere Scene Ornament" style="max-width: 200px;">
+            </a>
+            <h3>Ins Style Christmas Decoration Paper 3D Folding Christmas Tree for Window Hotel Atmosphere Scene Ornament</h3>
+            <p>Price: US$11.19-33.72</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_51.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8e912e3774b9422789ec4ab5d26607db1.png_300x300.png" alt="Personalized UV Printed Wedding Invitation Thank You Card Transparent Acrylic & Colorful Paper Crafts with Angel Style Envelope" style="max-width: 200px;">
+            </a>
+            <h3>Personalized UV Printed Wedding Invitation Thank You Card Transparent Acrylic & Colorful Paper Crafts with Angel Style Envelope</h3>
+            <p>Price: US$0.50-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_52.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H136e206b57b844e7b6b5f854848eebfau.jpg_300x300.jpg" alt="3D Paper Craft Ramadan Decorations Eid Mubarak Honeycomb Paper for Home Islamic Festival Desktop Display Ornament" style="max-width: 200px;">
+            </a>
+            <h3>3D Paper Craft Ramadan Decorations Eid Mubarak Honeycomb Paper for Home Islamic Festival Desktop Display Ornament</h3>
+            <p>Price: 0.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_53.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc04bfa8431e1498a9fc9f1166946b0756.jpg_300x300.jpg" alt="High Quality 21cm Custom Paper Bamboo Hand Fans Home Decoration Carved Bamboo Crafts for Event Souvenir Promotional Gift" style="max-width: 200px;">
+            </a>
+            <h3>High Quality 21cm Custom Paper Bamboo Hand Fans Home Decoration Carved Bamboo Crafts for Event Souvenir Promotional Gift</h3>
+            <p>Price: US$0.40-1.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_54.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc84b202d15494517a4dc1f96a5359a98R.jpg_300x300.jpg" alt="Manufacturer Custom Luxury 1000-Piece Puzzle Underwater World Picture Paper Jigsaw Puzzle for Children or Adults" style="max-width: 200px;">
+            </a>
+            <h3>Manufacturer Custom Luxury 1000-Piece Puzzle Underwater World Picture Paper Jigsaw Puzzle for Children or Adults</h3>
+            <p>Price: US$0.68-1.28</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_55.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb24db1fd29d54c0ea0c33c79372fd260K.jpg_300x300.jpg" alt="Wholesale Creative Handmade 3D Paper Art Sticky Note Touch Lamp 150g Eye Protection Paper CE Certified Customizable Desk Decor" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Creative Handmade 3D Paper Art Sticky Note Touch Lamp 150g Eye Protection Paper CE Certified Customizable Desk Decor</h3>
+            <p>Price: 12.4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_56.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8dbf6e444b094d7abd7a0280d1efa967N.jpg_300x300.jpg" alt="Top-ranking Bamboo Paper Silk White Bridal Japanese Custom Printed Logo Wedding Hand Fans" style="max-width: 200px;">
+            </a>
+            <h3>Top-ranking Bamboo Paper Silk White Bridal Japanese Custom Printed Logo Wedding Hand Fans</h3>
+            <p>Price: US$0.39-1.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_57.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6c20d358a24a42198c8a948e36777dddZ.png_300x300.png" alt="Custom Anime Holo Foil Art Prints Digital Holographic 350gsm Cardstock Paper Poster Home Decor Fanart Print Posters" style="max-width: 200px;">
+            </a>
+            <h3>Custom Anime Holo Foil Art Prints Digital Holographic 350gsm Cardstock Paper Poster Home Decor Fanart Print Posters</h3>
+            <p>Price: US$1.50-2.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_58.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc6a4498698e14265830bd0ba231239cf0.jpg_300x300.jpg" alt="Large 3D Honeycomb Paper Bunny Decor Expandable Easter Paper Bunny Rabbit Decoration for Window Display Easter Mall Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Large 3D Honeycomb Paper Bunny Decor Expandable Easter Paper Bunny Rabbit Decoration for Window Display Easter Mall Decoration</h3>
+            <p>Price: 0.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_59.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H157b64840d114e72a49fea42ab44c094y.jpg_300x300.jpg" alt="Hot Selling High Quality Colorful Paper Colorful Handicraft Origami Colored Board Paper Cardstock Compatible for Screen Printing" style="max-width: 200px;">
+            </a>
+            <h3>Hot Selling High Quality Colorful Paper Colorful Handicraft Origami Colored Board Paper Cardstock Compatible for Screen Printing</h3>
+            <p>Price: US$1.60-1.88</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_60.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd7894188ee5d4b5eafc006320c6ae912j.jpg_300x300.jpg" alt="Handmade Eco-Friendly Modern Gold Foil Flower Paper Craft Offset Printed Matte Varnishing Mother's Day Thank You Greeting Card" style="max-width: 200px;">
+            </a>
+            <h3>Handmade Eco-Friendly Modern Gold Foil Flower Paper Craft Offset Printed Matte Varnishing Mother's Day Thank You Greeting Card</h3>
+            <p>Price: US$0.59-0.89</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_61.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6413e7c3605d46d8bac5849d718fcfe19.jpg_300x300.jpg" alt="Factory Customizable Cardboard Paper Jigsaw Puzzles 1000 Pieces High Quality Sublimation Jigsaw Puzzles for Adult" style="max-width: 200px;">
+            </a>
+            <h3>Factory Customizable Cardboard Paper Jigsaw Puzzles 1000 Pieces High Quality Sublimation Jigsaw Puzzles for Adult</h3>
+            <p>Price: US$0.90-1.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_62.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6d498a28c1f84638a42644e0f1523a0f1.jpg_300x300.jpg" alt="Harry's Magic Castle 3D Memo School Office Supplies Desktop Decoration Art Paper Sculpture Laser Cut Memo Pad" style="max-width: 200px;">
+            </a>
+            <h3>Harry's Magic Castle 3D Memo School Office Supplies Desktop Decoration Art Paper Sculpture Laser Cut Memo Pad</h3>
+            <p>Price: US$8-12</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_63.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8f2cddb762c741dd8048edfbcf9ee321u.png_300x300.png" alt="Custom Anime Holo Foil Art Prints Holographic Paper Poster Fanart Artworks Decor Print Posters for Home Studio Display" style="max-width: 200px;">
+            </a>
+            <h3>Custom Anime Holo Foil Art Prints Holographic Paper Poster Fanart Artworks Decor Print Posters for Home Studio Display</h3>
+            <p>Price: US$0.50-2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_64.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H13d3abc725c34d5c9bffafd2a710884ad.png_300x300.png" alt="Custom Hamburger Packaging Tissue Paper Printing Wrapping Grease Proof Sandwich Food Grade Wax Paper Disposable Paper" style="max-width: 200px;">
+            </a>
+            <h3>Custom Hamburger Packaging Tissue Paper Printing Wrapping Grease Proof Sandwich Food Grade Wax Paper Disposable Paper</h3>
+            <p>Price: US$0.01-0.03</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_65.html">
+                <img src="https://s.alicdn.com/@sc04/kf/S4c7c968b1ba149a9b10084e8ea7b1d6cE.png_300x300.png" alt="Custom Labels Printing Waterproof Die Cut Vinyl Stickers Pack Self Adhesive PVC Logo Vsco Clean Kiss Cut Stickers Sheets" style="max-width: 200px;">
+            </a>
+            <h3>Custom Labels Printing Waterproof Die Cut Vinyl Stickers Pack Self Adhesive PVC Logo Vsco Clean Kiss Cut Stickers Sheets</h3>
+            <p>Price: US$0.02-0.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_66.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5cb72b338e214a6eb2c782b1e09fd18b7.jpg_300x300.jpg" alt="Custom A5 Journal Notebook Personalized Hardcover Notebook Planner Printing on Demand Pod" style="max-width: 200px;">
+            </a>
+            <h3>Custom A5 Journal Notebook Personalized Hardcover Notebook Planner Printing on Demand Pod</h3>
+            <p>Price: US$0.50-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_67.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6d76febb2ef84d7389d4229b34393722R.jpg_300x300.jpg" alt="Wholesale Synthetic Paper Bracelet Custom Blank Wristband Ticket Disposable Tyvek Bracelets Paper Wristbands with logo Custom" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Synthetic Paper Bracelet Custom Blank Wristband Ticket Disposable Tyvek Bracelets Paper Wristbands with logo Custom</h3>
+            <p>Price: US$0.02-0.04</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_68.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd21a04f5b51444678652168d8a8c9d8fD.png_300x300.png" alt="Custom Stickers Logo Brand Printing Paper Vinyl Adhesive Waterproof Packaging Product Round Sticker Label Roll" style="max-width: 200px;">
+            </a>
+            <h3>Custom Stickers Logo Brand Printing Paper Vinyl Adhesive Waterproof Packaging Product Round Sticker Label Roll</h3>
+            <p>Price: US$0.01-0.10</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_69.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H37ba8bef29b2491ca2e3394e8c8f25c8e.jpg_300x300.jpg" alt="Factory Sale 1inch 25mm Adhesive Round Scratch-Off Sticker Roll Custom Scraping Card Lucky Draw Creative Scratch Off Stickers" style="max-width: 200px;">
+            </a>
+            <h3>Factory Sale 1inch 25mm Adhesive Round Scratch-Off Sticker Roll Custom Scraping Card Lucky Draw Creative Scratch Off Stickers</h3>
+            <p>Price: 0.07</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_70.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdd9bd3638f044d82988af079eff18d3ea.jpg_300x300.jpg" alt="Custom Design Punch Cutter Mold Steel Wood Cutting Dies for Leather Crafts Paper Box Keys Shoes FOAM MAT" style="max-width: 200px;">
+            </a>
+            <h3>Custom Design Punch Cutter Mold Steel Wood Cutting Dies for Leather Crafts Paper Box Keys Shoes FOAM MAT</h3>
+            <p>Price: US$35-55</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_71.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hca22b5118b0b4515b98e4e63fc965450m.jpg_300x300.jpg" alt="Top Seller White Tracing Paper A4 100 Sheet Tracing Paper for Flash Stamp Making" style="max-width: 200px;">
+            </a>
+            <h3>Top Seller White Tracing Paper A4 100 Sheet Tracing Paper for Flash Stamp Making</h3>
+            <p>Price: 11.2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_72.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0f59ddd113774abb86870a64572905d1O.jpg_300x300.jpg" alt="Custom Paper PVC Acrylic Card Clear Anime Kpop Photocard Holder Printer Liquid Ticket Holographic Acrylic Photo Card Charm" style="max-width: 200px;">
+            </a>
+            <h3>Custom Paper PVC Acrylic Card Clear Anime Kpop Photocard Holder Printer Liquid Ticket Holographic Acrylic Photo Card Charm</h3>
+            <p>Price: US$0.15-0.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_73.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H115b16c512e140ffabb60a0e897d4212S.png_300x300.png" alt="80gsm Paper Sheet White Release Paper Silicone Coated Release Paper" style="max-width: 200px;">
+            </a>
+            <h3>80gsm Paper Sheet White Release Paper Silicone Coated Release Paper</h3>
+            <p>Price: US$1.57-1.67</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 kilograms</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_74.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H63905a6d5992442092a128d0395f872fK.png_300x300.png" alt="HH 012 A4 Inkjet Printable Washi Paper Self Adhesive Japanese White Sticker Paper Sheets" style="max-width: 200px;">
+            </a>
+            <h3>HH 012 A4 Inkjet Printable Washi Paper Self Adhesive Japanese White Sticker Paper Sheets</h3>
+            <p>Price: 0.08</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 sheets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_75.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf6bc4ec678d6446880102f9c0dd74133L.jpg_300x300.jpg" alt="40*60cm Baking Paper Sheet Vegetable Parchment Paper Custom logo and Size Oil Proof" style="max-width: 200px;">
+            </a>
+            <h3>40*60cm Baking Paper Sheet Vegetable Parchment Paper Custom logo and Size Oil Proof</h3>
+            <p>Price: US$5-12.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 60 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_76.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf8946d4da77643c68f8c28ca0ad2bcb1Y.jpg_300x300.jpg" alt="Custom Design Magnetic Bookmarks Magnet Page Markers Clips for Teachers ,Students ,Book Lovers" style="max-width: 200px;">
+            </a>
+            <h3>Custom Design Magnetic Bookmarks Magnet Page Markers Clips for Teachers ,Students ,Book Lovers</h3>
+            <p>Price: US$0.10-0.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_77.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H92332447644e4b7f971d64fe6af84057v.jpg_300x300.jpg" alt="Custom Your Own logo Wax Seal Stamp for Wedding Invitation and Paper" style="max-width: 200px;">
+            </a>
+            <h3>Custom Your Own logo Wax Seal Stamp for Wedding Invitation and Paper</h3>
+            <p>Price: US$8-10</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_78.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc2358b9dbc5e4bf081eb560d8521c93fS.jpg_300x300.jpg" alt="2025 New Laser Inkjet Transfer Paper Roll Tattoo Film Blank for Permanent Makeup Printable Tattoo Printable Paper" style="max-width: 200px;">
+            </a>
+            <h3>2025 New Laser Inkjet Transfer Paper Roll Tattoo Film Blank for Permanent Makeup Printable Tattoo Printable Paper</h3>
+            <p>Price: 7.47</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_79.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H01a54ab67e3a423bb3ee01f0eafbfa4dm.jpg_300x300.jpg" alt="Custom Biodegradable Brown Kraft Paper Bag with Logo Zipper Stand up Pouches for Salad Pizza Milk Sushi Jelly Pet Food" style="max-width: 200px;">
+            </a>
+            <h3>Custom Biodegradable Brown Kraft Paper Bag with Logo Zipper Stand up Pouches for Salad Pizza Milk Sushi Jelly Pet Food</h3>
+            <p>Price: 0.04</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 bag</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_80.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9fc135098b02430eb037ff3aecd5bc927.jpg_300x300.jpg" alt="Ready to Ship 100% Recyclable Translucent Glassine Paper Bag for Clothing Waxed Envelope Paper Bag for Snack Self Sealing Bag" style="max-width: 200px;">
+            </a>
+            <h3>Ready to Ship 100% Recyclable Translucent Glassine Paper Bag for Clothing Waxed Envelope Paper Bag for Snack Self Sealing Bag</h3>
+            <p>Price: US$0.02-0.17</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_81.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd3b6d1169f304e579caa00fff21364c9G.png_300x300.png" alt="Custom Disposable Eco-Friendly Kraft Paper Salad Bowl Soup Cup with Lid Take Away Food Packing Box Tray Plate Container on Sale" style="max-width: 200px;">
+            </a>
+            <h3>Custom Disposable Eco-Friendly Kraft Paper Salad Bowl Soup Cup with Lid Take Away Food Packing Box Tray Plate Container on Sale</h3>
+            <p>Price: US$0.01-0.03</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_82.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf23bffaf73394fa7bf79e4bb02cdb184d.jpg_300x300.jpg" alt="Factory OEM ODM Positive Affirmation Cards Custom Printing Eco Friendly Art Paper Fun Game Questions Playing Cards" style="max-width: 200px;">
+            </a>
+            <h3>Factory OEM ODM Positive Affirmation Cards Custom Printing Eco Friendly Art Paper Fun Game Questions Playing Cards</h3>
+            <p>Price: 1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_83.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0c7d6d23ca46498989c45658cb20b677h.jpg_300x300.jpg" alt="Custom Recycled Kraft Paper Rigid Photo Mini Envelopes Printed Cardboard Mailer Stay Flat Envelope for Packaging" style="max-width: 200px;">
+            </a>
+            <h3>Custom Recycled Kraft Paper Rigid Photo Mini Envelopes Printed Cardboard Mailer Stay Flat Envelope for Packaging</h3>
+            <p>Price: US$0.02-0.15</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_84.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0cf1045e8a1541e8be3d43b99b32493aJ.jpg_300x300.jpg" alt="High Quality Custom Printed Paper Material Board Game Playing Cards Poker Card Game" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Custom Printed Paper Material Board Game Playing Cards Poker Card Game</h3>
+            <p>Price: US$0.99-3.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_85.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3043037d48c5423799e5893b81f11deeI.jpg_300x300.jpg" alt="500 Pieces Thank You Stickers Small Business Shop Business Stickers Package Labels for Envelope Seals Gift Bags Packaging" style="max-width: 200px;">
+            </a>
+            <h3>500 Pieces Thank You Stickers Small Business Shop Business Stickers Package Labels for Envelope Seals Gift Bags Packaging</h3>
+            <p>Price: 1.29</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 rolls</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_86.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H99447291bff84a77b7514d27d15ca938j.png_300x300.png" alt="Balin Customized Rubber Fridge Magnet 297x210x0.5 mm Printable A4 Soft Self Back Adhesive PVC Magnetic Sheet Paper for Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Balin Customized Rubber Fridge Magnet 297x210x0.5 mm Printable A4 Soft Self Back Adhesive PVC Magnetic Sheet Paper for Crafts</h3>
+            <p>Price: US$0.10-0.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_87.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hefcbe4942e1f46ec88fec61944a4e57c7.jpg_300x300.jpg" alt="Low Price Hot Selling Promotion Bamboo Handle Paper Uchiwa Fan" style="max-width: 200px;">
+            </a>
+            <h3>Low Price Hot Selling Promotion Bamboo Handle Paper Uchiwa Fan</h3>
+            <p>Price: 0.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_88.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H27a0506714d942198a330169a497122aq.jpg_300x300.jpg" alt="Customized Handbags for High-end Jewelry and Accessories Recyclable Gift Box Carry Bag White Cardstock Handbag with a logo" style="max-width: 200px;">
+            </a>
+            <h3>Customized Handbags for High-end Jewelry and Accessories Recyclable Gift Box Carry Bag White Cardstock Handbag with a logo</h3>
+            <p>Price: 0.42</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_89.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7215507fa80a4dde90b63667e84fc626N.jpg_300x300.jpg" alt="Customized Packaging Facial Tissues 100% Virgin Wood Pulp Pocket Tissue Paper Direct From Factories" style="max-width: 200px;">
+            </a>
+            <h3>Customized Packaging Facial Tissues 100% Virgin Wood Pulp Pocket Tissue Paper Direct From Factories</h3>
+            <p>Price: 0.08</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2,500 bags</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_90.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7e49c095d77b4162821b45b3e937bfc81.jpg_300x300.jpg" alt="Cheap Price Kraft Paper Sheets, 50 Pack, 8.5 X 11", Brown Craft Paper, Kraft Stationary Paper for Writing and Packing" style="max-width: 200px;">
+            </a>
+            <h3>Cheap Price Kraft Paper Sheets, 50 Pack, 8.5 X 11", Brown Craft Paper, Kraft Stationary Paper for Writing and Packing</h3>
+            <p>Price: US$0.06-0.18</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_91.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H997d601c782c48f299d70f5628af8c9bh.jpg_300x300.jpg" alt="LOKYO Wholesale Custom logo Coffee Shop Takeaway Packaging Disposable Espresso Coffee Cup Paper Cups Set with Lids" style="max-width: 200px;">
+            </a>
+            <h3>LOKYO Wholesale Custom logo Coffee Shop Takeaway Packaging Disposable Espresso Coffee Cup Paper Cups Set with Lids</h3>
+            <p>Price: US$0.03-0.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_92.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H22d25129e58243e1b95eb61c1cc069d0x.jpg_300x300.jpg" alt="Custom Square Sticky Notes Post Sticky It Memo Pad Cube With Wooden Pallet Promotional Wooden Pallet Sticky Adhesive Notes" style="max-width: 200px;">
+            </a>
+            <h3>Custom Square Sticky Notes Post Sticky It Memo Pad Cube With Wooden Pallet Promotional Wooden Pallet Sticky Adhesive Notes</h3>
+            <p>Price: US$0.65-1.65</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_93.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He1f2386a13124f2d8ec8ff709f8d3ceaZ.jpg_300x300.jpg" alt="Custom Printed Your Own Logo Reusable Cheap Price Shopping Gift Kraft Paper Bags With Handles" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Your Own Logo Reusable Cheap Price Shopping Gift Kraft Paper Bags With Handles</h3>
+            <p>Price: US$0.06-0.18</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_94.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5c0d7f7368b64bd793bd5bc4591ff576X.jpg_300x300.jpg" alt="Custom Printing Business Envelopes Kraft Coated Paper Invitation Envelope Plain Paper Letter Envelope Pocket Bag with logo" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printing Business Envelopes Kraft Coated Paper Invitation Envelope Plain Paper Letter Envelope Pocket Bag with logo</h3>
+            <p>Price: US$0.03-0.07</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_95.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8d8acfa6d4184defb2ee2d5de2d5a9d11.png_300x300.png" alt="Wholesale Concise Style Small Journal Notebooks Customizable Hardback Linen Fabric Cover for Guest for BTS Diary Writing" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Concise Style Small Journal Notebooks Customizable Hardback Linen Fabric Cover for Guest for BTS Diary Writing</h3>
+            <p>Price: US$1.99-2.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_96.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H52166017a4864bac99a4f8d2a19062dco.png_300x300.png" alt="Best Selling Products in Europe Hot Promotion Item pink New Advertising Invitation Lcd Screen Branded Gift Video Box" style="max-width: 200px;">
+            </a>
+            <h3>Best Selling Products in Europe Hot Promotion Item pink New Advertising Invitation Lcd Screen Branded Gift Video Box</h3>
+            <p>Price: US$14.98-17.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 unit</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_97.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A57f449f35aae436dabd3a91e9683d91aU.png_300x300.png" alt="Drop Shipping Hot Products 2025 3D Notepad Art Papercraft Laser Cut Paper Calendars Treehouse Shape Magic Memo Pad for Gift" style="max-width: 200px;">
+            </a>
+            <h3>Drop Shipping Hot Products 2025 3D Notepad Art Papercraft Laser Cut Paper Calendars Treehouse Shape Magic Memo Pad for Gift</h3>
+            <p>Price: 9</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_98.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H81ffad833f7648349856b9775b8878ado.jpg_300x300.jpg" alt="Offset Printing Handmade Laser Cut Custom Logo Nice Bouquet Paper Gift Art Custom Flower Pop up Gift Cards Greeting Card" style="max-width: 200px;">
+            </a>
+            <h3>Offset Printing Handmade Laser Cut Custom Logo Nice Bouquet Paper Gift Art Custom Flower Pop up Gift Cards Greeting Card</h3>
+            <p>Price: US$0.98-1.45</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_99.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9eff302169f448209b53801f84ec76deO.png_300x300.png" alt="QF Christmas Decorations Paper Christmas Tree Ornaments Decoration Supplies Window Shopping Mall Paper Honeycomb Christmas Tree" style="max-width: 200px;">
+            </a>
+            <h3>QF Christmas Decorations Paper Christmas Tree Ornaments Decoration Supplies Window Shopping Mall Paper Honeycomb Christmas Tree</h3>
+            <p>Price: 0.57</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_100.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H214c972401da41e0922995fc313ff11fW.png_300x300.png" alt="Creative Angel Style Christmas Tree Hang Tag Seed Paper Decorative Greeting Card Postcard Festive Season Paper Sprouting Craft" style="max-width: 200px;">
+            </a>
+            <h3>Creative Angel Style Christmas Tree Hang Tag Seed Paper Decorative Greeting Card Postcard Festive Season Paper Sprouting Craft</h3>
+            <p>Price: US$0.0694-0.1667</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <!-- 分页按钮 -->
+        <div class="pagination">
+            
+
+            
+            
+
+            
+            <a href="page_1.html" class="active">1</a>
+            
+            <a href="page_2.html" >2</a>
+            
+            <a href="page_3.html" >3</a>
+            
+            <a href="page_4.html" >4</a>
+            
+            <a href="page_5.html" >5</a>
+            
+            <a href="page_6.html" >6</a>
+            
+            <a href="page_7.html" >7</a>
+            
+            <a href="page_8.html" >8</a>
+            
+            <a href="page_9.html" >9</a>
+            
+
+            
+            <a href="page_11.html">Next</a>
+            
+        </div>
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" onclick="topFunction()">回到顶部</button>
+    </div>
+
+    <script>
+        // 回到顶部按钮显示与隐藏逻辑
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        // 回到顶部按钮点击事件
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
