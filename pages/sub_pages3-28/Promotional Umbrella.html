@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L8EDEXZBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9L8EDEXZBV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品列表 - 第1页</title>
+    <meta name="description" content="Sunnyluo Store - 200000+ factory-direct product categories including Home Decor, Industrial Machinery, Electronics, and more. Wholesale sourcing made easy.">
+    <link rel="canonical" href="https://sunnyluostore.github.io/allgoodsfind.github.io/"><style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 200px;
+            /* 可根据实际情况调整图片大小 */
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #03a9f4;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* 新添加的样式 */
+        .product-item h3 {
+            font-size: 14px;
+            /* 产品名称文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item p {
+            font-size: 12px;
+            /* 其他产品信息文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item:hover h3 {
+            color: #03a9f4;
+            /* 鼠标悬停时产品名称文字变色 */
+        }
+
+        .product-item:hover p {
+            color: #03a9f4;
+            /* 鼠标悬停时其他产品信息文字变色 */
+        }
+
+        /* 产品容器样式 */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        /* 产品项样式 */
+        .product-item {
+            width: calc(25% - 20px);
+            /* 默认每行显示 4 个产品 */
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* 鼠标悬停效果 */
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* 媒体查询，适配不同屏幕尺寸 */
+        @media (max-width: 1024px) {
+            .product-item {
+                width: calc(33.33% - 20px);
+                /* 平板设备每行显示 3 个产品 */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: calc(50% - 20px);
+                /* 小屏幕设备每行显示 2 个产品 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+                /* 超小屏幕设备每行显示 1 个产品 */
+            }
+        }
+
+        /* 分页按钮样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        /* 回到顶部按钮样式 */
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #03a9f4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部图片和文字 -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <p>Sunnyluo Store</p>
+        <p>Build a curated directory of store with factory</p>
+    </div>
+    <nav>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/index.html">Home</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/pdfs/pdf.html">Resources</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/About us.html">About Us</a>
+        <a href="mailto:sunnyluo330@gmail.com">Contact Us</a>
+        <a href="https://www.facebook.com/sunnyluoting">Facebook</a>
+    </nav>
+    <h1>Product list</h1>
+    <div class="products">
+        
+        <div class="product-item">
+            <a href="product_1.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5d7b6f156ef64d90ac1e25521b590be6h.jpg_300x300.jpg" alt="Wholesale Printing Advertising Custom logo Automatic Umbrella Windproof Folding Umbrella Led Flashlight Umbrellas for the Rain" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Printing Advertising Custom logo Automatic Umbrella Windproof Folding Umbrella Led Flashlight Umbrellas for the Rain</h3>
+            <p>Price: $2.50-3.58</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_2.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He136ad4eaa5b4cd8bc643563a6a324eeJ.jpg_300x300.jpg" alt="Custom Logo Umbrella UV Protection Travel Umbrella Small Portable Windproof Promotional Rain Sun Umbrella With Logo" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Umbrella UV Protection Travel Umbrella Small Portable Windproof Promotional Rain Sun Umbrella With Logo</h3>
+            <p>Price: $0.86-1.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_3.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1934a7830d2c46a5918765b5817993143.png_300x300.png" alt="Wholesale New Creative Bottle-Shaped 3-Folding Windproof Umbrellas Custom Logo Printing Hot Selling Promotional Gift" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale New Creative Bottle-Shaped 3-Folding Windproof Umbrellas Custom Logo Printing Hot Selling Promotional Gift</h3>
+            <p>Price: 1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_4.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4e5df045ea2f43679d49774c8b9fe435Y.jpg_300x300.jpg" alt="Factory Wholesale Personality Sublimation Golf Umbrella Custom Logo Prints Promotional Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Factory Wholesale Personality Sublimation Golf Umbrella Custom Logo Prints Promotional Umbrella</h3>
+            <p>Price: $2.40-2.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_5.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H22a1b419119b4a78a0fd20a032addf4dv.jpg_300x300.jpg" alt="Creative 8K Reverse Folding Umbrella Three-Fold Rainbow Umbrella Custom Logo Advertising Umbrella Advertising Giveaway" style="max-width: 200px;">
+            </a>
+            <h3>Creative 8K Reverse Folding Umbrella Three-Fold Rainbow Umbrella Custom Logo Advertising Umbrella Advertising Giveaway</h3>
+            <p>Price: 1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_6.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4d03f6668cec4593b4364ae8711fec6cl.jpg_300x300.jpg" alt="Eco Friendly Custom Printed Logo Recycled Material Golf Umbrella for Advertising Promotional Business Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Eco Friendly Custom Printed Logo Recycled Material Golf Umbrella for Advertising Promotional Business Gifts</h3>
+            <p>Price: $2.70-2.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_7.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4ba0d4b0575f487dbdc53a2ad8f305b5X.jpg_300x300.jpg" alt="Cheap Automatic Golf Umbrella Wholesale Custom Logo Printing Sunscreen Windproof Straight Handle Promotional Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Cheap Automatic Golf Umbrella Wholesale Custom Logo Printing Sunscreen Windproof Straight Handle Promotional Umbrella</h3>
+            <p>Price: $4.20-4.46</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_8.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb216e4721eb0443a911072ee5a210abdZ.jpg_300x300.jpg" alt="Factory Promotional Folding Umbrella Personal Sunshade Custom logo Compact Portable Rain Automatic Windproof Umbrella with logo" style="max-width: 200px;">
+            </a>
+            <h3>Factory Promotional Folding Umbrella Personal Sunshade Custom logo Compact Portable Rain Automatic Windproof Umbrella with logo</h3>
+            <p>Price: $2.54-3.13</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_9.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4694f49b3ae745dfb2b7684e93e401272.png_300x300.png" alt="Wholesale UV Protection Semi Automatic Large Folding Black Coated Sun Umbrella Dual-us Instock Umbrella for Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale UV Protection Semi Automatic Large Folding Black Coated Sun Umbrella Dual-us Instock Umbrella for Custom Logo</h3>
+            <p>Price: 1.89</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_10.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hea580829993941bc883687701070e8fbW.jpg_300x300.jpg" alt="Wholesale Custom Promotional Uv Protection Beach Parasols Outdoor Sun Beach Umbrellas With Logo Prints" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Promotional Uv Protection Beach Parasols Outdoor Sun Beach Umbrellas With Logo Prints</h3>
+            <p>Price: $10.80-13.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_11.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9c38088155cc4b1ca299a38074edd8e5p.jpg_300x300.jpg" alt="Fully Automatic Three-Fold Advertising Umbrella with Custom Logo Sunblock & Sunshade Rain Umbrella Perfect Gift" style="max-width: 200px;">
+            </a>
+            <h3>Fully Automatic Three-Fold Advertising Umbrella with Custom Logo Sunblock & Sunshade Rain Umbrella Perfect Gift</h3>
+            <p>Price: $3.80-4.07</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_12.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5eba1da3e7744bdcaaefc8b12da6189dC.jpg_300x300.jpg" alt="Custom Printed Paradise Umbrella 23inch Three- Folding Outdoor Used Upf 50 Umbrella with logo Custom logo Prints" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printed Paradise Umbrella 23inch Three- Folding Outdoor Used Upf 50 Umbrella with logo Custom logo Prints</h3>
+            <p>Price: $2.85-3.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_13.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0291956e934746f5bbc4cc42c3d9d057N.png_300x300.png" alt="Ultra-light Alloy 70% Mini Portable Sunshade Black-Coated UV Protection Pencil Umbrella Gift Promotional" style="max-width: 200px;">
+            </a>
+            <h3>Ultra-light Alloy 70% Mini Portable Sunshade Black-Coated UV Protection Pencil Umbrella Gift Promotional</h3>
+            <p>Price: $3.25-3.65</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_14.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H991f7b114afe406197f5e1b4998acd51q.png_300x300.png" alt="2024 Custom Umbrella Inside Out C Shape Handle Portable High Quality Car Reverse Umbrella With Logo Printing" style="max-width: 200px;">
+            </a>
+            <h3>2024 Custom Umbrella Inside Out C Shape Handle Portable High Quality Car Reverse Umbrella With Logo Printing</h3>
+            <p>Price: $1.90-2.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_15.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7a64e7c6fe1f46e59095857284e84f53v.png_300x300.png" alt="Mini Portable Pocket Capsule Manual Umbrella Gift Logo Print Dual-Use Sun Rain Black-Coated Sun Protection Compact 50% off" style="max-width: 200px;">
+            </a>
+            <h3>Mini Portable Pocket Capsule Manual Umbrella Gift Logo Print Dual-Use Sun Rain Black-Coated Sun Protection Compact 50% off</h3>
+            <p>Price: 1.2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_16.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H56f5ade842074bf28f89ee79bbc4933cd.jpg_300x300.jpg" alt="New Design Uv Protection Capsul Pocket Portable Super Mini Custom Case 6 Folding Umbrella Logo Print Travel Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>New Design Uv Protection Capsul Pocket Portable Super Mini Custom Case 6 Folding Umbrella Logo Print Travel Umbrella</h3>
+            <p>Price: $1.90-3.40</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_17.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4ea0c2f37c644bafabd92b2019b19adcQ.png_300x300.png" alt="Creative Reflective Edge Reverse Semi-automatic Advertising Business Gift Umbrella with Alloy Material Custom logo for Adult Use" style="max-width: 200px;">
+            </a>
+            <h3>Creative Reflective Edge Reverse Semi-automatic Advertising Business Gift Umbrella with Alloy Material Custom logo for Adult Use</h3>
+            <p>Price: 4.13</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_18.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He70ea52ebb174a28827dd4d0d4ed991fM.jpg_300x300.jpg" alt="Top Quality Nice-looking Customized Outdoor Waterproof Easy Pop up Motorcycle Canopy Umbrella Modern Sun Beach Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Top Quality Nice-looking Customized Outdoor Waterproof Easy Pop up Motorcycle Canopy Umbrella Modern Sun Beach Umbrella</h3>
+            <p>Price: $5.85-8.91</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_19.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H376bdeef3bfb466d86bbd767d1c694e2N.png_300x300.png" alt="Promotional Multi Color Custom Logo 3 Folding 3-Folding Automatic Sun and Rain Water-Repellent Umbrella With Uv Protection" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Multi Color Custom Logo 3 Folding 3-Folding Automatic Sun and Rain Water-Repellent Umbrella With Uv Protection</h3>
+            <p>Price: $2.85-3</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_20.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf6c18ff8d4974c61b40e206b8a69092fs.jpg_300x300.jpg" alt="Cheap Foldable Outdoor Sun Umbrella Fabric Portable Sunshade Custom Logo Inflatable for Sun Protection and Rain Resistance" style="max-width: 200px;">
+            </a>
+            <h3>Cheap Foldable Outdoor Sun Umbrella Fabric Portable Sunshade Custom Logo Inflatable for Sun Protection and Rain Resistance</h3>
+            <p>Price: $4.23-4.68</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 301 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_21.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0e670621d6834670aea8af3d91cfbfb8S.png_300x300.png" alt="Supplier Wholesale Promotional Custom Logo Umbrella Luxury Windproof Eco Friendly Automatic Golf Umbrellas With Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Supplier Wholesale Promotional Custom Logo Umbrella Luxury Windproof Eco Friendly Automatic Golf Umbrellas With Custom Logo</h3>
+            <p>Price: $2.30-3</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_22.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H724801a7e50e477fa69d4a6eb32b384ey.jpg_300x300.jpg" alt="Promotional Custom Printing Advertise Business Gift Travel Rainy Sunny 3 Folding Umbrella Foldable Wine Bottle Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Custom Printing Advertise Business Gift Travel Rainy Sunny 3 Folding Umbrella Foldable Wine Bottle Umbrellas</h3>
+            <p>Price: $1.40-2.10</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_23.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H88f8e94c08e14ca59c81d83346a26ffaz.jpg_300x300.jpg" alt="Wholesale Cheap Personal 3 Folding Umbrella Custom Logo Portable Sunshade Small Umbrella Manual Compact Windproof Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Cheap Personal 3 Folding Umbrella Custom Logo Portable Sunshade Small Umbrella Manual Compact Windproof Umbrella</h3>
+            <p>Price: $0.86-1.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_24.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcc3b6d85515042bd99d1c83ac24a77f8k.png_300x300.png" alt="Special Hot Summer Wedding Souvenirs Promo Gift Mug Capsule Umbrella Foldable Fan Gift Set for Guests" style="max-width: 200px;">
+            </a>
+            <h3>Special Hot Summer Wedding Souvenirs Promo Gift Mug Capsule Umbrella Foldable Fan Gift Set for Guests</h3>
+            <p>Price: $2.61-10.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_25.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hff0bdb8ebc7b4b778b8602e7c106c419M.jpg_300x300.jpg" alt="Wholesale Designer Brand OEM Advertising Custom Umbrella with logo Printing logo Gift Umbrella for Promoted" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Designer Brand OEM Advertising Custom Umbrella with logo Printing logo Gift Umbrella for Promoted</h3>
+            <p>Price: $2.85-3.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_26.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcdeb10b1da9c4ac38ed852fd0866f359X.jpg_300x300.jpg" alt="Custom Designed Manual UV Sun Fold Umbrella Compact Portable Business Gift with Personalized Pocket Classic Style Parapluie" style="max-width: 200px;">
+            </a>
+            <h3>Custom Designed Manual UV Sun Fold Umbrella Compact Portable Business Gift with Personalized Pocket Classic Style Parapluie</h3>
+            <p>Price: $1.50-3.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_27.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0d7ab46f4d7e4ad091a7989facbf7ffeb.jpg_300x300.jpg" alt="Custom Printing Advertise Business Gift Promotion Travel Rainy Sunny 3 Folding Umbrella Logo Foldable Wine Bottle Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Custom Printing Advertise Business Gift Promotion Travel Rainy Sunny 3 Folding Umbrella Logo Foldable Wine Bottle Umbrellas</h3>
+            <p>Price: 1.92</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_28.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3fcaad9c6e474bbfb63a6c99e16a1910z.jpg_300x300.jpg" alt="Custom Logo Printing Wholesale Polyester Pongee Travel Windproof Branded UV Mini Pocket Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Printing Wholesale Polyester Pongee Travel Windproof Branded UV Mini Pocket Umbrellas</h3>
+            <p>Price: $0.99-1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_29.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9a41147b2cab40a3adc32005a1b8c00cg.jpg_300x300.jpg" alt="Customizable Summer Windproof Waterproof Adult Umbrella Modern Design Foldable Stylish Manufacturer Low Price Promotion Supplier" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Summer Windproof Waterproof Adult Umbrella Modern Design Foldable Stylish Manufacturer Low Price Promotion Supplier</h3>
+            <p>Price: $1.39-2.38</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_30.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbd1cdf00fc324b77b408a871caa9811ey.jpg_300x300.jpg" alt="Manufacturer Wholesale Custom Umbrella 30 Inch Wind Proof Umbrella Prints Big Advertising Branded Custom Golf Umbrella with logo" style="max-width: 200px;">
+            </a>
+            <h3>Manufacturer Wholesale Custom Umbrella 30 Inch Wind Proof Umbrella Prints Big Advertising Branded Custom Golf Umbrella with logo</h3>
+            <p>Price: $2-2.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_31.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H63011668c4f64aa0aa9db684eec9bcc6V.png_300x300.png" alt="Cheap Made Promotional Uv Custom Umbrella With Logo Print Rain Anti-uv Foldable Paraguas Parapluie 3 Automatic Folding Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Cheap Made Promotional Uv Custom Umbrella With Logo Print Rain Anti-uv Foldable Paraguas Parapluie 3 Automatic Folding Umbrella</h3>
+            <p>Price: 1.9</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_32.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hafa17a7bf9fe421f9dd28e98f1fc1607K.jpg_300x300.jpg" alt="Print on Demand Promotional Full Print Umbrella Personal Custom logo Compact Portable Rain Windproof Umbrella with logo" style="max-width: 200px;">
+            </a>
+            <h3>Print on Demand Promotional Full Print Umbrella Personal Custom logo Compact Portable Rain Windproof Umbrella with logo</h3>
+            <p>Price: $0.88-1.78</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_33.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4d04f152581a4580944e1d5533c45d08k.jpg_300x300.jpg" alt="Mini Pocket Five-Fold Umbrella with Portable Carrying Bag Business Gift Black Shine Mini Printing Logo Manual Control" style="max-width: 200px;">
+            </a>
+            <h3>Mini Pocket Five-Fold Umbrella with Portable Carrying Bag Business Gift Black Shine Mini Printing Logo Manual Control</h3>
+            <p>Price: 2.5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_34.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3761a09edbca48909991b1b61b9327c0r.jpg_300x300.jpg" alt="High Quality Custom C-Handle Reverse Umbrella Automatic Open Classic Design New Pongee Material for Rainy Days Logo Prints" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Custom C-Handle Reverse Umbrella Automatic Open Classic Design New Pongee Material for Rainy Days Logo Prints</h3>
+            <p>Price: 3.8</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_35.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4e322ad24af34019acd024e3d6e1035fL.jpg_300x300.jpg" alt="High Quality Custom Logo Print Umbrella Light 3-Folding Small Vintage Silk Lace Wholesale Promotional Business Gift Cheap" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Custom Logo Print Umbrella Light 3-Folding Small Vintage Silk Lace Wholesale Promotional Business Gift Cheap</h3>
+            <p>Price: 1.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_36.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H84d06ed0f3f84bedb0dce27910f24ea7x.jpg_300x300.jpg" alt="Wholesale Custom Logo Printed Double Fabric Windproof C Shape Handle Upside Down Inverted Reverse Rain Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Logo Printed Double Fabric Windproof C Shape Handle Upside Down Inverted Reverse Rain Umbrella</h3>
+            <p>Price: $2.30-2.70</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_37.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2d0c4887aa72405eb996068ea9e9c30cn.jpg_300x300.jpg" alt="2026 Custom Luxury Business Gift Set Corporate New Year Umbrella with Personalized Logo Premium Promotional Item" style="max-width: 200px;">
+            </a>
+            <h3>2026 Custom Luxury Business Gift Set Corporate New Year Umbrella with Personalized Logo Premium Promotional Item</h3>
+            <p>Price: $10.71-13.77</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_38.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8514c7540fae4a04843c4220b2827e2cr.jpg_300x300.jpg" alt="Large Long Handle Wind Resistant Advertising Sunshade Umbrella Customized logo 16 Ribs Straight Sunny Umbrellas Wholesale" style="max-width: 200px;">
+            </a>
+            <h3>Large Long Handle Wind Resistant Advertising Sunshade Umbrella Customized logo 16 Ribs Straight Sunny Umbrellas Wholesale</h3>
+            <p>Price: $1.60-1.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_39.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdef709241b074360aa9548c003e118a5r.jpg_300x300.jpg" alt="New Inverse Car Umbrella with Logo Custom Double Layer Inside Out C Shape Handle Design Inverted Folding Reverse Rain Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>New Inverse Car Umbrella with Logo Custom Double Layer Inside Out C Shape Handle Design Inverted Folding Reverse Rain Umbrella</h3>
+            <p>Price: $1.79-2.52</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_40.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H60ed45ef54ea42ca85274b8905a858637.jpg_300x300.jpg" alt="Promotion Windproof 16 Bones Cheapest Umbrella Large Multicolour Umbrella Custom Logo Golf Rainbow Umbrella for Rain" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Windproof 16 Bones Cheapest Umbrella Large Multicolour Umbrella Custom Logo Golf Rainbow Umbrella for Rain</h3>
+            <p>Price: 2.2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_41.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5b9555343bfe449baba93056e8a52da3g.jpg_300x300.jpg" alt="5 Folding Mini Pocket Umbrella Custom Logo Print Wholesale Promotional Cheap Adertised Branded Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>5 Folding Mini Pocket Umbrella Custom Logo Print Wholesale Promotional Cheap Adertised Branded Umbrellas</h3>
+            <p>Price: $0.99-1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_42.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H96e79ba855e04be7811e9759e2f12c51R.jpg_300x300.jpg" alt="Promotional Full Automatic Open Close 3 Folding Polyester Pongee Travel Windproof Umbrella for Gift With Customizable Logo" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Full Automatic Open Close 3 Folding Polyester Pongee Travel Windproof Umbrella for Gift With Customizable Logo</h3>
+            <p>Price: $2.85-3.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_43.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0cc390e95d0c4b21a4a4981602b4888bz.jpg_300x300.jpg" alt="Promotional OEM Advertising Custom Wholesale Wine Umbrella with Logo Printing Car Logo Gift Branded Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Promotional OEM Advertising Custom Wholesale Wine Umbrella with Logo Printing Car Logo Gift Branded Umbrellas</h3>
+            <p>Price: $0.99-1.72</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_44.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3b2d89e37f4c4ad199d683a088a7cba1D.jpg_300x300.jpg" alt="Wholesale 21 Inch Manual Open and Close Parasol Custom logo Patterned Full Print Umbrella Blue Windproof Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale 21 Inch Manual Open and Close Parasol Custom logo Patterned Full Print Umbrella Blue Windproof Umbrella</h3>
+            <p>Price: 2.5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_45.html">
+                <img src="https://s.alicdn.com/@sc04/kf/HTB1oNCGM5LaK1RjSZFxq6ymPFXaE.jpg_300x300.jpg" alt="Wholesale Custom Waterproof rainbow 5 Fold Foldable Micro Mini Umbrella with logo Print" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Waterproof rainbow 5 Fold Foldable Micro Mini Umbrella with logo Print</h3>
+            <p>Price: 5.33</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_46.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc87c47599ca842cfbc97d0e7d9c8daa8Q.jpg_300x300.jpg" alt="Custom Logo Large Extra Custom Logo 190T Pongee Custom Logo Promotion Golf Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Large Extra Custom Logo 190T Pongee Custom Logo Promotion Golf Umbrella</h3>
+            <p>Price: $1.50-4.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_47.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H702d72472e4a46158079b46ae88c57fdE.jpg_300x300.jpg" alt="Promotion Gift 60 Inch Golf Umbrella Large Customized Small Golf Umbrella for Advertisement" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Gift 60 Inch Golf Umbrella Large Customized Small Golf Umbrella for Advertisement</h3>
+            <p>Price: $1.50-4.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_48.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H446e2b843e66477d87d4d9c3d49ed84fQ.jpg_300x300.jpg" alt="Modern Bright Colour Umbrella with Long Handle Semi-Automatic Opening 8k Ribs-Business Gift Advertising Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Modern Bright Colour Umbrella with Long Handle Semi-Automatic Opening 8k Ribs-Business Gift Advertising Umbrella</h3>
+            <p>Price: $1.59-4.33</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_49.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5869f236e558461d96ba2e98132b7559N.jpg_300x300.jpg" alt="Straight Rod Fresh 16 Bone Gradient Sun Umbrella UV Protection Dual-Purpose Classic Design Advertising Gift 105cm Open Diameter" style="max-width: 200px;">
+            </a>
+            <h3>Straight Rod Fresh 16 Bone Gradient Sun Umbrella UV Protection Dual-Purpose Classic Design Advertising Gift 105cm Open Diameter</h3>
+            <p>Price: 4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_50.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6d15c3a3c26342d0a0d1303f12a276f4F.jpg_300x300.jpg" alt="Pocket Umbrellas Windproof 6Fold Portable Umbrella Foldable Uv Protection Mini Parasol Umbrella With Logo Umbrellas for the Rain" style="max-width: 200px;">
+            </a>
+            <h3>Pocket Umbrellas Windproof 6Fold Portable Umbrella Foldable Uv Protection Mini Parasol Umbrella With Logo Umbrellas for the Rain</h3>
+            <p>Price: $1.49-1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_51.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H92f5e94cc18f40f884643cb8efb0808cz.jpg_300x300.jpg" alt="Advertising Branded Designer Large Big logo Printed Windproof Promotional Rain Automatic Open Custom Golf Umbrella with logo" style="max-width: 200px;">
+            </a>
+            <h3>Advertising Branded Designer Large Big logo Printed Windproof Promotional Rain Automatic Open Custom Golf Umbrella with logo</h3>
+            <p>Price: $3.80-6.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_52.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H83ee51aac67c4f11870f6223e3d6faccB.jpg_300x300.jpg" alt="Custom Logo PVC Transparent Umbrella with Automatic Opening Large Clear 8K Ribs Sun Rain & Windproof Waterproof for Wedding" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo PVC Transparent Umbrella with Automatic Opening Large Clear 8K Ribs Sun Rain & Windproof Waterproof for Wedding</h3>
+            <p>Price: 0.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_53.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He28489a48bf94416b1ccb1d29d2d4a85J.jpg_300x300.jpg" alt="Suppliers Manufacturer Wholesale 30 Inch Large Windproof logo Prints Big Luxury Promotional Branded Custom Golf Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Suppliers Manufacturer Wholesale 30 Inch Large Windproof logo Prints Big Luxury Promotional Branded Custom Golf Umbrella</h3>
+            <p>Price: $2.30-3</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_54.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf09b393963a545c0ac516d715b7dc73ew.jpg_300x300.jpg" alt="Clear Kids Umbrella with Long-Handle Straight Parasol Customizable Logo Colorful Transparent PVC Folding Feature-D23-48" style="max-width: 200px;">
+            </a>
+            <h3>Clear Kids Umbrella with Long-Handle Straight Parasol Customizable Logo Colorful Transparent PVC Folding Feature-D23-48</h3>
+            <p>Price: 0.86</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_55.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcf46c9d002184a2b9d985476e8179d26g.jpg_300x300.jpg" alt="Promotional Wholesale Compact Waterproof Sunshade 3 Folding Umbrella Sun Parasol Small Custom Logo Printing Market Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Wholesale Compact Waterproof Sunshade 3 Folding Umbrella Sun Parasol Small Custom Logo Printing Market Umbrella</h3>
+            <p>Price: $0.86-1.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_56.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3c2e7a46103941b1ab243f31ae1411a0R.jpg_300x300.jpg" alt="Custom Logo Printing Wholesale Cheap Promotional Outdoor Pocket Umbrella Rain Mini Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Printing Wholesale Cheap Promotional Outdoor Pocket Umbrella Rain Mini Umbrellas</h3>
+            <p>Price: $0.90-2.22</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_57.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hafe75cd32dee4299918a58531ddb5bc2Z.jpg_300x300.jpg" alt="Hot Sale Promotion Cheap 8 Ribs Travel Rain Sun Umbrella Manual Open 3 Fold Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Promotion Cheap 8 Ribs Travel Rain Sun Umbrella Manual Open 3 Fold Umbrella</h3>
+            <p>Price: $1.21-1.45</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_58.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H12284545514944e8b67279805ffe8017E.jpg_300x300.jpg" alt="Custom Full Image Digital Print Golf Umbrella with Custom logo Printing for Promotion Branding" style="max-width: 200px;">
+            </a>
+            <h3>Custom Full Image Digital Print Golf Umbrella with Custom logo Printing for Promotion Branding</h3>
+            <p>Price: 3.49</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_59.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Had1066d370154f43ac3761894e8c072cN.jpg_300x300.jpg" alt="Wholesale UV Proof Parasol Promotional Outdoor Custom Print Travel Fold Pocket Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale UV Proof Parasol Promotional Outdoor Custom Print Travel Fold Pocket Umbrella</h3>
+            <p>Price: 4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_60.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfc597044729a4af2ae3cd84bc1c94462j.jpg_300x300.jpg" alt="21 Inches Auto Collapsible Foldable Windproof Umbrella with Custom Printing Logo for Promotions" style="max-width: 200px;">
+            </a>
+            <h3>21 Inches Auto Collapsible Foldable Windproof Umbrella with Custom Printing Logo for Promotions</h3>
+            <p>Price: 2.5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_61.html">
+                <img src="" alt="Promotional Multi Color Custom Logo 3 Folding 3-Folding Automatic Sun and Rain Water-Repellent Umbrella With Uv" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Multi Color Custom Logo 3 Folding 3-Folding Automatic Sun and Rain Water-Repellent Umbrella With Uv</h3>
+            <p>Price: $2.50-2.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_62.html">
+                <img src="" alt="Custom Full Print Uv Folding Umbrella Polyester Pongee Windproof Rain Automatic Umbrella with logo Classic Promotion Gift Person" style="max-width: 200px;">
+            </a>
+            <h3>Custom Full Print Uv Folding Umbrella Polyester Pongee Windproof Rain Automatic Umbrella with logo Classic Promotion Gift Person</h3>
+            <p>Price: $2-2.28</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_63.html">
+                <img src="" alt="24-Bone Long-Handled Automatic Business Advertising Umbrella Customizable Logo Print Rain Shine Gift Umbrella Straight Wholesale" style="max-width: 200px;">
+            </a>
+            <h3>24-Bone Long-Handled Automatic Business Advertising Umbrella Customizable Logo Print Rain Shine Gift Umbrella Straight Wholesale</h3>
+            <p>Price: 2.64</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_64.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2a90263871784bf0a89409f97dc32674q.jpg_300x300.jpg" alt="Promotional Folding Umbrella Personal Logo Sunshade Custom logo Portable Rain Automatic Windproof Umbrella with logo" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Folding Umbrella Personal Logo Sunshade Custom logo Portable Rain Automatic Windproof Umbrella with logo</h3>
+            <p>Price: $0.80-1.70</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_65.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf09b393963a545c0ac516d715b7dc73ew.jpg_300x300.jpg" alt="Wholesale and Sale of Long Transparent Umbrellas with Colorful Transparent Printed logo Advertisements at Low Prices" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale and Sale of Long Transparent Umbrellas with Colorful Transparent Printed logo Advertisements at Low Prices</h3>
+            <p>Price: 0.86</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_66.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H17a0be82ed5f499bac7cac601a2ff472a.jpg_300x300.jpg" alt="DD3544 High Quality OEM Wholesale UV Umbrellas Gift Box Protection Manual Open or Full Automatic 8k Custom Umbrella with LOGO" style="max-width: 200px;">
+            </a>
+            <h3>DD3544 High Quality OEM Wholesale UV Umbrellas Gift Box Protection Manual Open or Full Automatic 8k Custom Umbrella with LOGO</h3>
+            <p>Price: $0.72-2.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_67.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9539dce986c647c1a273f8576b5d3c46D.jpg_300x300.jpg" alt="2022 Low Moq Factory Supply Full Color Printed Umbrella Custom Made Full Photo Printing Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>2022 Low Moq Factory Supply Full Color Printed Umbrella Custom Made Full Photo Printing Umbrellas</h3>
+            <p>Price: $2.68-3.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_68.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfa52545e42cd4fad9e0c0ce35f03b79ba.png_300x300.png" alt="Hot-Selling Folding Mini Outdoor Sun Protection Umbrella Customizable Black Coating Panel for Travel with Packaging Box" style="max-width: 200px;">
+            </a>
+            <h3>Hot-Selling Folding Mini Outdoor Sun Protection Umbrella Customizable Black Coating Panel for Travel with Packaging Box</h3>
+            <p>Price: $1.89-2.29</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_69.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf18cbad29e7b4dffbdafb427576fb94f4.jpg_300x300.jpg" alt="Promotional Gifts Colorful 5 Folding Mini Pocket Capsule Umbrella Women Portable Travel Mini Fold Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Gifts Colorful 5 Folding Mini Pocket Capsule Umbrella Women Portable Travel Mini Fold Umbrella</h3>
+            <p>Price: $1.40-2.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_70.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H91ae135a4b8349ec8ca89e8488ea825ay.png_300x300.png" alt="Custom Logo Ultralight Mini Portable Five-Folding Ring Sunblock Umbrella Windproof Foldable Outdoor Business Camping Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Ultralight Mini Portable Five-Folding Ring Sunblock Umbrella Windproof Foldable Outdoor Business Camping Gifts</h3>
+            <p>Price: $2.39-3.49</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_71.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf230e185c2d64299bd5e994ed6e8c159N.png_300x300.png" alt="Wholesale Automatic Promotion Extra Large Factory Large Straight Umbrella Straight Umbrella With Your Logo" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Automatic Promotion Extra Large Factory Large Straight Umbrella Straight Umbrella With Your Logo</h3>
+            <p>Price: $1.65-1.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_72.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfae4c117d6d74e82a4266371f1ceed7f7.jpg_300x300.jpg" alt="Promotion Wholesale Portable Outdoor Mini Lightweight Cheap Umbrella Sun Protection Uv Protection Mini 6k 6 Folding Sun Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Wholesale Portable Outdoor Mini Lightweight Cheap Umbrella Sun Protection Uv Protection Mini 6k 6 Folding Sun Umbrella</h3>
+            <p>Price: $2-2.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_73.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1684d3b0bfc04d2cad0304df62bd88f2w.jpg_300x300.jpg" alt="Custom Logo Paraguas Beach Umbrella Foldable for Sand Anchor Strong Promotional Outdoor Fringe Parasol Boho Beach Umbrella Patio" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Paraguas Beach Umbrella Foldable for Sand Anchor Strong Promotional Outdoor Fringe Parasol Boho Beach Umbrella Patio</h3>
+            <p>Price: $3.62-6.88</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_74.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc722368c9bf84290b694f241b47402eeS.jpg_300x300.jpg" alt="Black Coating Light Weight Customized Logo Printing Pocket Size Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Black Coating Light Weight Customized Logo Printing Pocket Size Umbrella</h3>
+            <p>Price: $2.21-3.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_75.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7105d201f65c4cb89ef86ea35da2f527j.jpg_300x300.jpg" alt="Wholesale Market Advertising 21 Inch Umbrella 3 Fold Travel Umbrella Logo Printing UV Folding Umbrella for Customize" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Market Advertising 21 Inch Umbrella 3 Fold Travel Umbrella Logo Printing UV Folding Umbrella for Customize</h3>
+            <p>Price: $1.75-1.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_76.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H875565071905412a9aeb9dd04841240bk.png_300x300.png" alt="Japanese Style Cute Bow Wooden Handle Three-Fold Manual Umbrella Advertising Gift Folding Black Rubber Sunscreen Sunshade" style="max-width: 200px;">
+            </a>
+            <h3>Japanese Style Cute Bow Wooden Handle Three-Fold Manual Umbrella Advertising Gift Folding Black Rubber Sunscreen Sunshade</h3>
+            <p>Price: 2.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_77.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H79c6cf34a174487cb8349d7a279a6161e.jpg_300x300.jpg" alt="Factory Custom OEM ODM Advertise Rainy Sunny 3 Folding Umbrella Foldable Wine Bottle Umbrellas for Business Gift Travel" style="max-width: 200px;">
+            </a>
+            <h3>Factory Custom OEM ODM Advertise Rainy Sunny 3 Folding Umbrella Foldable Wine Bottle Umbrellas for Business Gift Travel</h3>
+            <p>Price: 1.39</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_78.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heb2e4d3a7bb74fdd9c291f3868726893m.jpg_300x300.jpg" alt="New Design OEM Pocket Promotional Capsule Parasol Portable UV Small Sun Umbrella Mini 5 Folding Custom Logo Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>New Design OEM Pocket Promotional Capsule Parasol Portable UV Small Sun Umbrella Mini 5 Folding Custom Logo Umbrella</h3>
+            <p>Price: $1.35-2.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_79.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha0ce489818c847ccb58f9a0823cdc843u.jpg_300x300.jpg" alt="Custom Print Business Gift Promotion Travel Rainy Sunny 3 Folding Umbrella Portable Wine Bottle Shape Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Custom Print Business Gift Promotion Travel Rainy Sunny 3 Folding Umbrella Portable Wine Bottle Shape Umbrellas</h3>
+            <p>Price: $1.55-1.89</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_80.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcb588762403f4248886f64934a5ac1a2H.png_300x300.png" alt="Wholesale Custom Color logo Printing Small Uv Umbrella Black Coating Sunshade Sun Umbrella Mini Portable 5 Fold Pocket Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Color logo Printing Small Uv Umbrella Black Coating Sunshade Sun Umbrella Mini Portable 5 Fold Pocket Umbrella</h3>
+            <p>Price: $1.60-2.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_81.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf1adf6fb390b47139464ba6cf26c6331G.jpg_300x300.jpg" alt="2025 Special Hot Summer Wedding Souvenirs Promo Gift Mini Fan and Umbrella Gift Set for Guests Girlfriends Birthday Party Gift" style="max-width: 200px;">
+            </a>
+            <h3>2025 Special Hot Summer Wedding Souvenirs Promo Gift Mini Fan and Umbrella Gift Set for Guests Girlfriends Birthday Party Gift</h3>
+            <p>Price: 8</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_82.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcd566e697d114b5e85eb54f7d87c8feag.jpg_300x300.jpg" alt="Popular Mini 5 Folding Umbrella Women Sun Shade Uv Umbrella Promotional Capsule Pocket Customized Umbrella with logo Print" style="max-width: 200px;">
+            </a>
+            <h3>Popular Mini 5 Folding Umbrella Women Sun Shade Uv Umbrella Promotional Capsule Pocket Customized Umbrella with logo Print</h3>
+            <p>Price: $1.35-2.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_83.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heaf185e12b5e4566ba982b46d0154f01J.png_300x300.png" alt="Most Popular Folding Mini Pocket Umbrella Custom Logo Print Wholesale Promotional Cheap Adertised Branded Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Most Popular Folding Mini Pocket Umbrella Custom Logo Print Wholesale Promotional Cheap Adertised Branded Umbrellas</h3>
+            <p>Price: $0.98-1.78</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_84.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0e98d9e0daa048cd9bcd5d24da7547682.jpg_300x300.jpg" alt="Large Printed Advertise Personalized Windproof Big Travel Paraguas Custom logo Promotion Customized Golf Umbrella with logo" style="max-width: 200px;">
+            </a>
+            <h3>Large Printed Advertise Personalized Windproof Big Travel Paraguas Custom logo Promotion Customized Golf Umbrella with logo</h3>
+            <p>Price: $1.20-4.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_85.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd51102054afd43109db4a7c2c5b87d29e.jpeg_300x300.jpeg" alt="Promotional High Quality Custom Foldable Sun Umbrella Whimsical Rain Cover Logo Printing Sublimation Plastic Handle Metal Frame" style="max-width: 200px;">
+            </a>
+            <h3>Promotional High Quality Custom Foldable Sun Umbrella Whimsical Rain Cover Logo Printing Sublimation Plastic Handle Metal Frame</h3>
+            <p>Price: 3.2</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_86.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H151f3b8f1df747b18f954323edeb3b58c.jpg_300x300.jpg" alt="Custom Modern Outdoor Umbrella Polyester Manual Straight Umbrella 36 Inch Golf Umbrella With Logo for Adults" style="max-width: 200px;">
+            </a>
+            <h3>Custom Modern Outdoor Umbrella Polyester Manual Straight Umbrella 36 Inch Golf Umbrella With Logo for Adults</h3>
+            <p>Price: $1.25-1.29</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_87.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hadaf97d646204441b7bd675e4a4d6effZ.jpg_300x300.jpg" alt="Hot Sale Windproof Waterproof Big Size 62 68 72 Inch Golf Umbrella Custom Printing Promotional Market Umbrella With logo" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Windproof Waterproof Big Size 62 68 72 Inch Golf Umbrella Custom Printing Promotional Market Umbrella With logo</h3>
+            <p>Price: $1.50-2.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_88.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H339bfe11c66c4838a5175b979e08623fe.jpg_300x300.jpg" alt="BSBH Portable Lightweight Pocket Uv Waterproof Umbrella Mini Custom Logo Umbrella Luxury High Quality 5 Fold Umbrella for Summer" style="max-width: 200px;">
+            </a>
+            <h3>BSBH Portable Lightweight Pocket Uv Waterproof Umbrella Mini Custom Logo Umbrella Luxury High Quality 5 Fold Umbrella for Summer</h3>
+            <p>Price: $1.30-2.28</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_89.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc919826cf3ab4f1caf7afd7778bf69f7Q.jpg_300x300.jpg" alt="Wholesale Two-Fold 2 Folding Umbrella Custom Logo Printed Made in China Classic Design Polyester Material for Business Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Two-Fold 2 Folding Umbrella Custom Logo Printed Made in China Classic Design Polyester Material for Business Gifts</h3>
+            <p>Price: $0.85-0.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_90.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Habb97fac77384ae99e625f0daedc73991.png_300x300.png" alt="Custom Logo New Design Oem Promotional Pocket Capsule Parasol Portable Uv Protection Small Beige 8 Ribs Mini 5 Folding Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo New Design Oem Promotional Pocket Capsule Parasol Portable Uv Protection Small Beige 8 Ribs Mini 5 Folding Umbrella</h3>
+            <p>Price: $2.19-2.65</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_91.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf29b64658661472a86d840d35dcabb8fr.jpg_300x300.jpg" alt="Fancy PVC Sunny Rainy Wedding Umbrella Cheap Plastic Advertising Gift Europe Design Style Semi-Automatic Folding Straight 8-Rib" style="max-width: 200px;">
+            </a>
+            <h3>Fancy PVC Sunny Rainy Wedding Umbrella Cheap Plastic Advertising Gift Europe Design Style Semi-Automatic Folding Straight 8-Rib</h3>
+            <p>Price: 1.5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_92.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Had38af01a5ca4641b15c79ead19bfa23h.jpg_300x300.jpg" alt="Factory Cheap Umbrellas Street Vendor Foldable Rain Umbrellas logo Printed Advertising Inverted Pole Silver Rubber Umbrellas" style="max-width: 200px;">
+            </a>
+            <h3>Factory Cheap Umbrellas Street Vendor Foldable Rain Umbrellas logo Printed Advertising Inverted Pole Silver Rubber Umbrellas</h3>
+            <p>Price: $1.28-1.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_93.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6e3148c4ac9e4aaa89b935712cfc2ab4C.jpg_300x300.jpg" alt="Modern Customized 24" to 27" UV Protection Business Umbrellas with Logo" style="max-width: 200px;">
+            </a>
+            <h3>Modern Customized 24" to 27" UV Protection Business Umbrellas with Logo</h3>
+            <p>Price: 1.5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_94.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha38d6fd5cf6641e3a8c926c6cf772771z.jpg_300x300.jpg" alt="Large Big Size Automatic Open Customized Colors Waterproof Windproof Sports Luxury Men Straight Golf Umbrella with logo Printing" style="max-width: 200px;">
+            </a>
+            <h3>Large Big Size Automatic Open Customized Colors Waterproof Windproof Sports Luxury Men Straight Golf Umbrella with logo Printing</h3>
+            <p>Price: $3.80-6.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_95.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf7d9b1badce24ba2bba10a126f7c2b89W.jpg_300x300.jpg" alt="New Arrival Promotional Business Flask Power Bank Umbrella Gift Set Custom Logo Luxury Set for Advertising" style="max-width: 200px;">
+            </a>
+            <h3>New Arrival Promotional Business Flask Power Bank Umbrella Gift Set Custom Logo Luxury Set for Advertising</h3>
+            <p>Price: $2.40-12.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_96.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H51a5e9f3d53046c59a78c081a3e2eb1a5.jpg_300x300.jpg" alt="Promotional Multicolor Customized Sun and Rain Protection Logo 3 Folding Automatic Umbrella" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Multicolor Customized Sun and Rain Protection Logo 3 Folding Automatic Umbrella</h3>
+            <p>Price: $2.85-3</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_97.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H09359f2466694e938004cd447ddf0830n.jpg_300x300.jpg" alt="ZHENGYANG Craft DIY White Paper Parasol Umbrella Bamboo Paper Umbrella Wedding Promotional Gift" style="max-width: 200px;">
+            </a>
+            <h3>ZHENGYANG Craft DIY White Paper Parasol Umbrella Bamboo Paper Umbrella Wedding Promotional Gift</h3>
+            <p>Price: $0.29-1.57</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_98.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha38a49eae4844b8390a333d081af5ed3G.jpg_300x300.jpg" alt="Wholesale 3-Fold Automatic Open UV Protection Windproof Umbrella Custom Logo Printing Rotating Handle LED Light Business Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale 3-Fold Automatic Open UV Protection Windproof Umbrella Custom Logo Printing Rotating Handle LED Light Business Gifts</h3>
+            <p>Price: $2.14-9.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_99.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf94fa466cf424cc185f3c9908226a022W.jpg_300x300.jpg" alt="Ultralight Mini Pocket 5 Fold Umbrella Portable Women's UV Protection Anti-Uv Capsule Umbrella Folding UV Rain Umbrella Sun" style="max-width: 200px;">
+            </a>
+            <h3>Ultralight Mini Pocket 5 Fold Umbrella Portable Women's UV Protection Anti-Uv Capsule Umbrella Folding UV Rain Umbrella Sun</h3>
+            <p>Price: $1.59-1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 60 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_100.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He109a0d220f74887be205a5972ccae61I.png_300x300.png" alt="Full-automatic Three-fold Alloy Umbrella Wholesale Black Rubber Sunshade Sunscreen UV-proof Sunny Rainy Days Gift Advertising" style="max-width: 200px;">
+            </a>
+            <h3>Full-automatic Three-fold Alloy Umbrella Wholesale Black Rubber Sunshade Sunscreen UV-proof Sunny Rainy Days Gift Advertising</h3>
+            <p>Price: 1.96</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <!-- 分页按钮 -->
+        <div class="pagination">
+            
+
+            
+            
+
+            
+            <a href="page_1.html" class="active">1</a>
+            
+            <a href="page_2.html" >2</a>
+            
+            <a href="page_3.html" >3</a>
+            
+            <a href="page_4.html" >4</a>
+            
+            <a href="page_5.html" >5</a>
+            
+            <a href="page_6.html" >6</a>
+            
+            <a href="page_7.html" >7</a>
+            
+            <a href="page_8.html" >8</a>
+            
+            <a href="page_9.html" >9</a>
+            
+            <a href="page_10.html" >10</a>
+            
+
+            
+            <a href="page_11.html">Next</a>
+            
+        </div>
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" onclick="topFunction()">回到顶部</button>
+    </div>
+
+    <script>
+        // 回到顶部按钮显示与隐藏逻辑
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        // 回到顶部按钮点击事件
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
