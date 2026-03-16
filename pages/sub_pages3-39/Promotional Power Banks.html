@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L8EDEXZBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9L8EDEXZBV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品列表 - 第1页</title>
+    <meta name="description" content="Sunnyluo Store - 200000+ factory-direct product categories including Home Decor, Industrial Machinery, Electronics, and more. Wholesale sourcing made easy.">
+    <link rel="canonical" href="https://sunnyluostore.github.io/allgoodsfind.github.io/"><style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 200px;
+            /* 可根据实际情况调整图片大小 */
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #03a9f4;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* 新添加的样式 */
+        .product-item h3 {
+            font-size: 14px;
+            /* 产品名称文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item p {
+            font-size: 12px;
+            /* 其他产品信息文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item:hover h3 {
+            color: #03a9f4;
+            /* 鼠标悬停时产品名称文字变色 */
+        }
+
+        .product-item:hover p {
+            color: #03a9f4;
+            /* 鼠标悬停时其他产品信息文字变色 */
+        }
+
+        /* 产品容器样式 */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        /* 产品项样式 */
+        .product-item {
+            width: calc(25% - 20px);
+            /* 默认每行显示 4 个产品 */
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* 鼠标悬停效果 */
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* 媒体查询，适配不同屏幕尺寸 */
+        @media (max-width: 1024px) {
+            .product-item {
+                width: calc(33.33% - 20px);
+                /* 平板设备每行显示 3 个产品 */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: calc(50% - 20px);
+                /* 小屏幕设备每行显示 2 个产品 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+                /* 超小屏幕设备每行显示 1 个产品 */
+            }
+        }
+
+        /* 分页按钮样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        /* 回到顶部按钮样式 */
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #03a9f4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部图片和文字 -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <p>Sunnyluo Store</p>
+        <p>Build a curated directory of store with factory</p>
+    </div>
+    <nav>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/index.html">Home</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/pdfs/pdf.html">Resources</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/About us.html">About Us</a>
+        <a href="mailto:sunnyluo330@gmail.com">Contact Us</a>
+        <a href="https://www.facebook.com/sunnyluoting">Facebook</a>
+    </nav>
+    <h1>Product list</h1>
+    <div class="products">
+        
+        <div class="product-item">
+            <a href="product_1.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha5db2d245fbe4f018e9e6c8d4d9be4e29.jpg_300x300.jpg" alt="Customized LED Logo 5000mAh Li-Polymer Battery Ultra Slim Type-C USB Portable Power Bank for Gift with RoHS Certification" style="max-width: 200px;">
+            </a>
+            <h3>Customized LED Logo 5000mAh Li-Polymer Battery Ultra Slim Type-C USB Portable Power Bank for Gift with RoHS Certification</h3>
+            <p>Price: $5.60-6</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_2.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2731be5916314c829e8e52519cc39c2bR.jpg_300x300.jpg" alt="Promotion Slim 10000mah USB-C Portable Charger with Built-in 4 Cables PD 22.5W Fast Charging PowerBank with LED Digital Display" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Slim 10000mah USB-C Portable Charger with Built-in 4 Cables PD 22.5W Fast Charging PowerBank with LED Digital Display</h3>
+            <p>Price: $3.42-4.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_3.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3cec02e88b094495b6423f8b91f5022dC.jpg_300x300.jpg" alt="High Capacity 20000mAh Portable Power Bank Factory Logo LED Mobile Charger External Battery 10W Perfect Gift OEM Mobile Charger" style="max-width: 200px;">
+            </a>
+            <h3>High Capacity 20000mAh Portable Power Bank Factory Logo LED Mobile Charger External Battery 10W Perfect Gift OEM Mobile Charger</h3>
+            <p>Price: $1.50-1.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_4.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8edbc1dc8cec4e918d51c578c5ef651eX.jpg_300x300.jpg" alt="High Capacity Portable Mini Power Banks 10000 Mah for Smart Phone Oem logo Power Bank Output 4 Input Fast Charging LED Digital" style="max-width: 200px;">
+            </a>
+            <h3>High Capacity Portable Mini Power Banks 10000 Mah for Smart Phone Oem logo Power Bank Output 4 Input Fast Charging LED Digital</h3>
+            <p>Price: $3.80-4.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 set</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_5.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H074f8b55b2d94c5d8740b973dec21585Z.png_300x300.png" alt="Custom Logo Portable Charger 2000mah 4000mah Mini PowerBank With Cable Batterie Externe Keychain Power Bank for Phone & Watch" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Portable Charger 2000mah 4000mah Mini PowerBank With Cable Batterie Externe Keychain Power Bank for Phone & Watch</h3>
+            <p>Price: $2.99-4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_6.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H18fcecf321dc41dfa96f8197c1d7ceebg.jpg_300x300.jpg" alt="Custom Promotional Gifts Portable Charger Key Chain Mobile Mini PowerBank 2000mAh Phone Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Custom Promotional Gifts Portable Charger Key Chain Mobile Mini PowerBank 2000mAh Phone Power Bank</h3>
+            <p>Price: $2.55-2.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_7.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc9615973a17447df9e039795ad797258O.jpg_300x300.jpg" alt="Custom Logo Promotional Gift Pocket Size Keychain Power Bank 2600MAH Type-C Mini Portable Power Bank for Custom Gift Giveaway" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Promotional Gift Pocket Size Keychain Power Bank 2600MAH Type-C Mini Portable Power Bank for Custom Gift Giveaway</h3>
+            <p>Price: $1.38-1.68</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_8.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H30dbda5018cd4f43a4d65ec89f52db79M.jpg_300x300.jpg" alt="Custom UV Printing Type C 3000mAh/5000mAh Ultra Slim Mini Portable Power Bank for Promotional Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Custom UV Printing Type C 3000mAh/5000mAh Ultra Slim Mini Portable Power Bank for Promotional Gifts</h3>
+            <p>Price: $1.75-1.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 40 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_9.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7a3f6566e034443d9de53dd0be6a76ae3.jpg_300x300.jpg" alt="Customizable logo PD 22.5W Hot Sale Cheap Price Fast Charging Power Bank 10000mah LCD Display Mini Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Customizable logo PD 22.5W Hot Sale Cheap Price Fast Charging Power Bank 10000mah LCD Display Mini Power Bank</h3>
+            <p>Price: $6.98 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_10.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H37617e8127e04dc4a4b05c4c45814ba7z.jpg_300x300.jpg" alt="Promotional Keychains Powerbank Pocket 4000 mAh Portable Mini Powerbank" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Keychains Powerbank Pocket 4000 mAh Portable Mini Powerbank</h3>
+            <p>Price: $3.55-3.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_11.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5be60f65eb0847bdbfcfea46ac569a2b4.png_300x300.png" alt="New Mini Customer Gifts Power Bank Charger 8000mah High Capacity Led Light logo Powerbank" style="max-width: 200px;">
+            </a>
+            <h3>New Mini Customer Gifts Power Bank Charger 8000mah High Capacity Led Light logo Powerbank</h3>
+            <p>Price: $7.20-7.95</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_12.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9a16e560a20c4adda354b0f108c158dbn.jpeg_300x300.jpeg" alt="Abs Q5 Mini Dual Usb Portable Charger Slim Factory Wholesale Hot Sale 10000 Mah Box Customize Li-polymer Battery Mini Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Abs Q5 Mini Dual Usb Portable Charger Slim Factory Wholesale Hot Sale 10000 Mah Box Customize Li-polymer Battery Mini Power Bank</h3>
+            <p>Price: $6.35 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_13.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H47a4e3e89a084345ae8f38f5547cea9em.jpg_300x300.jpg" alt="Branded Promotional Gift Power Bank with Phone Stand + Umbrella Give Away Gift Ideas" style="max-width: 200px;">
+            </a>
+            <h3>Branded Promotional Gift Power Bank with Phone Stand + Umbrella Give Away Gift Ideas</h3>
+            <p>Price: $14 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_14.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H86baa8c21ec8498c8f389b2f52fdf28cE.jpg_300x300.jpg" alt="NINER9 10000mAh Fast Charging Mini Portable Power Bank with Type C & Apple USB Outputs Built-in Cable and Customizable Logo" style="max-width: 200px;">
+            </a>
+            <h3>NINER9 10000mAh Fast Charging Mini Portable Power Bank with Type C & Apple USB Outputs Built-in Cable and Customizable Logo</h3>
+            <p>Price: $3.45-4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_15.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdf631da0865848dead410c608b989e04X.jpg_300x300.jpg" alt="Custom Your Design Mobile Power Fast Charging Custom Cartoon Anime Power Bank Custom Shape Cartoon Design" style="max-width: 200px;">
+            </a>
+            <h3>Custom Your Design Mobile Power Fast Charging Custom Cartoon Anime Power Bank Custom Shape Cartoon Design</h3>
+            <p>Price: $8.43-10.96</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_16.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2388ad0c0c2e408e80866c36fcd566990.png_300x300.png" alt="Factory OEM New Keychain Charger Mini Portable Charger Custom With Cable LCD Display 5000mAh Small Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>Factory OEM New Keychain Charger Mini Portable Charger Custom With Cable LCD Display 5000mAh Small Power Banks</h3>
+            <p>Price: $3.35-3.69</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_17.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4ac31a845d2e41389d59b710a2a0329ca.jpg_300x300.jpg" alt="Promotional Fast Charging Mini KC Mobile 3000/5000mah Power Bank Small Portable Charger Capsule Power Station for Mobiles" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Fast Charging Mini KC Mobile 3000/5000mah Power Bank Small Portable Charger Capsule Power Station for Mobiles</h3>
+            <p>Price: $2.32-2.68</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_18.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H47a6825514f84144a16e3fcb662c80b5Z.jpg_300x300.jpg" alt="Private Label Support Custom logo Battery Power Bank 5000mah Powerbank Gift Powerbanks 5000mah ultra Slim Mini Size Black Color" style="max-width: 200px;">
+            </a>
+            <h3>Private Label Support Custom logo Battery Power Bank 5000mah Powerbank Gift Powerbanks 5000mah ultra Slim Mini Size Black Color</h3>
+            <p>Price: $2.96-3.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_19.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H400a95f0fa7c40e882c2288e44a93d75W.png_300x300.png" alt="Custom Anime-Style Portable Power Banks, Custom Logo UV Printing, Promotional Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>Custom Anime-Style Portable Power Banks, Custom Logo UV Printing, Promotional Power Banks</h3>
+            <p>Price: $0.20-0.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_20.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd987545feeed45f4ae2dd94f65b931f8k.jpg_300x300.jpg" alt="2025 Hot Seller Portable Charging Power Bank for Accept Customization logo Mobile Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>2025 Hot Seller Portable Charging Power Bank for Accept Customization logo Mobile Power Bank</h3>
+            <p>Price: $4.96-5.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_21.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0245e4d0c59a4baf87535295ea27c8dcj.jpg_300x300.jpg" alt="Custom Logo Promotional Giveaway Business Brand Marketing Flask and Power Bank Advertisement Gift Set Item for Event Trade Show" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Promotional Giveaway Business Brand Marketing Flask and Power Bank Advertisement Gift Set Item for Event Trade Show</h3>
+            <p>Price: $14 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_22.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8891430d7e4f40879dabe8de0b8b2427r.jpg_300x300.jpg" alt="Customized Logo Portable 10000mAh Powerbank 35W PD Quick Charge Built in Dual Data Cable" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo Portable 10000mAh Powerbank 35W PD Quick Charge Built in Dual Data Cable</h3>
+            <p>Price: $6.16-7.19</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_23.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2cac4bcd04d04f36992860105d48f06dI.jpg_300x300.jpg" alt="Custom logo Mini Power Bank 5000mah for Phone" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Mini Power Bank 5000mah for Phone</h3>
+            <p>Price: $5-7</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_24.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3682089ad7954481891396f7ca0d3c01X.jpg_300x300.jpg" alt="Gifts Promotional Items 18W Wireless Mag Power Bank Safe Fast Magnet Portable Charger Mini Pink Power Bank with Digital Display" style="max-width: 200px;">
+            </a>
+            <h3>Gifts Promotional Items 18W Wireless Mag Power Bank Safe Fast Magnet Portable Charger Mini Pink Power Bank with Digital Display</h3>
+            <p>Price: $11.20-13.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_25.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8199c396d3c14ae483b69262de2891a4F.jpg_300x300.jpg" alt="2024 Hot Selling Custom Logo Promotional Power Bank Car 3 in 1 Charger Cable Adapter Portable Mobile Phone Accessories Gift Sets" style="max-width: 200px;">
+            </a>
+            <h3>2024 Hot Selling Custom Logo Promotional Power Bank Car 3 in 1 Charger Cable Adapter Portable Mobile Phone Accessories Gift Sets</h3>
+            <p>Price: $9.39-10.18</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_26.html">
+                <img src="https://s.alicdn.com/@sc04/kf/HTB1STYag8jTBKNjSZFwq6AG4XXaM.jpg_300x300.jpg" alt="Innovation Product OEM ODM Table Menu Holder Power Bank Advertising Powerbanks with Calling Function" style="max-width: 200px;">
+            </a>
+            <h3>Innovation Product OEM ODM Table Menu Holder Power Bank Advertising Powerbanks with Calling Function</h3>
+            <p>Price: $9-13</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_27.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H92f17ac64c224cb79654eaf2746818e0N.jpg_300x300.jpg" alt="Custom logo Wireless Charger Mini Power Bank 5000mah for Mobile Phones" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Wireless Charger Mini Power Bank 5000mah for Mobile Phones</h3>
+            <p>Price: $5.50-6.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_28.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2301d8ecc05b4d05aa9a3b229993a55eR.jpg_300x300.jpg" alt="Custom Logo Portable 5-in-1 Travel Powerbank with Wireless Charger and AU EU UK Plug New Design Holder" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Portable 5-in-1 Travel Powerbank with Wireless Charger and AU EU UK Plug New Design Holder</h3>
+            <p>Price: $8.86-9.36</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_29.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc7ec3cedf3884979a2dfd8578ddd9f303.jpg_300x300.jpg" alt="Custom Logo 5000mAh Mini Magnetic Power Bank | Portable Charger for Corporate Gifts Wholesale" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo 5000mAh Mini Magnetic Power Bank | Portable Charger for Corporate Gifts Wholesale</h3>
+            <p>Price: $7.50-9.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_30.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6cc14886d60d4e719c60c3677d4c2648F.jpg_300x300.jpg" alt="Mini Compact Portable Wireless Magnetic Fast Charging Power Bank with Large Capacity Custom Logo Apple/USB Interfaces" style="max-width: 200px;">
+            </a>
+            <h3>Mini Compact Portable Wireless Magnetic Fast Charging Power Bank with Large Capacity Custom Logo Apple/USB Interfaces</h3>
+            <p>Price: $4.30-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_31.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H189b8849ee634119a10e85f7a8700e468.jpg_300x300.jpg" alt="Menu Power Bank with LCD Video Advertising Display, Built-in 13000mAh Lithium Battery, 3 USB Port Mobile Phone Charging Station" style="max-width: 200px;">
+            </a>
+            <h3>Menu Power Bank with LCD Video Advertising Display, Built-in 13000mAh Lithium Battery, 3 USB Port Mobile Phone Charging Station</h3>
+            <p>Price: $35-39</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_32.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0f03bbdee4574c88b1456412a667ca5fG.jpg_300x300.jpg" alt="Wholesale High-End Business Gift Set with Customized Logo Includes 500ml Mug Pen 10000mAh USB Power Bank-Modern Design for Men" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale High-End Business Gift Set with Customized Logo Includes 500ml Mug Pen 10000mAh USB Power Bank-Modern Design for Men</h3>
+            <p>Price: $13.24-14.44</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_33.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2d2f729fad2e48c18eb41156199757bbo.jpg_300x300.jpg" alt="5500mAh Mini Pocket Power Banks 22.5W Fast Charging Portable Charger LED Digital Display Power Bank Custom for Christmas Gift" style="max-width: 200px;">
+            </a>
+            <h3>5500mAh Mini Pocket Power Banks 22.5W Fast Charging Portable Charger LED Digital Display Power Bank Custom for Christmas Gift</h3>
+            <p>Price: $11-13.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_34.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H55f332668dcd4625b0b715f4828aefa0u.png_300x300.png" alt="Custom Keychain Power Bank 2200mAh Portable Charger Promotional Gifts Corporate Events Custom Logo Emergency Backup" style="max-width: 200px;">
+            </a>
+            <h3>Custom Keychain Power Bank 2200mAh Portable Charger Promotional Gifts Corporate Events Custom Logo Emergency Backup</h3>
+            <p>Price: $0.21-1</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 units</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_35.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbf655d1db7e04033aa57704eacdc8420C.jpg_300x300.jpg" alt="Custom Light up logo 10s Output 16g Usb A5 Leather Multifunctional Powerbank With Wireless Charging Notebook" style="max-width: 200px;">
+            </a>
+            <h3>Custom Light up logo 10s Output 16g Usb A5 Leather Multifunctional Powerbank With Wireless Charging Notebook</h3>
+            <p>Price: $8-12</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_36.html">
+                <img src="https://s.alicdn.com/@sc04/kf/A9829763658d64f2c88db2990baf72075x.jpg_300x300.jpg" alt="CE Certified Power Banks Portable Battery Fast Charging 22.5W Power Bank 10000mah with Custom logo" style="max-width: 200px;">
+            </a>
+            <h3>CE Certified Power Banks Portable Battery Fast Charging 22.5W Power Bank 10000mah with Custom logo</h3>
+            <p>Price: $9-15</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_37.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb69985e526d84995bc29f059361decc4e.jpg_300x300.jpg" alt="Wholesale Custom Logo Fast Charging Power Bank 10000mah Magnetic Qi2.2 25W Wireless Powerbanks" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Logo Fast Charging Power Bank 10000mah Magnetic Qi2.2 25W Wireless Powerbanks</h3>
+            <p>Price: $15-15.67</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_38.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H59d572e9f35d4074b4aa657f559158a9H.jpg_300x300.jpg" alt="Relink Portable Shared Power Bank Rental Kiosk Cell Phone Fast Charging Power Banks Power Station for Commercial Use" style="max-width: 200px;">
+            </a>
+            <h3>Relink Portable Shared Power Bank Rental Kiosk Cell Phone Fast Charging Power Banks Power Station for Commercial Use</h3>
+            <p>Price: $160-215</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_39.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd71aa7e09a2d49e1b8f1507bfa242c7am.png_300x300.png" alt="Ultra Slim Custom Logo Battery Power Bank USB Type-C 10000mAh 22.5W LED Display Portable Power Bank Output Promotion" style="max-width: 200px;">
+            </a>
+            <h3>Ultra Slim Custom Logo Battery Power Bank USB Type-C 10000mAh 22.5W LED Display Portable Power Bank Output Promotion</h3>
+            <p>Price: $6.70-7.62</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_40.html">
+                <img src="https://s.alicdn.com/@sc04/kf/HTB1awHEtDJYBeNjy1zeq6yhzVXaH.jpg_300x300.jpg" alt="2019 New Trending Products Power Bank for Restaurant Meeting Room" style="max-width: 200px;">
+            </a>
+            <h3>2019 New Trending Products Power Bank for Restaurant Meeting Room</h3>
+            <p>Price: $8.90-13.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_41.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hded419a23d3c453aa2588f464ec496f7l.jpg_300x300.jpg" alt="Custom Logo Ultra Fast Charging 200W 100W 65W PD Power Bank LiFePO4 Battery New Laptop Powerbank for Christmas Gift" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Ultra Fast Charging 200W 100W 65W PD Power Bank LiFePO4 Battery New Laptop Powerbank for Christmas Gift</h3>
+            <p>Price: $34.10-50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_42.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd66f54db631643859a5ef16dfb90734eC.png_300x300.png" alt="Customizable LOGO PD22.5W Super Fast Charging Power Bank 10000-50000mAh Large Capacity Dual USB Portable Charger With Lanyard" style="max-width: 200px;">
+            </a>
+            <h3>Customizable LOGO PD22.5W Super Fast Charging Power Bank 10000-50000mAh Large Capacity Dual USB Portable Charger With Lanyard</h3>
+            <p>Price: $3.19-8.31</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_43.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf2360352695446da9f4a55b6fa5786daY.jpg_300x300.jpg" alt="20000mah Promotions Wholesale PowerBank Custom logo PC1185 PC1191 Simple 10000mah 22.5W Mobile Phone Portable Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>20000mah Promotions Wholesale PowerBank Custom logo PC1185 PC1191 Simple 10000mah 22.5W Mobile Phone Portable Power Bank</h3>
+            <p>Price: $3.60-5.79</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_44.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He42bef65a1f34618970d49f72e749fadz.jpg_300x300.jpg" alt="Wholesale Mini Power Bank Portable Power Supplies with Four Data Cables Promotional Gift Power Bank with logo" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Mini Power Bank Portable Power Supplies with Four Data Cables Promotional Gift Power Bank with logo</h3>
+            <p>Price: $2.57-3.87</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_45.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1901c13be5494559b4d8f3258f9166ceE.jpg_300x300.jpg" alt="Best Selling 60000mah High Capacity Power Bank Type-C 22.5W Super Charging for Camping Outdoor Customized Logo Pd22.5w" style="max-width: 200px;">
+            </a>
+            <h3>Best Selling 60000mah High Capacity Power Bank Type-C 22.5W Super Charging for Camping Outdoor Customized Logo Pd22.5w</h3>
+            <p>Price: $15.50-19.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_46.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbe19c8ca2ac440dbb65d0ecdab492360P.jpg_300x300.jpg" alt="Custom Logo Credit Card Powerbank 5000mAh 10000mAh Li Polymer Portable OEM Flat Ultra Slim Thin Power Bank for iPhone" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Credit Card Powerbank 5000mAh 10000mAh Li Polymer Portable OEM Flat Ultra Slim Thin Power Bank for iPhone</h3>
+            <p>Price: $4.24-5.25</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_47.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc36048f5ab634840aef3fc95726cfcedZ.jpg_300x300.jpg" alt="Custom logo Magnetic Wireless Power Bank 5000mah 10000mah Magnet Wireless Charger Powerbank for iPhone 12 13 14 Pro Max" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Magnetic Wireless Power Bank 5000mah 10000mah Magnet Wireless Charger Powerbank for iPhone 12 13 14 Pro Max</h3>
+            <p>Price: $11.50-12.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_48.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc22ad78d018948018de50af76e04346ds.jpg_300x300.jpg" alt="Factory New Customized Lighting Logo Power Bank 5000 Mah With RoHs Portable Charger 5000mah Mobile Phone Type c Powerbank" style="max-width: 200px;">
+            </a>
+            <h3>Factory New Customized Lighting Logo Power Bank 5000 Mah With RoHs Portable Charger 5000mah Mobile Phone Type c Powerbank</h3>
+            <p>Price: $4.50-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_49.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H74afb9a5d1e14f5d88f396c1e080e98fJ.jpg_300x300.jpg" alt="Customized Logo 5000mAh Portable Mini Ink Screen Power Bank Double-sided Flipping Holder Magnetic Wireless Charging Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo 5000mAh Portable Mini Ink Screen Power Bank Double-sided Flipping Holder Magnetic Wireless Charging Power Banks</h3>
+            <p>Price: $17.66-18</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_50.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H09bef25862eb41ebaae937859add375fP.png_300x300.png" alt="2025 Most Selling Product in alibaba Restaurant Menu Power Bank Table Top Menu Powerbank Restaurant Power Bank Station" style="max-width: 200px;">
+            </a>
+            <h3>2025 Most Selling Product in alibaba Restaurant Menu Power Bank Table Top Menu Powerbank Restaurant Power Bank Station</h3>
+            <p>Price: $9-13</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_51.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H64662108a3ba40b1abbce164be1225136.png_300x300.png" alt="Custom logo Ultra-thin Magnetic Power Bank Mini Wireless Fast Charge 15w 20w Mini Power Bank 5000mah Capacity with Holder" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Ultra-thin Magnetic Power Bank Mini Wireless Fast Charge 15w 20w Mini Power Bank 5000mah Capacity with Holder</h3>
+            <p>Price: $13.75 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_52.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5f3225c37ae64232a0caa47a02a59601g.jpg_300x300.jpg" alt="Customized Logo 5000mAh Portable Mini Ink Screen Power Bank Double-sided Flipping Holder Magnetic Wireless Charging Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo 5000mAh Portable Mini Ink Screen Power Bank Double-sided Flipping Holder Magnetic Wireless Charging Power Banks</h3>
+            <p>Price: $17.66-18</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_53.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdf37f34b22ad46d89941ef895387923eF.jpg_300x300.jpg" alt="Hot Sell Custom logo 2.A Fast Quick Charge 10000mAh Power Banks Mobile Phone Portable" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sell Custom logo 2.A Fast Quick Charge 10000mAh Power Banks Mobile Phone Portable</h3>
+            <p>Price: $3.40-3.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_54.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4bec2037547b4e51a4a284d4e3a1e055G.jpg_300x300.jpg" alt="Custom Logo Package Wireless Portable Mini Magnetic Power Bank 5000mAh with 15W Output Type-C LED Display Plug for 3 Devices" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Package Wireless Portable Mini Magnetic Power Bank 5000mAh with 15W Output Type-C LED Display Plug for 3 Devices</h3>
+            <p>Price: $6.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_55.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H21fcdeee3322426cabd26d97d8780d7dN.jpg_300x300.jpg" alt="Toocki Mini Wireless Magnetic Power Bank 5000mAh Fast Charging with Strong Magnet for iPhone 12-15 Series Business Travel" style="max-width: 200px;">
+            </a>
+            <h3>Toocki Mini Wireless Magnetic Power Bank 5000mAh Fast Charging with Strong Magnet for iPhone 12-15 Series Business Travel</h3>
+            <p>Price: $6 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_56.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2942b50fa0b441048bcc00815d0e5a0f1.jpg_300x300.jpg" alt="Custom Logo OEM Emergency Power Supply Multi Function Battery Booster Powerbank Jump Starter Power Bank for Car Truck Motorcycle" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo OEM Emergency Power Supply Multi Function Battery Booster Powerbank Jump Starter Power Bank for Car Truck Motorcycle</h3>
+            <p>Price: $27.59 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_57.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H347442b26b9d47a88ac5df197b4f123eA.jpg_300x300.jpg" alt="Free Logo PD 65W 100W Power Bank for Laptop Fast Charging Power Bank External Battery Power Supply" style="max-width: 200px;">
+            </a>
+            <h3>Free Logo PD 65W 100W Power Bank for Laptop Fast Charging Power Bank External Battery Power Supply</h3>
+            <p>Price: $21.90-22</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_58.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H14147e7498de431bb9afe58b13d30f93A.png_300x300.png" alt="Customized Logo Wireless Charging Solar Mobile Power 20000 MAh Large Capacity Outdoor Cable Power Bank for Mobile Phone" style="max-width: 200px;">
+            </a>
+            <h3>Customized Logo Wireless Charging Solar Mobile Power 20000 MAh Large Capacity Outdoor Cable Power Bank for Mobile Phone</h3>
+            <p>Price: $9.85-10.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 boxes</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_59.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H454394ecfbc747c98829d5665d539f8fc.jpg_300x300.jpg" alt="Trending Product 22.5W 10000Mah Portable Power Bank with Quick Charge Support and Double USB Outputs for iPhone 16 (With Cable)" style="max-width: 200px;">
+            </a>
+            <h3>Trending Product 22.5W 10000Mah Portable Power Bank with Quick Charge Support and Double USB Outputs for iPhone 16 (With Cable)</h3>
+            <p>Price: $5.99-6.66</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_60.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heec005cee3c8486295b7ec3f183b16cbL.jpg_300x300.jpg" alt="Topselling Products 3 in 1 Wireless Universal Magnetic Power Bank for Iphone,airpods and Iwatch" style="max-width: 200px;">
+            </a>
+            <h3>Topselling Products 3 in 1 Wireless Universal Magnetic Power Bank for Iphone,airpods and Iwatch</h3>
+            <p>Price: $5.60-8.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_61.html">
+                <img src="" alt="2025 Trending Products Restaurant Advertising Menu Power Bank for Coffee Shop bar" style="max-width: 200px;">
+            </a>
+            <h3>2025 Trending Products Restaurant Advertising Menu Power Bank for Coffee Shop bar</h3>
+            <p>Price: $9 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_62.html">
+                <img src="" alt="Custom logo Hot Selling Portable Mini Power Bank 10000mah/20000mah Mini Power Banks for Mobile Phone Charging Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Custom logo Hot Selling Portable Mini Power Bank 10000mah/20000mah Mini Power Banks for Mobile Phone Charging Power Bank</h3>
+            <p>Price: $4.98-5.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 30 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_63.html">
+                <img src="" alt="New 2025 Products Type-c Cable Phone Charger 22.5W Fast Charging 20000mah Capacity Power Bank Led Display Custom Logo Gift" style="max-width: 200px;">
+            </a>
+            <h3>New 2025 Products Type-c Cable Phone Charger 22.5W Fast Charging 20000mah Capacity Power Bank Led Display Custom Logo Gift</h3>
+            <p>Price: $7.43-8.82</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_64.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Habc8e8c8a243453780bcfc413f01c126R.png_300x300.png" alt="Promotion Christmas Gift Power Bank 5000Mah Fast Charging Power Bank Portable Dual USB Mini Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Christmas Gift Power Bank 5000Mah Fast Charging Power Bank Portable Dual USB Mini Power Bank</h3>
+            <p>Price: $3.15-4.44</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_65.html">
+                <img src="" alt="Customizable logo PD 22.5W Power Bank 10000mah Usb Type C Power Bank Built in Cable for Mobile Phone 20000mah Powerbank" style="max-width: 200px;">
+            </a>
+            <h3>Customizable logo PD 22.5W Power Bank 10000mah Usb Type C Power Bank Built in Cable for Mobile Phone 20000mah Powerbank</h3>
+            <p>Price: $5.50-7.42</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_66.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb0b6ac943f49408696b77015573984a6p.jpg_300x300.jpg" alt="Factory Wholesale Digital Display Built-in 4 Cables Mini Power Bank 5000mAh 10000mAh Phone Charger With Lanyard and Flashlight" style="max-width: 200px;">
+            </a>
+            <h3>Factory Wholesale Digital Display Built-in 4 Cables Mini Power Bank 5000mAh 10000mAh Phone Charger With Lanyard and Flashlight</h3>
+            <p>Price: $2.36-3.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_67.html">
+                <img src="" alt="NINER9 Mini Built-in Cable Power Bank Super Fast Charging Mobile Power Supply Type-C/USB Interfaces Custom Logo for Promotional" style="max-width: 200px;">
+            </a>
+            <h3>NINER9 Mini Built-in Cable Power Bank Super Fast Charging Mobile Power Supply Type-C/USB Interfaces Custom Logo for Promotional</h3>
+            <p>Price: $5.74-6.46</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_68.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H33fe93bda38d470f9f6dcb8bdc8f525fn.jpg_300x300.jpg" alt="Restaurant Cafe Menu Power Bank with LED Panel Advertising Display, Backlight and 3USB Output, Built-in 13000mah Lithium Battery" style="max-width: 200px;">
+            </a>
+            <h3>Restaurant Cafe Menu Power Bank with LED Panel Advertising Display, Backlight and 3USB Output, Built-in 13000mah Lithium Battery</h3>
+            <p>Price: $14-15</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_69.html">
+                <img src="" alt="Super Fast Charging High Capacity Wireless Power Bank 20000mAh Mobile Charger with Built-in Cable and Custom Logo" style="max-width: 200px;">
+            </a>
+            <h3>Super Fast Charging High Capacity Wireless Power Bank 20000mAh Mobile Charger with Built-in Cable and Custom Logo</h3>
+            <p>Price: $6.89-7.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_70.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb773067156fe40039b0b07deb955a360K.jpg_300x300.jpg" alt="BAVIN Factory Wholesale 20000mah PowerBank PC1153S Custom logo Portable Fast Charging 10000mah Portable Power Bank With Cable" style="max-width: 200px;">
+            </a>
+            <h3>BAVIN Factory Wholesale 20000mah PowerBank PC1153S Custom logo Portable Fast Charging 10000mah Portable Power Bank With Cable</h3>
+            <p>Price: $6.41-8.03</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_71.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H15dca104a4584fc08a121b0ed5d16816U.jpg_300x300.jpg" alt="Factory Outlet Gift Customizable Logo Power Bank Digital LED Display PD 20W Portable Power Bank for iPhone 14 15 Pro Max" style="max-width: 200px;">
+            </a>
+            <h3>Factory Outlet Gift Customizable Logo Power Bank Digital LED Display PD 20W Portable Power Bank for iPhone 14 15 Pro Max</h3>
+            <p>Price: $6.80-8.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_72.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H36ad5229e8c24e018a0f354f9806e329Q.jpg_300x300.jpg" alt="120W Super Fast Charging Portable Mobile Power Supply 20000 MA Two-Way Treasure Line Promotional Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>120W Super Fast Charging Portable Mobile Power Supply 20000 MA Two-Way Treasure Line Promotional Power Banks</h3>
+            <p>Price: $5.59-9.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_73.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hce041acb7a984340aeb8ea575461e18b7.jpg_300x300.jpg" alt="Green Promotional Power Bank Wheat Straw Portable Mobile Charger 10000mah" style="max-width: 200px;">
+            </a>
+            <h3>Green Promotional Power Bank Wheat Straw Portable Mobile Charger 10000mah</h3>
+            <p>Price: $5.90-7.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_74.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H20d595ee3ee34be79c18208b91d48b1fb.png_300x300.png" alt="Promotional Gift Camping Lantern 20000mah Power Bank Built-in 4 Cables with Led Light Lanyard Led Camping Light Charger" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Gift Camping Lantern 20000mah Power Bank Built-in 4 Cables with Led Light Lanyard Led Camping Light Charger</h3>
+            <p>Price: $4.60-5.30</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_75.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hde9410664e7545ecae9594c3d052a0e8X.png_300x300.png" alt="Promotion Mini Power Bank 5000mah With Built-in Cables Digital Display Phone Holder Lanyard Capsule Portable Charger" style="max-width: 200px;">
+            </a>
+            <h3>Promotion Mini Power Bank 5000mah With Built-in Cables Digital Display Phone Holder Lanyard Capsule Portable Charger</h3>
+            <p>Price: $1.99-2.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_76.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9fd3aed0b6bf47e38a0fb454fba06b84j.jpg_300x300.jpg" alt="Keychain Outdoor Portable Solar Charger Power Bank 5000mAh Waterproof Promotion Gift for Camping" style="max-width: 200px;">
+            </a>
+            <h3>Keychain Outdoor Portable Solar Charger Power Bank 5000mAh Waterproof Promotion Gift for Camping</h3>
+            <p>Price: $2.70-2.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_77.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb0b8c9dc43214ff1bdaac5b6dcc97ad3q.jpg_300x300.jpg" alt="Best Promotion Gift High Capacity Metal Material Ultra Slim Mini Portable Power Bank Mini USB 3000-5000mAh Custom Logo Sell Well" style="max-width: 200px;">
+            </a>
+            <h3>Best Promotion Gift High Capacity Metal Material Ultra Slim Mini Portable Power Bank Mini USB 3000-5000mAh Custom Logo Sell Well</h3>
+            <p>Price: $1.25-2.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 22 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_78.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He8983ca79c6b4502b13659df63b03aa9A.jpg_300x300.jpg" alt="Rechargeable Hand Warmers Power Banks 5000mahdigital Display for Power & Temperature for Christmas Birthday Promotional Gift" style="max-width: 200px;">
+            </a>
+            <h3>Rechargeable Hand Warmers Power Banks 5000mahdigital Display for Power & Temperature for Christmas Birthday Promotional Gift</h3>
+            <p>Price: $10.99-12.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_79.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H13ae8650ec9e4615a39ae2c38ad2bf7bC.png_300x300.png" alt="OEM Promotion Gift Wholesale Unique Glowing Luminous LED Custom Logo Charger Powerbank 10000mah Power Bank for Mobile Phone" style="max-width: 200px;">
+            </a>
+            <h3>OEM Promotion Gift Wholesale Unique Glowing Luminous LED Custom Logo Charger Powerbank 10000mah Power Bank for Mobile Phone</h3>
+            <p>Price: $4.39-6.69</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_80.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5ad7ec4fed244c9db605199245543909Z.jpg_300x300.jpg" alt="PD 66W Fast Charge Built-in Cable Digital Display 10000/20000mAh Power Bank External Battery/Charger for Promotion Gifts/Daily" style="max-width: 200px;">
+            </a>
+            <h3>PD 66W Fast Charge Built-in Cable Digital Display 10000/20000mAh Power Bank External Battery/Charger for Promotion Gifts/Daily</h3>
+            <p>Price: $5.79-6.69</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_81.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0cbb198b0f254db1a66285f78a4a0d0aB.jpg_300x300.jpg" alt="Aiaude Wireless Charger Portable Power Bank 10000 MAh Powerbanks Custom LOGO PowerBank Promotion Marketing Gift" style="max-width: 200px;">
+            </a>
+            <h3>Aiaude Wireless Charger Portable Power Bank 10000 MAh Powerbanks Custom LOGO PowerBank Promotion Marketing Gift</h3>
+            <p>Price: $6.68-6.98</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_82.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H704509b89a974b1c90deaeb29e2b64a7I.jpg_300x300.jpg" alt="Luminous LED Power Bank 10000 MAh Shine Power Bank Custom LOGO PowerBank Promotion Marketing Gift" style="max-width: 200px;">
+            </a>
+            <h3>Luminous LED Power Bank 10000 MAh Shine Power Bank Custom LOGO PowerBank Promotion Marketing Gift</h3>
+            <p>Price: $5.10-5.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_83.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9ae7ef088f5d4e5496419c0cd0aa2e144.jpg_300x300.jpg" alt="Travel Wholesale Station Led Best Fast Portable Multifunctional Promotional Small Mobile Phones Wireless Magnet Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>Travel Wholesale Station Led Best Fast Portable Multifunctional Promotional Small Mobile Phones Wireless Magnet Power Banks</h3>
+            <p>Price: $12.34-16.25</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_84.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8b482f999d9b412daf611e57e7bffc71c.jpg_300x300.jpg" alt="PB24 5000mAh Slim Power Bank Wireless & Wired Charging, LED Light, Custom Logo for Brand Promotion" style="max-width: 200px;">
+            </a>
+            <h3>PB24 5000mAh Slim Power Bank Wireless & Wired Charging, LED Light, Custom Logo for Brand Promotion</h3>
+            <p>Price: $3.32-4</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_85.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8a95e4e184aa464ca4e954c9f2fe8233u.jpg_300x300.jpg" alt="Promotional Colorful Portable Mini Power Bank 2600Mah Customized Factory Price Promotional Gift Portable Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Colorful Portable Mini Power Bank 2600Mah Customized Factory Price Promotional Gift Portable Power Bank</h3>
+            <p>Price: $1.56 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_86.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H53510ed9e5414194b1cea3bfc3ebb4edJ.jpg_300x300.jpg" alt="Factory Promotion 22.5W Fast Charging 10000mAh Slim Portable Power Bank LED Display PD20W USB-C LED Digital Display" style="max-width: 200px;">
+            </a>
+            <h3>Factory Promotion 22.5W Fast Charging 10000mAh Slim Portable Power Bank LED Display PD20W USB-C LED Digital Display</h3>
+            <p>Price: $2.88-3.69</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_87.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2ddace7ddf8746e0858d852da7fb3be5X.jpg_300x300.jpg" alt="2025 Hot Sale Powerbank 5000mAh Flashlight Customized Logo Mini Charger Ultra Thin Battery Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>2025 Hot Sale Powerbank 5000mAh Flashlight Customized Logo Mini Charger Ultra Thin Battery Power Banks</h3>
+            <p>Price: $2.90-3.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 set</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_88.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He64ec284d8bd45d585f36219f74dfa44z.jpg_300x300.jpg" alt="Mini Portable Power Bank 4000mah/5000mah Outdoor Pocket Power Bank For Gift Box Promotion" style="max-width: 200px;">
+            </a>
+            <h3>Mini Portable Power Bank 4000mah/5000mah Outdoor Pocket Power Bank For Gift Box Promotion</h3>
+            <p>Price: $3-5</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_89.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9554278ae5d64ab19bc099a625ce960dq.png_300x300.png" alt="Cheap Promotional Custom Power Bank 10000mah" style="max-width: 200px;">
+            </a>
+            <h3>Cheap Promotional Custom Power Bank 10000mah</h3>
+            <p>Price: $4.55-4.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_90.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0e5f0743fd854ebc91d250df2159996dr.png_300x300.png" alt="Wholesale Mini Built-In Corded Power Bank 20000 Mah Large Capacity Mobile Power Supply Custom Logo Promotional Power Banks" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Mini Built-In Corded Power Bank 20000 Mah Large Capacity Mobile Power Supply Custom Logo Promotional Power Banks</h3>
+            <p>Price: $2.60-4.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_91.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0d72b0167a4d4958a65b023806b27224E.jpg_300x300.jpg" alt="Best Promotion OEM Product Cheap Mini Power Bank Portable Dual USB Portable Charger Ultra Slim Power Bank 10000mAh" style="max-width: 200px;">
+            </a>
+            <h3>Best Promotion OEM Product Cheap Mini Power Bank Portable Dual USB Portable Charger Ultra Slim Power Bank 10000mAh</h3>
+            <p>Price: $4.94 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_92.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfde7d5c16b8947a7abfdd1a8133f74a7s.png_300x300.png" alt="Promotional Power Bank Fast Charging Portable 10000mAh Magnetic Charging Can Charge Watches" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Power Bank Fast Charging Portable 10000mAh Magnetic Charging Can Charge Watches</h3>
+            <p>Price: $1-3</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_93.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7c8668ef958d4683b3d288f6f04b9329A.png_300x300.png" alt="Custom Logo Mini Metal Power Bank Power Waterproof Portable USB Charger for Advertising Gift" style="max-width: 200px;">
+            </a>
+            <h3>Custom Logo Mini Metal Power Bank Power Waterproof Portable USB Charger for Advertising Gift</h3>
+            <p>Price: $2.10 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_94.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8629854681334f048adb24f25bb5182dg.jpg_300x300.jpg" alt="Promotional Disposable Charger Powerbank Cheap Mini Portable Free Samples for Restaurants One-Time Use Banco De Energia Portatil" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Disposable Charger Powerbank Cheap Mini Portable Free Samples for Restaurants One-Time Use Banco De Energia Portatil</h3>
+            <p>Price: $1-1.52</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_95.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H49dc9f4a6d6c4c77b847fb01e8719418N.jpg_300x300.jpg" alt="Promotional Fast Charging Mini KC Mobile 5000mah Power Bank Small Portable Charger Capsule Power Station for Mobiles" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Fast Charging Mini KC Mobile 5000mah Power Bank Small Portable Charger Capsule Power Station for Mobiles</h3>
+            <p>Price: $2.13-2.60</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pairs</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_96.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H30b34e3e2b4a4c73bbac21eed80512beU.jpg_300x300.jpg" alt="Subli-forward Promotional Gifts New Arrival Hot Customized Logo Power Bank with Wireless Charger Sublimation Blank Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>Subli-forward Promotional Gifts New Arrival Hot Customized Logo Power Bank with Wireless Charger Sublimation Blank Power Bank</h3>
+            <p>Price: $11.80-13</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_97.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb249109523d843c8a0c91b9aea159218N.jpg_300x300.jpg" alt="Advertising Mini Power Bank Custom logo Portable Laptop China Wholesale Power Banks Wallet Portable Charger for Smart Phone" style="max-width: 200px;">
+            </a>
+            <h3>Advertising Mini Power Bank Custom logo Portable Laptop China Wholesale Power Banks Wallet Portable Charger for Smart Phone</h3>
+            <p>Price: $0.59-1.48</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_98.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H01bab040ac88406986f804b50e39cf94p.jpg_300x300.jpg" alt="Promotional Gift Disposable Portable Mini Power Bank 10W Output External Mobile Phone Battery Charger with Capsule Pocket Design" style="max-width: 200px;">
+            </a>
+            <h3>Promotional Gift Disposable Portable Mini Power Bank 10W Output External Mobile Phone Battery Charger with Capsule Pocket Design</h3>
+            <p>Price: $10.90 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 9 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_99.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6233e60bdf0f470d94b3e6edc5bdf533V.jpg_300x300.jpg" alt="Direct Sale Mini Power Bank 2600mAh, Small Portable Charger, Custom Logo Mobile Power Supply for Corporate Gifts and Events" style="max-width: 200px;">
+            </a>
+            <h3>Direct Sale Mini Power Bank 2600mAh, Small Portable Charger, Custom Logo Mobile Power Supply for Corporate Gifts and Events</h3>
+            <p>Price: $2.20-2.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_100.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H305c3fd083ea492ab348d3657ea9b00d3.png_300x300.png" alt="OEM Custom logo Powerbanks Slim Portable Power Banks 20000mAh Dual USB Thin Phone Charger Gift 20000mAh Power Bank" style="max-width: 200px;">
+            </a>
+            <h3>OEM Custom logo Powerbanks Slim Portable Power Banks 20000mAh Dual USB Thin Phone Charger Gift 20000mAh Power Bank</h3>
+            <p>Price: $4.25 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <!-- 分页按钮 -->
+        <div class="pagination">
+            
+
+            
+            
+
+            
+            <a href="page_1.html" class="active">1</a>
+            
+            <a href="page_2.html" >2</a>
+            
+            <a href="page_3.html" >3</a>
+            
+            <a href="page_4.html" >4</a>
+            
+            <a href="page_5.html" >5</a>
+            
+            <a href="page_6.html" >6</a>
+            
+            <a href="page_7.html" >7</a>
+            
+            <a href="page_8.html" >8</a>
+            
+            <a href="page_9.html" >9</a>
+            
+            <a href="page_10.html" >10</a>
+            
+
+            
+            <a href="page_11.html">Next</a>
+            
+        </div>
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" onclick="topFunction()">回到顶部</button>
+    </div>
+
+    <script>
+        // 回到顶部按钮显示与隐藏逻辑
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        // 回到顶部按钮点击事件
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
