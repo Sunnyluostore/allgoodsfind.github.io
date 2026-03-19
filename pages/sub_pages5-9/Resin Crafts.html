@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L8EDEXZBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9L8EDEXZBV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品列表 - 第1页</title>
+    <meta name="description" content="Sunnyluo Store - 200000+ factory-direct product categories including Home Decor, Industrial Machinery, Electronics, and more. Wholesale sourcing made easy.">
+    <link rel="canonical" href="https://sunnyluostore.github.io/allgoodsfind.github.io/"><style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 200px;
+            /* 可根据实际情况调整图片大小 */
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        nav {
+            background-color: #03a9f4;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* 新添加的样式 */
+        .product-item h3 {
+            font-size: 14px;
+            /* 产品名称文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item p {
+            font-size: 12px;
+            /* 其他产品信息文字变小 */
+            transition: color 0.3s;
+            /* 添加过渡效果 */
+        }
+
+        .product-item:hover h3 {
+            color: #03a9f4;
+            /* 鼠标悬停时产品名称文字变色 */
+        }
+
+        .product-item:hover p {
+            color: #03a9f4;
+            /* 鼠标悬停时其他产品信息文字变色 */
+        }
+
+        /* 产品容器样式 */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        /* 产品项样式 */
+        .product-item {
+            width: calc(25% - 20px);
+            /* 默认每行显示 4 个产品 */
+            box-sizing: border-box;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* 鼠标悬停效果 */
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* 媒体查询，适配不同屏幕尺寸 */
+        @media (max-width: 1024px) {
+            .product-item {
+                width: calc(33.33% - 20px);
+                /* 平板设备每行显示 3 个产品 */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .product-item {
+                width: calc(50% - 20px);
+                /* 小屏幕设备每行显示 2 个产品 */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+                /* 超小屏幕设备每行显示 1 个产品 */
+            }
+        }
+
+        /* 分页按钮样式 */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        /* 回到顶部按钮样式 */
+        #back-to-top {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #03a9f4;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #back-to-top:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部图片和文字 -->
+    <div class="header">
+        <img src="image/logo.png" alt="Logo">
+        <p>Sunnyluo Store</p>
+        <p>Build a curated directory of store with factory</p>
+    </div>
+    <nav>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/index.html">Home</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/pdfs/pdf.html">Resources</a>
+        <a href="https://sunnyluostore.github.io/allgoodsfind.github.io/About us.html">About Us</a>
+        <a href="mailto:sunnyluo330@gmail.com">Contact Us</a>
+        <a href="https://www.facebook.com/sunnyluoting">Facebook</a>
+    </nav>
+    <h1>Product list</h1>
+    <div class="products">
+        
+        <div class="product-item">
+            <a href="product_1.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H077678aa7912416f817acfb1689cbef0p.png_300x300.png" alt="Hot Sale Christmas Religious Holiday Supplies Christmas Reindeer Led Light Resin Crafts Garden Decoration Ornaments" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale Christmas Religious Holiday Supplies Christmas Reindeer Led Light Resin Crafts Garden Decoration Ornaments</h3>
+            <p>Price: $3.60 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_2.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc73d9e314625411f90170ae115d86edbX.jpg_300x300.jpg" alt="Resin Puppy Decoration Crafts Supplies For Resin Flocked Dog" style="max-width: 200px;">
+            </a>
+            <h3>Resin Puppy Decoration Crafts Supplies For Resin Flocked Dog</h3>
+            <p>Price: $2.55-3.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 360 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_3.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc9354c8eceba44ee839983b55c36f783r.jpg_300x300.jpg" alt="Resin Environmental Retro Sculpture Shark Teeth Spray Painted Cross-border Goods Animal Auspicious Ornaments Mascot Handlehold" style="max-width: 200px;">
+            </a>
+            <h3>Resin Environmental Retro Sculpture Shark Teeth Spray Painted Cross-border Goods Animal Auspicious Ornaments Mascot Handlehold</h3>
+            <p>Price: $2.85 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_4.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H41e407cc0b5c45eca8043ab1442fe1edd.png_300x300.png" alt="Resin Crafts 25inch 15INCH 6INCH White Goose DIY Changeable Wearable Various Clothes Statue Decorations" style="max-width: 200px;">
+            </a>
+            <h3>Resin Crafts 25inch 15INCH 6INCH White Goose DIY Changeable Wearable Various Clothes Statue Decorations</h3>
+            <p>Price: $8-20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_5.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2e9eb4f25c23418a914c192237a8bf56B.png_300x300.png" alt="Artificial Beeswax Resin Crafts For Logo Original Design Violent Bear Cartoon Anime Painted Figurine Hand Keychain Ornament" style="max-width: 200px;">
+            </a>
+            <h3>Artificial Beeswax Resin Crafts For Logo Original Design Violent Bear Cartoon Anime Painted Figurine Hand Keychain Ornament</h3>
+            <p>Price: $9.68 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_6.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4390df799e2b4fe3a9eb30df5076843a9.jpg_300x300.jpg" alt="SMC Creative Cartoon Character Resin Sculpture Flowerpot Children's Indoor/Outdoor Decor Non-Toxic Durable Weather Resistant" style="max-width: 200px;">
+            </a>
+            <h3>SMC Creative Cartoon Character Resin Sculpture Flowerpot Children's Indoor/Outdoor Decor Non-Toxic Durable Weather Resistant</h3>
+            <p>Price: $15.76-17.86</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_7.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H254358c90113499db2f38d4f46ffa12eK.png_300x300.png" alt="Garden and Courtyard Decoration Cartoon Character Retro Home Landscape European Style Creative Resin Crafts Ornaments" style="max-width: 200px;">
+            </a>
+            <h3>Garden and Courtyard Decoration Cartoon Character Retro Home Landscape European Style Creative Resin Crafts Ornaments</h3>
+            <p>Price: $4.20-4.78</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_8.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H22570d1d1cc948e99e9b202899e43298x.jpg_300x300.jpg" alt="Mini PVC Religious Easter Ornaments Eco-Friendly Jesus Loves You Toys in Bulk Resin Crafts Model Pattern Little Jesus Figures" style="max-width: 200px;">
+            </a>
+            <h3>Mini PVC Religious Easter Ornaments Eco-Friendly Jesus Loves You Toys in Bulk Resin Crafts Model Pattern Little Jesus Figures</h3>
+            <p>Price: $0.18 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_9.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H78fe99afffdf44f3bd6d4b79dccac75aU.jpg_300x300.jpg" alt="Redeco Creative Easter Bunny in Teacup Ornament Resin Animal Figurine Festive Decor With Colorful Details for Holiday Gifting" style="max-width: 200px;">
+            </a>
+            <h3>Redeco Creative Easter Bunny in Teacup Ornament Resin Animal Figurine Festive Decor With Colorful Details for Holiday Gifting</h3>
+            <p>Price: $2.85-3.25</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 360 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_10.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H153f35f3d1d14781963687dcbd0e54f5N.jpg_300x300.jpg" alt="Miniature 3D Luminous Animal Fruits Vegetables Blind Bag Figurines Mixed Styles Diy Resin Accessories Festival Decorations Gift" style="max-width: 200px;">
+            </a>
+            <h3>Miniature 3D Luminous Animal Fruits Vegetables Blind Bag Figurines Mixed Styles Diy Resin Accessories Festival Decorations Gift</h3>
+            <p>Price: $0.08 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_11.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6151f46556f94bfd9d553acb38146283D.jpg_300x300.jpg" alt="Custom Resin Figure Muscle Resin Animal Sculpture Cute Figurine Novelty Creative Home Decoration for Return Souvenirs Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Custom Resin Figure Muscle Resin Animal Sculpture Cute Figurine Novelty Creative Home Decoration for Return Souvenirs Gifts</h3>
+            <p>Price: $4.50-4.70</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_12.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H140d9e58cf2c4eff9f16965ccd505b24e.jpg_300x300.jpg" alt="Wholesale New Resin Statue Mother of Earth Golden Pachamama Goddess Sculpture Gaia for Home Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale New Resin Statue Mother of Earth Golden Pachamama Goddess Sculpture Gaia for Home Decoration</h3>
+            <p>Price: $4.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_13.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H362f00820d304093b86532477c0277c4q.jpg_300x300.jpg" alt="Custom Bobble Head Figure Resin Crafts Famous Basketball Player Statue Bobblehead Sport Doll Figurines As Souvenirs Gift" style="max-width: 200px;">
+            </a>
+            <h3>Custom Bobble Head Figure Resin Crafts Famous Basketball Player Statue Bobblehead Sport Doll Figurines As Souvenirs Gift</h3>
+            <p>Price: $2.05-2.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_14.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcc3ec363faf941dfa7e9b0683253eeb2X.jpg_300x300.jpg" alt="Home Decor Resin Crafts European Style Hot Sale INS Big Mouth Cat Ornaments Storage Cat Home Decoration Lucky Cat Gift Sets" style="max-width: 200px;">
+            </a>
+            <h3>Home Decor Resin Crafts European Style Hot Sale INS Big Mouth Cat Ornaments Storage Cat Home Decoration Lucky Cat Gift Sets</h3>
+            <p>Price: $4.28 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 4 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_15.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H81c833e82c46407f95f672f074a2739fv.jpg_300x300.jpg" alt="New Animal Collection Blind Box Doll Cute Resin Toys for Animal Figurines Ornament" style="max-width: 200px;">
+            </a>
+            <h3>New Animal Collection Blind Box Doll Cute Resin Toys for Animal Figurines Ornament</h3>
+            <p>Price: $0.04-0.05</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_16.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H64bcc3edc38e4cedb8007d849cf5d097V.jpg_300x300.jpg" alt="Custom Soccer Football Player Bobble Head Doll Figurine Stylish Resin Crafts for Sports Athlete Souvenirs Custom Bobblehead" style="max-width: 200px;">
+            </a>
+            <h3>Custom Soccer Football Player Bobble Head Doll Figurine Stylish Resin Crafts for Sports Athlete Souvenirs Custom Bobblehead</h3>
+            <p>Price: $3.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_17.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1dd24f36e5994c3fa7cf18377dc1b8248.jpg_300x300.jpg" alt="Free Customization Custom China F1 Racing Trophy Model Decoration Champions Cup Motorcycle Racing Award Resin Crafts Kart Trophy" style="max-width: 200px;">
+            </a>
+            <h3>Free Customization Custom China F1 Racing Trophy Model Decoration Champions Cup Motorcycle Racing Award Resin Crafts Kart Trophy</h3>
+            <p>Price: $2.99-8.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_18.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4b8b4c05a38e43ad9258d2fc5f34e815k.png_300x300.png" alt="Tiny Animal Theme Ornament Figurines Hand Painted Dolphin Mold Souvenirs Resin Crafts Home Decor Business Gifts Model Pattern" style="max-width: 200px;">
+            </a>
+            <h3>Tiny Animal Theme Ornament Figurines Hand Painted Dolphin Mold Souvenirs Resin Crafts Home Decor Business Gifts Model Pattern</h3>
+            <p>Price: $0.90 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_19.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb52e8fd0b8c8454aac5b5aac6bf9e002E.jpg_300x300.jpg" alt="Life-Size Fiberglass Horse Resin Animal Sculpture Lifelike Outdoor Garden Decoration Thanksgiving Halloween Painted Model Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Life-Size Fiberglass Horse Resin Animal Sculpture Lifelike Outdoor Garden Decoration Thanksgiving Halloween Painted Model Crafts</h3>
+            <p>Price: $400-500</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_20.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H260729311c7f47e3b145997ef9ea2a11P.jpg_300x300.jpg" alt="Fruit Flower Resin Accessories Wholesale DIY Handmade Hair Accessories Materials Shoe Charm Decorative Resin Accessories" style="max-width: 200px;">
+            </a>
+            <h3>Fruit Flower Resin Accessories Wholesale DIY Handmade Hair Accessories Materials Shoe Charm Decorative Resin Accessories</h3>
+            <p>Price: $0.07 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_21.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha09e27c067c549549479edd7e82308f6b.png_300x300.png" alt="2.4meter Tall Cartoon Character Resin Sculpture Large Scale Resin Sculpture for Public Squares" style="max-width: 200px;">
+            </a>
+            <h3>2.4meter Tall Cartoon Character Resin Sculpture Large Scale Resin Sculpture for Public Squares</h3>
+            <p>Price: $850-1,100</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_22.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7040e2557de541df8495ad43e8252cfbz.jpg_300x300.jpg" alt="Pouring Painting Violent Bear Doll DIY Fluid Bear DIY Teddy White Doll Model Toy Violent Fluid Bear 23cm DIY Kit" style="max-width: 200px;">
+            </a>
+            <h3>Pouring Painting Violent Bear Doll DIY Fluid Bear DIY Teddy White Doll Model Toy Violent Fluid Bear 23cm DIY Kit</h3>
+            <p>Price: $0.86 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_23.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb16e6e99cd2b4fb8961c968d5f9eccc7U.jpg_300x300.jpg" alt="Modern Decorative Resin Crafts Large Fiberglass Ice Cream Cone Sculpture on the Wall" style="max-width: 200px;">
+            </a>
+            <h3>Modern Decorative Resin Crafts Large Fiberglass Ice Cream Cone Sculpture on the Wall</h3>
+            <p>Price: $500-1,650</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_24.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha8e0d7818d5c4662bfb6c9114a0f0b98j.png_300x300.png" alt="Jnynke Wholesale Custom Astronaut Resin Figurine Desktop Ornament Home Decor for TV Cabinet Wine Cabinet Entryway Office Gift" style="max-width: 200px;">
+            </a>
+            <h3>Jnynke Wholesale Custom Astronaut Resin Figurine Desktop Ornament Home Decor for TV Cabinet Wine Cabinet Entryway Office Gift</h3>
+            <p>Price: $4.34 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_25.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd630158bfcb74e5d845ce66d3ea93368u.jpg_300x300.jpg" alt="Wholesale Blue Styles Epoxy Cabochon Flat Back Resin Ornament Charms for Phone Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Blue Styles Epoxy Cabochon Flat Back Resin Ornament Charms for Phone Decoration</h3>
+            <p>Price: $6 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 bag</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_26.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9c8039b0365a4a99a80060b1a5f3fb3fJ.jpg_300x300.jpg" alt="Custom Realistic Modern Statutte Resin 3D Man Figurine Miniature People Figurine Polyresin People Action Figurine for Kids Craft" style="max-width: 200px;">
+            </a>
+            <h3>Custom Realistic Modern Statutte Resin 3D Man Figurine Miniature People Figurine Polyresin People Action Figurine for Kids Craft</h3>
+            <p>Price: $3.19-5.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 360 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_27.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2520a4b819e8452a802aa8149e0e25d6W.jpg_300x300.jpg" alt="Wholesale Elephant Home Decor Resin Small Religious Hindu Decoration God Ganesha Statue Buddhism India Elephant Figurine CN;GUA" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Elephant Home Decor Resin Small Religious Hindu Decoration God Ganesha Statue Buddhism India Elephant Figurine CN;GUA</h3>
+            <p>Price: $8.53 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_28.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2448af426b1f4ae79c0bc8ea41dc4c6fv.png_300x300.png" alt="Wholesale Handmade Customized Statue Money Bag Duck Decorative Statue Pop Art Statue Home Decor Modern Resin Sculpture" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Handmade Customized Statue Money Bag Duck Decorative Statue Pop Art Statue Home Decor Modern Resin Sculpture</h3>
+            <p>Price: $240-285</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_29.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc4589eaf008047d192610469aa549b61F.png_300x300.png" alt="Latest Wholesale DIY 3D Resin Turtle Luminous Lucky Charms Glowing in Night Miniature Sea Ocean Animal Figurine Resin Craftwork" style="max-width: 200px;">
+            </a>
+            <h3>Latest Wholesale DIY 3D Resin Turtle Luminous Lucky Charms Glowing in Night Miniature Sea Ocean Animal Figurine Resin Craftwork</h3>
+            <p>Price: $0.19 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_30.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He2c9bc6c89b042b9af95dc12b6a8bac4k.jpg_300x300.jpg" alt="ODM&OEM Large Resin Statue Life Size Epoxy Resin Fiberglass Art&Sculpture for Entertainment" style="max-width: 200px;">
+            </a>
+            <h3>ODM&OEM Large Resin Statue Life Size Epoxy Resin Fiberglass Art&Sculpture for Entertainment</h3>
+            <p>Price: $9.90-39.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_31.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9d8960c79c164bbe8ee963c306232866k.jpg_300x300.jpg" alt="Factory Wholesale Flower Pot Elf Flower Pot Resin Crafts Home Decor Resin Crafts Cute Resin Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Factory Wholesale Flower Pot Elf Flower Pot Resin Crafts Home Decor Resin Crafts Cute Resin Crafts</h3>
+            <p>Price: $0.99-1.99</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_32.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hfcce747c28324b898658161872a13942q.png_300x300.png" alt="Factory Custom Eco-friendly Life-size 14.2" Resin Porch Goose Statue Outdoor Garden Animal Sculpture" style="max-width: 200px;">
+            </a>
+            <h3>Factory Custom Eco-friendly Life-size 14.2" Resin Porch Goose Statue Outdoor Garden Animal Sculpture</h3>
+            <p>Price: $4.50-5.50</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_33.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3ea5ec5dc4fd41ddb8a97a0704f86439Y.jpg_300x300.jpg" alt="Factory Price Luxury Resin Abstract Art clear Resin Statue Figurine for Decoration Garden Statue" style="max-width: 200px;">
+            </a>
+            <h3>Factory Price Luxury Resin Abstract Art clear Resin Statue Figurine for Decoration Garden Statue</h3>
+            <p>Price: $1,648-2,060</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_34.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H54be066b91e146c5862c6561d73819c8c.jpg_300x300.jpg" alt="Modern Decoration Large Size Hand-carved Fluid Color Resin Fiberglass Lollipop Shop Art Exhibition Props Sculpture Ornaments" style="max-width: 200px;">
+            </a>
+            <h3>Modern Decoration Large Size Hand-carved Fluid Color Resin Fiberglass Lollipop Shop Art Exhibition Props Sculpture Ornaments</h3>
+            <p>Price: $150-350</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 square meter</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_35.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0fdd8b5e9fea4122889456881769044aj.jpg_300x300.jpg" alt="Farm Outdoor Decoration 108*45*97cm Baby Cattle Statue Fiberglass Animal Young Cow Resin Crafts Cattle Ornaments Sculpture" style="max-width: 200px;">
+            </a>
+            <h3>Farm Outdoor Decoration 108*45*97cm Baby Cattle Statue Fiberglass Animal Young Cow Resin Crafts Cattle Ornaments Sculpture</h3>
+            <p>Price: $144-188</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 carton</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_36.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc1afa260fbdc462aa6ed737513c2ad8dT.png_300x300.png" alt="Customized Maduro Captured Resin Bobblehead Personalized Political Collectible LOW MOQ Handmade Souvenir Gift DIY Hobo Angel" style="max-width: 200px;">
+            </a>
+            <h3>Customized Maduro Captured Resin Bobblehead Personalized Political Collectible LOW MOQ Handmade Souvenir Gift DIY Hobo Angel</h3>
+            <p>Price: $1.85-2.72</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_37.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8d948ac76ab74b008b3e398587c04b04L.jpg_300x300.jpg" alt="Custom 3D Resin Statue Modern for Pop Art Design Donald Duck Model Gold Color Buddhism Two Bottles Animal Pattern Paint" style="max-width: 200px;">
+            </a>
+            <h3>Custom 3D Resin Statue Modern for Pop Art Design Donald Duck Model Gold Color Buddhism Two Bottles Animal Pattern Paint</h3>
+            <p>Price: $37.63-58.89</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_38.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9d1c0a6926e24529932ae54517c6ec9aL.jpg_300x300.jpg" alt="Hot Sale High Quality Factory Cheap Chicago Harbor Lighthouse Resin Crafts Gifts Home Decoration Travel Custom Souvenir Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Hot Sale High Quality Factory Cheap Chicago Harbor Lighthouse Resin Crafts Gifts Home Decoration Travel Custom Souvenir Gifts</h3>
+            <p>Price: $0.99 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1,440 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_39.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1af6298a159a47f59dc5b93bfb1d95159.jpeg_300x300.jpeg" alt="Abstract Sports Figures Resin Ornaments Gymnastics Ball Lifting Sculpture Handicrafts Home Decor Creative Decorations" style="max-width: 200px;">
+            </a>
+            <h3>Abstract Sports Figures Resin Ornaments Gymnastics Ball Lifting Sculpture Handicrafts Home Decor Creative Decorations</h3>
+            <p>Price: $5.10-10.92</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_40.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H22a0488036e548738c176d1da11eec0dy.jpg_300x300.jpg" alt="In Stock Luxury Resin Decorative Knot Sculpture Interior Tabletop Ornaments Resin Art Crafts Sculpture for Home Decor" style="max-width: 200px;">
+            </a>
+            <h3>In Stock Luxury Resin Decorative Knot Sculpture Interior Tabletop Ornaments Resin Art Crafts Sculpture for Home Decor</h3>
+            <p>Price: $18.22 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 8 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_41.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1550cbdfae174d0996ec5abbf4badf39S.png_300x300.png" alt="Custom Design Ice Design Modern Resin Statue 3D Transparent Polystone Art Toy From Manufacturer" style="max-width: 200px;">
+            </a>
+            <h3>Custom Design Ice Design Modern Resin Statue 3D Transparent Polystone Art Toy From Manufacturer</h3>
+            <p>Price: $18.06-57.29</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_42.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He5af02bdd31141659224916ea2700931N.jpg_300x300.jpg" alt="McDowell YG-11UPS Resin Eco-friendly Christmas Cargo Aircraft Model with Wheels Sound-controlled Lighting Business Gift Ornament" style="max-width: 200px;">
+            </a>
+            <h3>McDowell YG-11UPS Resin Eco-friendly Christmas Cargo Aircraft Model with Wheels Sound-controlled Lighting Business Gift Ornament</h3>
+            <p>Price: $35 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_43.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7d9dd31cd5d84f03b8b61fd3e05d29803.jpg_300x300.jpg" alt="Luminous Mini Tiny Resin Animals Glow in Dark Miniature Figures Little Animals for Easter Gift" style="max-width: 200px;">
+            </a>
+            <h3>Luminous Mini Tiny Resin Animals Glow in Dark Miniature Figures Little Animals for Easter Gift</h3>
+            <p>Price: $0.04 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_44.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7965aa3f102b4074b1cd64c960a770cfH.jpg_300x300.jpg" alt="Creative DIY Handmade Resin Bear Figurine Sculpture Kit for Home Decoration Hand-painted Animal Art Christmas Craft" style="max-width: 200px;">
+            </a>
+            <h3>Creative DIY Handmade Resin Bear Figurine Sculpture Kit for Home Decoration Hand-painted Animal Art Christmas Craft</h3>
+            <p>Price: $1.80-5.58</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_45.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4ffeb92668e643babcf79bb8d847ec6eW.jpg_300x300.jpg" alt="Real Scorpion Cube Resin Oil Drop Paperweight Crafts Epoxy Crystal clear Real Dandelion Resin Flower Paperweight" style="max-width: 200px;">
+            </a>
+            <h3>Real Scorpion Cube Resin Oil Drop Paperweight Crafts Epoxy Crystal clear Real Dandelion Resin Flower Paperweight</h3>
+            <p>Price: $9.90-11</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_46.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3bdfbfa1641e429fb1401977ffef10d1q.jpg_300x300.jpg" alt="Life Size Resin Party Props Fiberglass Carousel Statue for Birthday Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Life Size Resin Party Props Fiberglass Carousel Statue for Birthday Decoration</h3>
+            <p>Price: $144 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 dozens</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_47.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H32408870c075444db4d49e54ef3dc3f6K.png_300x300.png" alt="Custom Fiberglass Giant Tulip Sculpture 3.5m Tall Multi-color Commercial Plaza Decor" style="max-width: 200px;">
+            </a>
+            <h3>Custom Fiberglass Giant Tulip Sculpture 3.5m Tall Multi-color Commercial Plaza Decor</h3>
+            <p>Price: $599-3,099</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_48.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H844d78bf53d4441490c623f23afd8253Q.jpg_300x300.jpg" alt="Wholesale Vintage Jewelry Trays Creative Resin Crafts Open Hand Sculptures Hand-Shaped Bowls Ashtrays Home Decorations" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Vintage Jewelry Trays Creative Resin Crafts Open Hand Sculptures Hand-Shaped Bowls Ashtrays Home Decorations</h3>
+            <p>Price: $1.25 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_49.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1f224f950a484b0f89d4969f582951dah.jpg_300x300.jpg" alt="Resin Artistic Animal Themed Sculpted Statue Outdoor Bus Decoration Holiday Atmosphere Display Jiangsu" style="max-width: 200px;">
+            </a>
+            <h3>Resin Artistic Animal Themed Sculpted Statue Outdoor Bus Decoration Holiday Atmosphere Display Jiangsu</h3>
+            <p>Price: $860 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 square meters</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_50.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc9ece2ef212243f990acd5aabf04546ad.jpg_300x300.jpg" alt="European Sand Golden Color Large Size Feng Shui Wealth Arowana Fish Statue Furnishing Resin Art Craft Home Desktop Decoration" style="max-width: 200px;">
+            </a>
+            <h3>European Sand Golden Color Large Size Feng Shui Wealth Arowana Fish Statue Furnishing Resin Art Craft Home Desktop Decoration</h3>
+            <p>Price: $25.74-54.56</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_51.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc84668ad73ec44f1a73753d2f994de6fo.jpg_300x300.jpg" alt="Artificial Vegetable Garden Miniature Crafts DIY Dollhouse Decorations Pumpkin Carrot Corn Resin Figures Waterproof" style="max-width: 200px;">
+            </a>
+            <h3>Artificial Vegetable Garden Miniature Crafts DIY Dollhouse Decorations Pumpkin Carrot Corn Resin Figures Waterproof</h3>
+            <p>Price: $0.10 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_52.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6bb35b2a92cd4a58b41d720df250cc7dx.jpg_300x300.jpg" alt="Food Poached Eggs and Fried Eggs Flatback Resin Charms for Slime Mobile Case Keychain DIY Craft Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Food Poached Eggs and Fried Eggs Flatback Resin Charms for Slime Mobile Case Keychain DIY Craft Decoration</h3>
+            <p>Price: $0.05-0.08</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_53.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8c9aedf7c2c842079603a3ccafe1f37eo.jpg_300x300.jpg" alt="Handmade Resin Figurine Model Hand-painted Fashion Home Office Christmas Tree Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Handmade Resin Figurine Model Hand-painted Fashion Home Office Christmas Tree Decoration</h3>
+            <p>Price: $2.75-2.90</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_54.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H77d1199d7d7844289d7a6ca6fddd1046M.jpg_300x300.jpg" alt="Flatback Charms Cartoon Animal Mickey Minnie Crafts Resin Slime Charms" style="max-width: 200px;">
+            </a>
+            <h3>Flatback Charms Cartoon Animal Mickey Minnie Crafts Resin Slime Charms</h3>
+            <p>Price: $0.31-0.35</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_55.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H14beccde90c6459e8c6737fa835d162df.jpg_300x300.jpg" alt="Colored Resin English Letters Love Heart BEMINE HUGME LOVE Acrylic Charms for DIY Bracelet Necklace Handmade Jewelry Making" style="max-width: 200px;">
+            </a>
+            <h3>Colored Resin English Letters Love Heart BEMINE HUGME LOVE Acrylic Charms for DIY Bracelet Necklace Handmade Jewelry Making</h3>
+            <p>Price: $0.07 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_56.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H78914950b22e489f85ba0ecf99e3579eg.jpg_300x300.jpg" alt="Weivista Custom Handmade Resin Military Statue Free Engraving Text Trophy" style="max-width: 200px;">
+            </a>
+            <h3>Weivista Custom Handmade Resin Military Statue Free Engraving Text Trophy</h3>
+            <p>Price: $5.90 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 300 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_57.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H66feeb19f9c340f4a57dc4040c44514ce.jpg_300x300.jpg" alt="Bestseller Fruit Cake Butter Bear Resin Crafts Materials Kawaii Accessories Wholesale Resin Cartoon Charms for Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Bestseller Fruit Cake Butter Bear Resin Crafts Materials Kawaii Accessories Wholesale Resin Cartoon Charms for Decoration</h3>
+            <p>Price: $0.15 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_58.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb812c43a7dba418e929876f1de4429356.jpg_300x300.jpg" alt="Wholesale Custom Epoxy Resin Wood Crafts Turtle Whale Marine Animal Ornament Home Bedroom Desk Decor Ocean Theme Bulk OEM ODM" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Custom Epoxy Resin Wood Crafts Turtle Whale Marine Animal Ornament Home Bedroom Desk Decor Ocean Theme Bulk OEM ODM</h3>
+            <p>Price: $27.69-41.54</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_59.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H65d34822986b4bce89ced5bff07ad1dfK.png_300x300.png" alt="Customized Fashionable Toy IP Cartoon Character Indoor and Outdoor Resin Sculpture Ornaments Fiberglass Sculptures" style="max-width: 200px;">
+            </a>
+            <h3>Customized Fashionable Toy IP Cartoon Character Indoor and Outdoor Resin Sculpture Ornaments Fiberglass Sculptures</h3>
+            <p>Price: $500-1,200</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_60.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H80e8a2ebc2624fa0b968cfd788886bc8b.jpg_300x300.jpg" alt="Artificial Retro Bridge Well Resin Craft Fairy Garden Miniature Ancient Building Sculpture Statue,Vintage Home Mini Garden Decor" style="max-width: 200px;">
+            </a>
+            <h3>Artificial Retro Bridge Well Resin Craft Fairy Garden Miniature Ancient Building Sculpture Statue,Vintage Home Mini Garden Decor</h3>
+            <p>Price: $0.23-0.48</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_61.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbb2d11fc70174c5798ebe3a3e546863bh.jpg_300x300.jpg" alt="Wholesale Miniature Flatback Sea Theme Decorations Kawaii Cabochons Resin Crafts Gift Kids" style="max-width: 200px;">
+            </a>
+            <h3>Wholesale Miniature Flatback Sea Theme Decorations Kawaii Cabochons Resin Crafts Gift Kids</h3>
+            <p>Price: $5.15 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 bag</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_62.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H059f1f963a1b45b68729128a3b151087d.jpg_300x300.jpg" alt="Customized Resin Trophy Award-Handmade & Hand-painted Promotional Gift" style="max-width: 200px;">
+            </a>
+            <h3>Customized Resin Trophy Award-Handmade & Hand-painted Promotional Gift</h3>
+            <p>Price: $8-12</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_63.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H1c5604a565da4150b80658870d1e777cD.jpg_300x300.jpg" alt="Hot Selling Miniature Supermarket Food Bottle Resin Charms Cabochon for DIY Mobile Phone Hairclip Keychain Decoration Craft" style="max-width: 200px;">
+            </a>
+            <h3>Hot Selling Miniature Supermarket Food Bottle Resin Charms Cabochon for DIY Mobile Phone Hairclip Keychain Decoration Craft</h3>
+            <p>Price: $0.04-0.16</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_64.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H2e31d2697c9e4cd8b113219a6cb910eeG.jpg_300x300.jpg" alt="Resin Baptism Christening Candle Holder Baptism Gifts Religious Jesus Baby Statue First Birthday Souvenir Gift" style="max-width: 200px;">
+            </a>
+            <h3>Resin Baptism Christening Candle Holder Baptism Gifts Religious Jesus Baby Statue First Birthday Souvenir Gift</h3>
+            <p>Price: $0.90-3.59</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 500 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_65.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha036f7a7cd0a4d2082691141a0a7c670H.jpg_300x300.jpg" alt="High Quality Lovely Chilli Eggplant Resin Crafts Phone Charms Kawaii Charms for Decoration" style="max-width: 200px;">
+            </a>
+            <h3>High Quality Lovely Chilli Eggplant Resin Crafts Phone Charms Kawaii Charms for Decoration</h3>
+            <p>Price: $0.07 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 40 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_66.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H0500c3579aea471c830e3286b9050d6ft.jpg_300x300.jpg" alt="Life Size Handmade Customized Size Marvel Ironman Resin Fiberglass Cartoon Superhero Statue for Home Decor" style="max-width: 200px;">
+            </a>
+            <h3>Life Size Handmade Customized Size Marvel Ironman Resin Fiberglass Cartoon Superhero Statue for Home Decor</h3>
+            <p>Price: $809.10 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_67.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5bd6df127b9b4e1395d3b7ae6f966b8f3.jpg_300x300.jpg" alt="New Arrival Luminous Mini Resin Turtle Figurines Garden Decoration Tortoise Souvenir Sea Animals Tiny Resin Crafts Turtle Toy" style="max-width: 200px;">
+            </a>
+            <h3>New Arrival Luminous Mini Resin Turtle Figurines Garden Decoration Tortoise Souvenir Sea Animals Tiny Resin Crafts Turtle Toy</h3>
+            <p>Price: $0.07 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_68.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3a7693d42ec34bc69bd6227a51848121Y.jpg_300x300.jpg" alt="Ready to Ship Customizable Resin Trophy Cup - Soccer Champions Award & Decorative Sports Resin Craft" style="max-width: 200px;">
+            </a>
+            <h3>Ready to Ship Customizable Resin Trophy Cup - Soccer Champions Award & Decorative Sports Resin Craft</h3>
+            <p>Price: $66.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_69.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hb48db6ac2e894cd68ed9f7c467d2c020O.jpg_300x300.jpg" alt="SMC Creative Fashion Cartoon Animals Resin Sculpture-Durable Child-Safe Indoor/Outdoor Use Customizable Home Playground Decor" style="max-width: 200px;">
+            </a>
+            <h3>SMC Creative Fashion Cartoon Animals Resin Sculpture-Durable Child-Safe Indoor/Outdoor Use Customizable Home Playground Decor</h3>
+            <p>Price: $15.50-21</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_70.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hcd71a57fc9324ff3a1132bb7dab316dbj.jpg_300x300.jpg" alt="Heisman Trophy 20cm College Football Mvp Trophy Cup Basketball Sports Champion Souvenir Resin Arts Crafts" style="max-width: 200px;">
+            </a>
+            <h3>Heisman Trophy 20cm College Football Mvp Trophy Cup Basketball Sports Champion Souvenir Resin Arts Crafts</h3>
+            <p>Price: $50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_71.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H078f4329faa54f51ab9016749187b2c4P.jpg_300x300.jpg" alt="100Pcs Cute Mini Lovely Doughnut Bread Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories" style="max-width: 200px;">
+            </a>
+            <h3>100Pcs Cute Mini Lovely Doughnut Bread Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories</h3>
+            <p>Price: $4.72 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 bag</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_72.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H64afc7460c2c4d7784e39f73cd5bc2c7e.jpg_300x300.jpg" alt="Home Decor Classic Resin Roman Bust Greek Mythology Sculpture Mini Greek Statue of David Statue Head Sculptures" style="max-width: 200px;">
+            </a>
+            <h3>Home Decor Classic Resin Roman Bust Greek Mythology Sculpture Mini Greek Statue of David Statue Head Sculptures</h3>
+            <p>Price: $0.38-2.38</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 5 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_73.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H595ce648215743d9832e4a379bbc4be9Q.png_300x300.png" alt="3d Diy Animal Cartoons China Miniatures fox Duck Turtle Dragon Frog Character Resin Craft Figurine Gifts Blind Bag Kids Toys" style="max-width: 200px;">
+            </a>
+            <h3>3d Diy Animal Cartoons China Miniatures fox Duck Turtle Dragon Frog Character Resin Craft Figurine Gifts Blind Bag Kids Toys</h3>
+            <p>Price: $0.23 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_74.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf274abdb677a4456891f3fe3d5a5b768x.jpg_300x300.jpg" alt="Best-Selling Light Luxury Style Small Horse Ornaments Resin Home Handicrafts Wine Cabinets Living Room and Office Decorations" style="max-width: 200px;">
+            </a>
+            <h3>Best-Selling Light Luxury Style Small Horse Ornaments Resin Home Handicrafts Wine Cabinets Living Room and Office Decorations</h3>
+            <p>Price: $2.30 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_75.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3a09d6ec6dc64b5481c2751856bb4656K.jpg_300x300.jpg" alt="Custom Flatback Miniature Animal Resin Cabochon Phone Mobile case Decoration Ornament" style="max-width: 200px;">
+            </a>
+            <h3>Custom Flatback Miniature Animal Resin Cabochon Phone Mobile case Decoration Ornament</h3>
+            <p>Price: $0.08-0.10</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2,000 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_76.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc90143712b524d878b49874112600eb6z.jpg_300x300.jpg" alt="Home Decoration Craft Diy Acrylic Resin Flower Beads" style="max-width: 200px;">
+            </a>
+            <h3>Home Decoration Craft Diy Acrylic Resin Flower Beads</h3>
+            <p>Price: $0.53-0.80</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 3,000 sets</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_77.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf65d78f24b8c41e293065b50c33d88002.jpg_300x300.jpg" alt="Electroplating Gold Color Duck with Money Bags Resin Sculpture Cartoon Art Statue Fiberglass Pop Statue for Home Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Electroplating Gold Color Duck with Money Bags Resin Sculpture Cartoon Art Statue Fiberglass Pop Statue for Home Decoration</h3>
+            <p>Price: $66.89 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_78.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H7c728b2cc83c4166924f28e3cfa02f22a.jpg_300x300.jpg" alt="Custom Hand-painted Fashion Resin Crafts Panda Statue Storage Pen Holder Home Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Custom Hand-painted Fashion Resin Crafts Panda Statue Storage Pen Holder Home Decoration</h3>
+            <p>Price: $4 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_79.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H37b2ff382ef24397a8f04278165b156e5.jpg_300x300.jpg" alt="Customizable Ancient Greek Mythology Character Model Factory Resin Crafts for Home Landscaping Decoration or Souvenir" style="max-width: 200px;">
+            </a>
+            <h3>Customizable Ancient Greek Mythology Character Model Factory Resin Crafts for Home Landscaping Decoration or Souvenir</h3>
+            <p>Price: $0.60-1.20</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_80.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Heb22fc1d8bd34a5892f0ecb2ff50db38g.jpg_300x300.jpg" alt="5 Styles Cute Tiny Hat Flamingos to Hide Pink Mini Resin Flamingo Ducks Figurines for Fairy Garden Dollhouse Miniature Landscape" style="max-width: 200px;">
+            </a>
+            <h3>5 Styles Cute Tiny Hat Flamingos to Hide Pink Mini Resin Flamingo Ducks Figurines for Fairy Garden Dollhouse Miniature Landscape</h3>
+            <p>Price: $0.05-0.06</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_81.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H6009c8fc4239472fa779de46ab808e31Z.jpg_300x300.jpg" alt="Creative Band Character Ornaments Resin Musical Singer Guitarist Figure Statue Crafts Home Desktop Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Creative Band Character Ornaments Resin Musical Singer Guitarist Figure Statue Crafts Home Desktop Decoration</h3>
+            <p>Price: $4.23-5.85</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_82.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Ha5b67b6843de46fb963bf164dfc020f53.jpg_300x300.jpg" alt="Creative Retro Phonograph Model Home Decorations Old Craft Resin Decoration Artifical Style Gift Ideas" style="max-width: 200px;">
+            </a>
+            <h3>Creative Retro Phonograph Model Home Decorations Old Craft Resin Decoration Artifical Style Gift Ideas</h3>
+            <p>Price: $4.50 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_83.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hdfda32196b3f4bea98983587c297ee5d9.png_300x300.png" alt="Customized Spider Man Life Size Resin Crafts Statue Marvel Figure Fiberglass Spiderman Sculpture for Home Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Customized Spider Man Life Size Resin Crafts Statue Marvel Figure Fiberglass Spiderman Sculpture for Home Decoration</h3>
+            <p>Price: $700-3,000</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_84.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbbb098df2dde471994aea8be8309ea0e8.png_300x300.png" alt="Factory Direct Mini Pumpkin Resin Crafts Autumn Vase Bowl Filling for Thanksgiving and Halloween Harvest Decorations" style="max-width: 200px;">
+            </a>
+            <h3>Factory Direct Mini Pumpkin Resin Crafts Autumn Vase Bowl Filling for Thanksgiving and Halloween Harvest Decorations</h3>
+            <p>Price: $0.08 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_85.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hbdef4f5eeebd4f84aaa67c1d88b357acW.jpg_300x300.jpg" alt="Small Bottle DIY Resin Key Chain Necklace Resin Pendant Miniature Bottle Resin Crafts for Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Small Bottle DIY Resin Key Chain Necklace Resin Pendant Miniature Bottle Resin Crafts for Decoration</h3>
+            <p>Price: $0.08 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_86.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He8fd6b116486432594a1d64580098bbaQ.png_300x300.png" alt="Resin Mermaid Statue Garden, Angel Themed Floor Installation Sculpture" style="max-width: 200px;">
+            </a>
+            <h3>Resin Mermaid Statue Garden, Angel Themed Floor Installation Sculpture</h3>
+            <p>Price: $11 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 piece</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_87.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hba6c296ef9f74d2ca1d246675099b01fc.png_300x300.png" alt="Creative Cartoon Animal Theme Duck Resin Crafts for Garden Desktop & Home Decoration-Wholesale Birthday Gifts" style="max-width: 200px;">
+            </a>
+            <h3>Creative Cartoon Animal Theme Duck Resin Crafts for Garden Desktop & Home Decoration-Wholesale Birthday Gifts</h3>
+            <p>Price: $5.72 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_88.html">
+                <img src="https://s.alicdn.com/@sc04/kf/He8bb3f4858d5425c97c7043274e0e5ecr.jpg_300x300.jpg" alt="Creative Cross-Border Home Living Room Office Crafts Decorative Desktop Eco-Friendly Nordic Retro Guards Resin Knight Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Creative Cross-Border Home Living Room Office Crafts Decorative Desktop Eco-Friendly Nordic Retro Guards Resin Knight Decoration</h3>
+            <p>Price: $4.28 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 12 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_89.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H204a367691874f7d9e7f8460b8f803991.png_300x300.png" alt="138-Piece Epoxy Resin Set for Beginners DIY Crystal Resin Mold Toolkit Glitter Sequin Jewelry Box Accessory for Resin Crafts" style="max-width: 200px;">
+            </a>
+            <h3>138-Piece Epoxy Resin Set for Beginners DIY Crystal Resin Mold Toolkit Glitter Sequin Jewelry Box Accessory for Resin Crafts</h3>
+            <p>Price: $6.56 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 set</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_90.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4d189f0f9059498aad08d9e56403463cf.jpg_300x300.jpg" alt="Cute Cartoon Animal Theme Rabbit Moon Handmade Resin Cabochon DIY Crafts Accessories Hair Phone Case Keychain Holiday Gift for" style="max-width: 200px;">
+            </a>
+            <h3>Cute Cartoon Animal Theme Rabbit Moon Handmade Resin Cabochon DIY Crafts Accessories Hair Phone Case Keychain Holiday Gift for</h3>
+            <p>Price: $4.84 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_91.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hef2499c5551845b88ca76ce4e6a2b0dfh.png_300x300.png" alt="Best Sales Resin Crafts Resin Colorful Heart Shape Resin Pendant Wholesale Diy Phone Case Charms Key Chain for Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Best Sales Resin Crafts Resin Colorful Heart Shape Resin Pendant Wholesale Diy Phone Case Charms Key Chain for Decoration</h3>
+            <p>Price: $0.08 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_92.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H3c524f8900e64ec3b575279f11f037dfL.jpg_300x300.jpg" alt="Moss Landscape Miniature Rabbit Figurines Kids Toys Easter Bunny Resin Rabbits for Garden Potted Plant Cake Decoration" style="max-width: 200px;">
+            </a>
+            <h3>Moss Landscape Miniature Rabbit Figurines Kids Toys Easter Bunny Resin Rabbits for Garden Potted Plant Cake Decoration</h3>
+            <p>Price: $0.04 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 20 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_93.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hc6cecd346865469e964aefdd8d1d2ce5Z.jpg_300x300.jpg" alt="Cute Cat Kitty Resin Figures Flower Basket Resin Crafts for Car Ornaments Big Crafts Charms Desktop Ornaments for Computers" style="max-width: 200px;">
+            </a>
+            <h3>Cute Cat Kitty Resin Figures Flower Basket Resin Crafts for Car Ornaments Big Crafts Charms Desktop Ornaments for Computers</h3>
+            <p>Price: $0.27 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_94.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H9b5d2154db7d4d0e80479f3120ccd2dc7.jpg_300x300.jpg" alt="Gold Black White Elephant Decoration Handicraft Home Decor Resin Elephant Statue Sculpture Figurine" style="max-width: 200px;">
+            </a>
+            <h3>Gold Black White Elephant Decoration Handicraft Home Decor Resin Elephant Statue Sculpture Figurine</h3>
+            <p>Price: $5.31-6.75</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 2 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_95.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H4b218c5e20c041dba28a93ddbf34ce6fk.jpg_300x300.jpg" alt="European Medieval Guard Samurai Armor Knight OR34 Resin Sculpture Statue Outdoor Garden Gnome Art Crafted in Resin Crafts" style="max-width: 200px;">
+            </a>
+            <h3>European Medieval Guard Samurai Armor Knight OR34 Resin Sculpture Statue Outdoor Garden Gnome Art Crafted in Resin Crafts</h3>
+            <p>Price: $1.43 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 10 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_96.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hd96a56799d614c3ea60a5ee47c8f3385M.jpg_300x300.jpg" alt="Custom Resin Crafts Soldier Statue Knight Horse Resin Home Decoration Figurine" style="max-width: 200px;">
+            </a>
+            <h3>Custom Resin Crafts Soldier Statue Knight Horse Resin Home Decoration Figurine</h3>
+            <p>Price: $19 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 200 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_97.html">
+                <img src="https://s.alicdn.com/@sc04/kf/Hf86e0815ad4f474fa563df4993b76c7fq.jpg_300x300.jpg" alt="Nordic Ins Style Princess Dance Ballet Girl Synthetic Resin Sculpture Ornaments Modern Simple Design Home Living Room Desktop" style="max-width: 200px;">
+            </a>
+            <h3>Nordic Ins Style Princess Dance Ballet Girl Synthetic Resin Sculpture Ornaments Modern Simple Design Home Living Room Desktop</h3>
+            <p>Price: $49 </p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 50 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_98.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H545e47db085f41f9ae9f5786049b72788.jpg_300x300.jpg" alt="Embedded Clear Acrylic Resin Angel Sculpture Customizable Durable Business Gift Safety Packed" style="max-width: 200px;">
+            </a>
+            <h3>Embedded Clear Acrylic Resin Angel Sculpture Customizable Durable Business Gift Safety Packed</h3>
+            <p>Price: $7.30-11</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 100 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_99.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H8b25acfd03b1439e8aa535ff8ec834845.jpg_300x300.jpg" alt="3D Resin Fridge Magnets for Tourist Souvenir Gifts and Home Decor" style="max-width: 200px;">
+            </a>
+            <h3>3D Resin Fridge Magnets for Tourist Souvenir Gifts and Home Decor</h3>
+            <p>Price: $0.32-0.42</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 720 pieces</p>
+        </div>
+        
+        <div class="product-item">
+            <a href="product_100.html">
+                <img src="https://s.alicdn.com/@sc04/kf/H5f603e0193f145d68db2937d3cbfc8d4J.jpg_300x300.jpg" alt="Statue Sculpture Gilded Fiberglass Life Szie Warrior Resin European Home Decoration Figure SH-SHENGHUA CN;HEB Europe SH-" style="max-width: 200px;">
+            </a>
+            <h3>Statue Sculpture Gilded Fiberglass Life Szie Warrior Resin European Home Decoration Figure SH-SHENGHUA CN;HEB Europe SH-</h3>
+            <p>Price: $980-1,600</p>
+            <p>Contact: contact us by Wechatname:Sunny223345</p>
+            <p>MOQ: Min. order: 1 set</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <!-- 分页按钮 -->
+        <div class="pagination">
+            
+
+            
+            
+
+            
+            <a href="page_1.html" class="active">1</a>
+            
+            <a href="page_2.html" >2</a>
+            
+            <a href="page_3.html" >3</a>
+            
+            <a href="page_4.html" >4</a>
+            
+            <a href="page_5.html" >5</a>
+            
+            <a href="page_6.html" >6</a>
+            
+            <a href="page_7.html" >7</a>
+            
+            <a href="page_8.html" >8</a>
+            
+            <a href="page_9.html" >9</a>
+            
+
+            
+            <a href="page_11.html">Next</a>
+            
+        </div>
+        <!-- 回到顶部按钮 -->
+        <button id="back-to-top" onclick="topFunction()">回到顶部</button>
+    </div>
+
+    <script>
+        // 回到顶部按钮显示与隐藏逻辑
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            var backToTopButton = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        // 回到顶部按钮点击事件
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
